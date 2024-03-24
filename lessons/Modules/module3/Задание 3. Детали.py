@@ -19,16 +19,17 @@
 # Общая стоимость: 4500
 
 shop = [
-     ['каретка', 1200], ['шатун', 1000], ['седло', 300], ['педаль', 100],
-     ['седло', 1500], ['рама', 12000], ['обод', 2000], ['шатун', 200], ['седло', 2700]
-]
+    ['каретка', 1200], ['шатун', 1000], ['седло', 300], ['педаль', 100],
+    ['седло', 1500], ['рама', 12000], ['обод', 2000], ['шатун', 200], ['седло', 2700]
+    ]
 
-# searching_detail = input('Название детали: ')
-# detail_count = 0
-#
-# print(shop[1][0], shop[7][0])
-# for i, detail in shop:
-#      if detail[i] == searching_detail:
-#           detail_count += 1
-#
-# print(f'Количество деталей: {detail_count}')
+searching_detail = input('Название детали: ')
+detail_count = 0
+cost = 0
+
+for detail in shop:
+    if detail[0] == searching_detail.lower():
+        detail_count += 1
+        cost += detail[1]
+
+print(f'Количество деталей: {detail_count}\nОбщая стоимость: {cost}')

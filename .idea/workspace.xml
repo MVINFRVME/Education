@@ -1,31 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="" />
+    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="Прошел урок 3.4 и решил задачи. Начал практическую работу модуль 3.">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Draft.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Modules/module3/Задание 3. Детали.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module3/Задание 3. Детали.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Modules/module3/Задание 4. Вечеринка.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module3/Задание 4. Вечеринка.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Modules/module3/Задание 5. Песни.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module3/Задание 5. Песни.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Modules/module3/Задание 6. Ролики.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module3/Задание 6. Ролики.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Modules/module3/Задание 7. Считалка.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module3/Задание 7. Считалка.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MVINFRVME&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="9d5ccdce-8094-411e-b6f0-bc81037f3618" />
+        <option name="url" value="https://github.com/MVINFRVME/Education" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2dwpdU09DuYz170Y9K39mKdIqZQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Draft.executor": "Run",
+    "Python.Draft2.executor": "Run",
+    "Python.Задание 2. Уникальное объединение списков.executor": "Debug",
+    "Python.Задание 3. Детали.executor": "Run",
+    "Python.Задание 4. Вечеринка.executor": "Run",
+    "Python.Задание 5. Песни.executor": "Run",
+    "Python.Задание 6. Ролики.executor": "Run",
+    "Python.Задача 1. Задачи компаний.executor": "Run",
+    "Python.Задача 2. Вредоносное ПО.executor": "Run",
+    "Python.Задача 2. Олимпиада.executor": "Debug",
+    "Python.Задача 3. Лавка.executor": "Run",
+    "Python.Задача 3. Пакеты.executor": "Run",
+    "Python.Задача 3. Улучшенная лингвистика.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "dev",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "F:/Education"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Education" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Education\lessons\3. Методы для работы со списками" />
+      <recent name="F:\Education\lessons" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -42,6 +107,86 @@
       <option name="presentableId" value="Default" />
       <updated>1710929081455</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial">
+      <option name="closed" value="true" />
+      <created>1710929223962</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710929223962</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Прошел урок 3.3 и решил задачи">
+      <option name="closed" value="true" />
+      <created>1710942644359</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710942644359</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Прошел урок 3.4 и решил задачи. Начал практическую работу модуль 3.">
+      <option name="closed" value="true" />
+      <created>1711111287973</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711111287973</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Прошел урок 3.4 и решил задачи. Начал практическую работу модуль 3.">
+      <option name="closed" value="true" />
+      <created>1711111437606</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711111437606</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="dev" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial" />
+    <MESSAGE value="Прошел урок 3.3 и решил задачи" />
+    <MESSAGE value="Прошел урок 3.4 и решил задачи. Начал практическую работу модуль 3." />
+    <option name="LAST_COMMIT_MESSAGE" value="Прошел урок 3.4 и решил задачи. Начал практическую работу модуль 3." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/Modules/module3/Задание 4. Вечеринка.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
