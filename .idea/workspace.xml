@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="Прошел урок 3.4 и решил задачи. Начал практическую работу модуль 3.">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="Решены задачи 1 - 6 в практической работе модуль 3.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Draft.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module3/Задание 3. Детали.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module3/Задание 3. Детали.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module3/Задание 4. Вечеринка.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module3/Задание 4. Вечеринка.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module3/Задание 5. Песни.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module3/Задание 5. Песни.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module3/Задание 6. Ролики.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module3/Задание 6. Ролики.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Draft2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lessons/Modules/module3/Задание 7. Считалка.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module3/Задание 7. Считалка.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Modules/module3/Задание 8. Симметричная последовательность.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module3/Задание 8. Симметричная последовательность.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +64,7 @@
     "Python.Задание 4. Вечеринка.executor": "Run",
     "Python.Задание 5. Песни.executor": "Run",
     "Python.Задание 6. Ролики.executor": "Run",
+    "Python.Задание 7. Считалка.executor": "Debug",
     "Python.Задача 1. Задачи компаний.executor": "Run",
     "Python.Задача 2. Вредоносное ПО.executor": "Run",
     "Python.Задача 2. Олимпиада.executor": "Debug",
@@ -139,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711111437606</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Решены задачи 1 - 6 в практической работе модуль 3.">
+      <option name="closed" value="true" />
+      <created>1711298455185</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711298455185</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,7 +174,8 @@
     <MESSAGE value="initial" />
     <MESSAGE value="Прошел урок 3.3 и решил задачи" />
     <MESSAGE value="Прошел урок 3.4 и решил задачи. Начал практическую работу модуль 3." />
-    <option name="LAST_COMMIT_MESSAGE" value="Прошел урок 3.4 и решил задачи. Начал практическую работу модуль 3." />
+    <MESSAGE value="Решены задачи 1 - 6 в практической работе модуль 3." />
+    <option name="LAST_COMMIT_MESSAGE" value="Решены задачи 1 - 6 в практической работе модуль 3." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -178,6 +184,11 @@
           <url>file://$PROJECT_DIR$/lessons/Modules/module3/Задание 4. Вечеринка.py</url>
           <line>49</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/Modules/module3/Задание 7. Считалка.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
