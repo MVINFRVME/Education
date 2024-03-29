@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="Решены задачи 1 - 6 в практической работе модуль 3.">
+    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="Решены задачи 7 - 8 в практической работе модуль 3.">
+      <change afterPath="$PROJECT_DIR$/lessons/4. List comprehensions/4.2 List comprehensions/Задача 1. Кубы и квадраты.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/4. List comprehensions/4.2 List comprehensions/Задача 2. Сообщение.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/4. List comprehensions/4.2 List comprehensions/Задача 3. Повышение цен.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/4. List comprehensions/4.3 List comprehensions с условиями. Модуль random/Задача 1. Список чётных чисел.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/4. List comprehensions/4.3 List comprehensions с условиями. Модуль random/Задача 2. Магазин.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/4. List comprehensions/4.3 List comprehensions с условиями. Модуль random/Задача 3. Отряды.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/4. List comprehensions/4.4 Срезы списков/Задача 1. Анализ цен.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/4. List comprehensions/4.4 Срезы списков/Задача 2. Срезы.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/4. List comprehensions/4.4 Срезы списков/Задача 3. Удаление части.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Draft2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module3/Задание 7. Считалка.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module3/Задание 7. Считалка.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lessons/Modules/module3/Задание 8. Симметричная последовательность.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module3/Задание 8. Симметричная последовательность.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,11 +71,14 @@
     "Python.Задание 4. Вечеринка.executor": "Run",
     "Python.Задание 5. Песни.executor": "Run",
     "Python.Задание 6. Ролики.executor": "Run",
-    "Python.Задание 7. Считалка.executor": "Debug",
+    "Python.Задание 7. Считалка.executor": "Run",
     "Python.Задача 1. Задачи компаний.executor": "Run",
+    "Python.Задача 1. Список чётных чисел.executor": "Run",
     "Python.Задача 2. Вредоносное ПО.executor": "Run",
+    "Python.Задача 2. Магазин.executor": "Run",
     "Python.Задача 2. Олимпиада.executor": "Debug",
     "Python.Задача 3. Лавка.executor": "Run",
+    "Python.Задача 3. Отряды.executor": "Run",
     "Python.Задача 3. Пакеты.executor": "Run",
     "Python.Задача 3. Улучшенная лингвистика.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -84,6 +94,7 @@
       <recent name="F:\Education" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Education\lessons\4. List comprehensions\ 4.2 List comprehensions" />
       <recent name="F:\Education\lessons\3. Методы для работы со списками" />
       <recent name="F:\Education\lessons" />
     </key>
@@ -144,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711298455185</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Решены задачи 7 - 8 в практической работе модуль 3.">
+      <option name="closed" value="true" />
+      <created>1711470589346</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711470589346</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,7 +194,8 @@
     <MESSAGE value="Прошел урок 3.3 и решил задачи" />
     <MESSAGE value="Прошел урок 3.4 и решил задачи. Начал практическую работу модуль 3." />
     <MESSAGE value="Решены задачи 1 - 6 в практической работе модуль 3." />
-    <option name="LAST_COMMIT_MESSAGE" value="Решены задачи 1 - 6 в практической работе модуль 3." />
+    <MESSAGE value="Решены задачи 7 - 8 в практической работе модуль 3." />
+    <option name="LAST_COMMIT_MESSAGE" value="Решены задачи 7 - 8 в практической работе модуль 3." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -184,11 +204,6 @@
           <url>file://$PROJECT_DIR$/lessons/Modules/module3/Задание 4. Вечеринка.py</url>
           <line>49</line>
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lessons/Modules/module3/Задание 7. Считалка.py</url>
-          <line>56</line>
-          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

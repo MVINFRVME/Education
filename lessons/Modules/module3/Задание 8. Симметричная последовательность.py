@@ -71,7 +71,7 @@ nums = []
 
 for _ in range(amt_of_nums):
     num = int(input('Число: '))
-    nums.append(nums)
+    nums.append(num)
 
 print(f'Последовательность: {nums}')
 
