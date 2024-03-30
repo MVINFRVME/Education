@@ -20,3 +20,27 @@
 # ответ 14. Помогите другу исправить программу, а также сделайте так, чтобы список цен генерировался случайно
 # (диапазон можно выбрать любой).
 
+# Без генерации
+
+# original_prices = [-12, 3, 5, -2, 1]
+#
+# new_prices = original_prices[:]
+#
+# for i in range(len(original_prices)):
+#     if new_prices[i] < 0:
+#         new_prices[i] = 0
+#
+# print("Мы потеряли: ", abs(sum(original_prices) - sum(new_prices)))
+
+# С генерацией
+
+import random
+
+original_prices = [random.randint(-10, 10) for _ in range(5)]
+new_prices = original_prices[:]
+new_prices = [0 if num < 0
+              else num
+              for num in new_prices]
+print(f'Оригинальный список: {original_prices}\n'
+      f'С обнулением отрицательных цен: {new_prices}\n'
+      f'Мы потеряли: {abs(sum(original_prices) - sum(new_prices))}')
