@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="Начат модуль 4. Пройден 4.2, 4.3">
-      <change afterPath="$PROJECT_DIR$/lessons/4. List comprehensions/4.5 Строки - индексы и срезы/Задача. Деление строки.py" afterDir="false" />
+    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="Закончил модуль 4.">
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module4/Задание 1. Гласные буквы.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module4/Задание 2. Генерация.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module4/Задание 3. Случайные соревнования.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module4/Задание 4. Тренировка со срезами.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module4/Задание 5. Разворот.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/4. List comprehensions/4.4 Срезы списков/Задача 1. Анализ цен.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/4. List comprehensions/4.4 Срезы списков/Задача 1. Анализ цен.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/4. List comprehensions/4.4 Срезы списков/Задача 2. Срезы.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/4. List comprehensions/4.4 Срезы списков/Задача 2. Срезы.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/4. List comprehensions/4.4 Срезы списков/Задача 3. Удаление части.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/4. List comprehensions/4.4 Срезы списков/Задача 3. Удаление части.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,9 +61,11 @@
   "keyToString": {
     "Python.Draft.executor": "Run",
     "Python.Draft2.executor": "Run",
+    "Python.Задание 1. Гласные буквы.executor": "Run",
     "Python.Задание 2. Уникальное объединение списков.executor": "Debug",
     "Python.Задание 3. Детали.executor": "Run",
     "Python.Задание 4. Вечеринка.executor": "Run",
+    "Python.Задание 4. Тренировка со срезами.executor": "Run",
     "Python.Задание 5. Песни.executor": "Run",
     "Python.Задание 6. Ролики.executor": "Run",
     "Python.Задание 7. Считалка.executor": "Run",
@@ -169,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711698058900</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Закончил модуль 4.">
+      <option name="closed" value="true" />
+      <created>1711801809228</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1711801809228</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,7 +213,8 @@
     <MESSAGE value="Решены задачи 1 - 6 в практической работе модуль 3." />
     <MESSAGE value="Решены задачи 7 - 8 в практической работе модуль 3." />
     <MESSAGE value="Начат модуль 4. Пройден 4.2, 4.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Начат модуль 4. Пройден 4.2, 4.3" />
+    <MESSAGE value="Закончил модуль 4." />
+    <option name="LAST_COMMIT_MESSAGE" value="Закончил модуль 4." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
