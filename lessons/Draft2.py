@@ -1,6 +1,8 @@
-list1 = [1, 3, 5, 7, 9]
-list2 = [2, 6, 7, 8, 9]
+def func(num):
+    my_list = []
+    for i in range(0, num + 1, 2):
+        my_list.append(i)
 
-list1.extend(list2)
-list1.sort()
-print(list1)
+    return my_list
+
+print(func(10))
