@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="Завершил 5.3 Методы строк. split и join">
+    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="Завершил 5.4 Методы строк. startswith, endswith, upper, lower">
+      <change afterPath="$PROJECT_DIR$/lessons/5. Базовые коллекции- Строки/5.5 Форматирование строк. подстановки/Задача. Детали.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module5/Задание 1. Меню ресторана.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module5/Задание 2. Самое длинное слово.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module5/Задание 3. Файлы.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/5. Базовые коллекции- Строки/5.4 Методы строк. startswith, endswith, upper, lower/Задача 1. Шифр Цезаря 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/5. Базовые коллекции- Строки/5.4 Методы строк. startswith, endswith, upper, lower/Задача 1. Шифр Цезаря 2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/5. Базовые коллекции- Строки/5.4 Методы строк. startswith, endswith, upper, lower/Задача 2. Путь к файлу.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/5. Базовые коллекции- Строки/5.4 Методы строк. startswith, endswith, upper, lower/Задача 2. Путь к файлу.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/5. Базовые коллекции- Строки/5.4 Методы строк. startswith, endswith, upper, lower/Задача 3. Удаление части.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/5. Базовые коллекции- Строки/5.4 Методы строк. startswith, endswith, upper, lower/Задача 3. Удаление части.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Draft.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +61,11 @@
     "Python.Draft.executor": "Run",
     "Python.Draft2.executor": "Run",
     "Python.Задание 1. Гласные буквы.executor": "Run",
+    "Python.Задание 1. Меню ресторана.executor": "Run",
+    "Python.Задание 2. Самое длинное слово.executor": "Run",
     "Python.Задание 2. Уникальное объединение списков.executor": "Debug",
     "Python.Задание 3. Детали.executor": "Run",
+    "Python.Задание 3. Файлы.executor": "Run",
     "Python.Задание 4. Вечеринка.executor": "Run",
     "Python.Задание 4. Тренировка со срезами.executor": "Run",
     "Python.Задание 5. Песни.executor": "Run",
@@ -90,12 +93,14 @@
     "Python.Задача 3. Удаление части.executor": "Run",
     "Python.Задача 3. Улучшенная лингвистика.executor": "Run",
     "Python.Задача. Деление строки.executor": "Run",
+    "Python.Задача. Детали.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "dev",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "F:/Education"
+    "last_opened_file_path": "F:/Education",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -212,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712162399245</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Завершил 5.4 Методы строк. startswith, endswith, upper, lower">
+      <option name="closed" value="true" />
+      <created>1712312491058</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1712312491059</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,7 +262,8 @@
     <MESSAGE value="Закончил практическое задание модуль 4." />
     <MESSAGE value="Начал модуль 5. &#10;Завершил 5.2 Форматирование строк: format и f-strings" />
     <MESSAGE value="Завершил 5.3 Методы строк. split и join" />
-    <option name="LAST_COMMIT_MESSAGE" value="Завершил 5.3 Методы строк. split и join" />
+    <MESSAGE value="Завершил 5.4 Методы строк. startswith, endswith, upper, lower" />
+    <option name="LAST_COMMIT_MESSAGE" value="Завершил 5.4 Методы строк. startswith, endswith, upper, lower" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
