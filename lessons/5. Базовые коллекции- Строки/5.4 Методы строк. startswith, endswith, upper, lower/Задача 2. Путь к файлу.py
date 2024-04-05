@@ -14,3 +14,12 @@
 #
 # Путь корректен!
 
+path = input('Путь к файлу: ')
+HDD = input('На каком диске должен лежать файл: ')
+extension = input('Требуемое расширение файла: ')
+if not path.startswith(HDD):
+    print('Неверный диск!')
+elif not path.endswith(extension):
+    print('Неверное расширение!')
+else:
+    print('Путь корректен!')

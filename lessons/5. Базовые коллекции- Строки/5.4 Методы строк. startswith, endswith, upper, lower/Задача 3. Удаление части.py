@@ -14,3 +14,19 @@
 # Введите строку: ПиТоН - ЭтО УДоБнО
 # Результат: ПИТОН - ЭТО УДОБНО
 
+user_string = input('Введите строку: ')
+lower_count = 0
+upper_count = 0
+
+for sym in user_string:
+    if sym.islower():
+        lower_count += 1
+    elif sym.isupper():
+        upper_count += 1
+
+if lower_count > upper_count:
+    result = user_string.lower()
+else:
+    result = user_string.upper()
+
+print(f'Результат: {result}')
