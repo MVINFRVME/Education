@@ -28,6 +28,7 @@ file_name = input('Название файла: ')
 
 invalid_symbols = ('@', '№', '$', '%', '^', '&', '*', '()')
 valid_extensions = ('.txt', '.docx')
+
 if file_name.startswith(invalid_symbols):
     print('Название начинается недопустимым символом.')
 elif not file_name.endswith(valid_extensions):

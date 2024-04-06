@@ -8,7 +8,21 @@
 # последовательность на экран. Код должен учитывать регистр символов.
 #
 # Пример
-#
 # Введите строку: aaAAbbсaaaA.
 # Закодированная строка: a2A2b2с1a3A1.
 
+
+user_text = input('Введите строку: ')
+cipher_string = ''
+duplicate_count = 0
+for i_sym, sym in enumerate(user_text):
+    if len(user_text) == i_sym:
+        break
+    elif user_text[(i_sym + 1) % len(user_text)] == sym:
+        duplicate_count += 1
+    else:
+        duplicate_count += 1
+        cipher_string += sym + str(duplicate_count)
+        duplicate_count = 0
+
+print(cipher_string)

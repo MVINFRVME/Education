@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="Завершил 5.4 Методы строк. startswith, endswith, upper, lower">
-      <change afterPath="$PROJECT_DIR$/lessons/5. Базовые коллекции- Строки/5.5 Форматирование строк. подстановки/Задача. Детали.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module5/Задание 1. Меню ресторана.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module5/Задание 2. Самое длинное слово.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module5/Задание 3. Файлы.py" afterDir="false" />
+    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="Начал Практическую работу module 5. Сделал задания с 1 по 3.">
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module5/Задание 7. Ip-адрес 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module5/Задание 8. Бегущая строка.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module5/Задание 9. Анализ комментариев.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Draft.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Modules/module5/Задание 2. Самое длинное слово.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module5/Задание 2. Самое длинное слово.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Modules/module5/Задание 3. Файлы.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module5/Задание 3. Файлы.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Modules/module5/Задание 4. Заглавные буквы.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module5/Задание 4. Заглавные буквы.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Modules/module5/Задание 5. Пароль.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module5/Задание 5. Пароль.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Modules/module5/Задание 6. Сжатие.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module5/Задание 6. Сжатие.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,16 +67,19 @@
     "Python.Draft2.executor": "Run",
     "Python.Задание 1. Гласные буквы.executor": "Run",
     "Python.Задание 1. Меню ресторана.executor": "Run",
-    "Python.Задание 2. Самое длинное слово.executor": "Run",
+    "Python.Задание 2. Самое длинное слово.executor": "Debug",
     "Python.Задание 2. Уникальное объединение списков.executor": "Debug",
     "Python.Задание 3. Детали.executor": "Run",
     "Python.Задание 3. Файлы.executor": "Run",
     "Python.Задание 4. Вечеринка.executor": "Run",
+    "Python.Задание 4. Заглавные буквы.executor": "Run",
     "Python.Задание 4. Тренировка со срезами.executor": "Run",
+    "Python.Задание 5. Пароль.executor": "Run",
     "Python.Задание 5. Песни.executor": "Run",
     "Python.Задание 5. Разворот.executor": "Run",
     "Python.Задание 6. Двумерный список.executor": "Run",
     "Python.Задание 6. Ролики.executor": "Run",
+    "Python.Задание 6. Сжатие.executor": "Debug",
     "Python.Задание 7. Список списков.executor": "Run",
     "Python.Задание 7. Считалка.executor": "Run",
     "Python.Задание 8. Шифр Цезаря.executor": "Debug",
@@ -225,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712312491059</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Начал Практическую работу module 5. Сделал задания с 1 по 3.">
+      <option name="closed" value="true" />
+      <created>1712347631155</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1712347631155</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,7 +279,8 @@
     <MESSAGE value="Начал модуль 5. &#10;Завершил 5.2 Форматирование строк: format и f-strings" />
     <MESSAGE value="Завершил 5.3 Методы строк. split и join" />
     <MESSAGE value="Завершил 5.4 Методы строк. startswith, endswith, upper, lower" />
-    <option name="LAST_COMMIT_MESSAGE" value="Завершил 5.4 Методы строк. startswith, endswith, upper, lower" />
+    <MESSAGE value="Начал Практическую работу module 5. Сделал задания с 1 по 3." />
+    <option name="LAST_COMMIT_MESSAGE" value="Начал Практическую работу module 5. Сделал задания с 1 по 3." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -272,6 +289,21 @@
           <url>file://$PROJECT_DIR$/lessons/Modules/module3/Задание 4. Вечеринка.py</url>
           <line>49</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/Draft.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/Modules/module5/Задание 4. Заглавные буквы.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/Modules/module5/Задание 6. Сжатие.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
