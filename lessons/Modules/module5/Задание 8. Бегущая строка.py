@@ -18,3 +18,30 @@
 # Вторая строка: cdba.
 # Первую строку нельзя получить из второй с помощью циклического сдвига.
 
+first_list = list(input('Первая строка: '))
+second_list = list(input('Вторая строка: '))
+
+for shift in range(1, len(first_list) + 1):
+    first_list.insert(0, first_list.pop(-1))
+    if first_list == second_list:
+        print(f'Первая строка получается из второй со сдвигом {shift}')
+        break
+else:
+    print('Первую строку нельзя получить из второй с помощью циклического сдвига.')
+
+# или
+
+# first_list = list(input('Первая строка: '))
+# second_list = list(input('Вторая строка: '))
+# shift = len(first_list) - 1
+#
+# for shift_count in range(1, len(first_list) + 1):
+#     first_list = first_list[shift:] + first_list[:shift]
+#     if first_list == second_list:
+#         print(f'Первая строка получается из второй со сдвигом {shift_count}')
+#         break
+# else:
+#     print('Первую строку нельзя получить из второй с помощью циклического сдвига.')
+
+
+

@@ -1,12 +1,8 @@
-def func(text):
-    s_list = s.split(' ')
-    space = ''
-    while space in s_list:
-        s_list.remove(space)
-    last_word = s_list[-1]
-    last_word_count = len(last_word)
-    return last_word_count
-
-
-s = '   fly me   to   the moon  '
-print(func(s))
+my_list = [1, 2, 3, 4, 5]
+my_list.insert(0, my_list.pop(-1))  # Циклический сдвиг вправо на одну позицию
+print(my_list)
+#
+# my_list = [1, 2, 3, 4, 5, 6]
+# shift = len(my_list) - 1
+# rotated_list = my_list[shift:] + my_list[:shift]
+# print(rotated_list)

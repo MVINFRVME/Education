@@ -20,3 +20,36 @@
 # Пример 4
 # Введите IP: 128.0.0.255
 # IP-адрес корректен.
+
+
+def dot_check(value):
+    if len(value) == 4:
+        return True
+    else:
+        print('Адрес — это четыре числа, разделённые точками.')
+
+
+def digit_check(value):
+    for num in value:
+        if not num.isdigit():
+            print(f'{num} - это не целое число.')
+            break
+    else:
+        return True
+
+
+def num_range(value):
+    for num in value:
+        if int(num) > 255:
+            print(f'{num} превышает 255.')
+            break
+        elif int(num) < 0:
+            print(f'{num} меньше 0.')
+            break
+    else:
+        return True
+
+
+ip = input('Введите IP: ').split('.')
+if dot_check(ip) and digit_check(ip) and num_range(ip):
+    print('IP-адрес корректен.')
