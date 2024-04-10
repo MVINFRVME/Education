@@ -1,8 +1,13 @@
-def func(num):
-    my_list = []
-    for i in range(0, num + 1, 2):
-        my_list.append(i)
+def removeElement(nums, val):
+    k = 0
+    for x in nums:
+        if nums[x] != val:
+            nums[k] = nums[x]
+            k += 1
+    return k
 
-    return my_list
 
-print(func(10))
+nums = [0, 1, 2, 2, 3, 0, 4, 2]
+val = 2
+
+print(removeElement(nums, val))
