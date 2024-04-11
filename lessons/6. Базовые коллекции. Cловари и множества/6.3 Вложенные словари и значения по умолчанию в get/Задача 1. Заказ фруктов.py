@@ -28,3 +28,11 @@ incomes = {'apple': 5600.20,
 #
 # Напишите программу, которая суммирует стоимость (цена × количество) всех заказанных товаров,
 # и выведите итоговую сумму в консоль.
+
+total_order_price = 0
+
+for article in order.keys():
+    if incomes.get(article, 0):
+        print(f'{article} - {incomes[article]} руб. за кг. Нужно заказать {order[article]} шт.')
+        total_order_price += order[article] * incomes[article]
+print(f'Итоговая сумма заказа: {total_order_price} руб.')
