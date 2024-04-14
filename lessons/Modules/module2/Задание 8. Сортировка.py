@@ -11,6 +11,7 @@
 #
 # Отсортированный список: [–3, 0, 1, 4, 10]
 
+
 def selection_sort(my_list):
     for i_mn in range(len(my_list)):
         for curr in range(i_mn, len(my_list)):
@@ -19,6 +20,6 @@ def selection_sort(my_list):
 
 
 nums = [1, 4, -3, 0, 10]
-print(f'Изначальный список: {nums}')
+print(f"Изначальный список: {nums}")
 selection_sort(nums)
-print(f'Отсортированный список: {nums}')
+print(f"Отсортированный список: {nums}")

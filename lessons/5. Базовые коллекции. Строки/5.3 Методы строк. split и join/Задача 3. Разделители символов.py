@@ -30,22 +30,23 @@
 
 
 while True:
-    template = input('Введите шаблон поздравления, в шаблоне нужно использовать конструкцию {name} и {age}: ')
-    if '{name}' in template and '{age}' in template:
+    template = input(
+        "Введите шаблон поздравления, в шаблоне нужно использовать конструкцию {name} и {age}: "
+    )
+    if "{name}" in template and "{age}" in template:
         break
-    print('Ошибка! Отстутсвуют одна или две конструкции.')
+    print("Ошибка! Отстутсвуют одна или две конструкции.")
 
-human_list = input('Список людей через запятую: ').split(', ')
-ages_str = (input('Возраст людей через пробел: '))
+human_list = input("Список людей через запятую: ").split(", ")
+ages_str = input("Возраст людей через пробел: ")
 age_list = [int(i_num) for i_num in ages_str.split()]
 
 for i in range(len(human_list)):
     print(template.format(name=human_list[i], age=age_list[i]))
 
 merged_list = [
-    ' '.join([human_list[i], str(age_list[i])])
-    for i in range(len(human_list))
+    " ".join([human_list[i], str(age_list[i])]) for i in range(len(human_list))
 ]
 
-people_str = ', '. join(merged_list)
-print('\nИменинники:', people_str)
+people_str = ", ".join(merged_list)
+print("\nИменинники:", people_str)

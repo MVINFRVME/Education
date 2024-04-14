@@ -1,9 +1,9 @@
 score_list = []
 
-number_of_dogs = int(input('Введите кол-во собак: '))
+number_of_dogs = int(input("Введите кол-во собак: "))
 
 for i in range(number_of_dogs):
-    score = int(input(f'Введите кол-во очков {i + 1} собаки: '))
+    score = int(input(f"Введите кол-во очков {i + 1} собаки: "))
     score_list.append(score)
 
 max_score = score_list[0]

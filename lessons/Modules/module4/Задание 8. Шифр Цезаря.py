@@ -17,16 +17,50 @@
 
 # Алгоритм шифрования вынесен в отдельную функцию.
 
+
 def caesar_cipher(text, shift):
 
-    alphabet = ['а', 'б', 'в', 'г', 'д', 'е', 'ё', 'ж', 'з', 'и', 'й',
-                'к', 'л', 'м', 'н', 'о', 'п', 'р', 'с', 'т', 'у', 'ф',
-                'х', 'ц', 'ч', 'ш', 'щ', 'ъ', 'ы', 'ь', 'э', 'ю', 'я']
+    alphabet = [
+        "а",
+        "б",
+        "в",
+        "г",
+        "д",
+        "е",
+        "ё",
+        "ж",
+        "з",
+        "и",
+        "й",
+        "к",
+        "л",
+        "м",
+        "н",
+        "о",
+        "п",
+        "р",
+        "с",
+        "т",
+        "у",
+        "ф",
+        "х",
+        "ц",
+        "ч",
+        "ш",
+        "щ",
+        "ъ",
+        "ы",
+        "ь",
+        "э",
+        "ю",
+        "я",
+    ]
 
-    cipher_list = [alphabet[(alphabet.index(sym) + shift) % 33] if sym in alphabet
-                   else sym
-                   for sym in text]
-    cipher = ''
+    cipher_list = [
+        alphabet[(alphabet.index(sym) + shift) % 33] if sym in alphabet else sym
+        for sym in text
+    ]
+    cipher = ""
 
     for sym in cipher_list:
         cipher += sym
@@ -34,6 +68,6 @@ def caesar_cipher(text, shift):
     return cipher
 
 
-text = input('Введите сообщение: ')
-shift = int(input('Введите сдвиг: '))
+text = input("Введите сообщение: ")
+shift = int(input("Введите сдвиг: "))
 print(caesar_cipher(text, shift))

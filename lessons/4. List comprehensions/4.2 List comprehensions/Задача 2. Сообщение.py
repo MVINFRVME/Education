@@ -15,11 +15,11 @@
 
 # Склейка с дополнительным символом: ['пп!', 'рр!', 'ии!', 'вв!', 'ее!', 'тт!']
 
-word = input('Введите слово: ')
-additional_sym = input('Введите дополнительный сивмол: ')
+word = input("Введите слово: ")
+additional_sym = input("Введите дополнительный сивмол: ")
 
 double_sym_list = [x * 2 for x in word]
 concat_sym_list = [x + additional_sym for x in double_sym_list]
 
-print(f'Список удвоенных символов: {double_sym_list}')
-print(f'Склейка с дополнительным символом: {concat_sym_list}')
+print(f"Список удвоенных символов: {double_sym_list}")
+print(f"Склейка с дополнительным символом: {concat_sym_list}")

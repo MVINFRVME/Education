@@ -49,23 +49,22 @@
 # операция %: (индекс + число) % длина списка. Так индекс не будет равен длине списка или не превысит её,
 # а значит не выйдет за пределы списка.
 
-num_of_people = int(input('Количество человек: '))
+num_of_people = int(input("Количество человек: "))
 list_of_people = list(range(1, num_of_people + 1))
 
-eliminate_num = int(input('Какое число в считалке? '))
-print(f'Значит, выбывает каждый {eliminate_num}-й человек')
+eliminate_num = int(input("Какое число в считалке? "))
+print(f"Значит, выбывает каждый {eliminate_num}-й человек")
 index = 0
 
 while len(list_of_people) > 1:
-    print(f'\nТекущий круг людей: {list_of_people}')
-    print(f'Начало счёта с номера {list_of_people[index]}')
+    print(f"\nТекущий круг людей: {list_of_people}")
+    print(f"Начало счёта с номера {list_of_people[index]}")
     index = (index + eliminate_num - 1) % len(list_of_people)
 
     if list_of_people[index] == list_of_people[-1]:
-        print(f'Выбывает человек под номером: {list_of_people.pop(index)}')
+        print(f"Выбывает человек под номером: {list_of_people.pop(index)}")
         index = 0
     else:
-        print(f'Выбывает человек под номером: {list_of_people.pop(index)}')
+        print(f"Выбывает человек под номером: {list_of_people.pop(index)}")
 
-print(f'Остался человек под номером {list_of_people[0]}')
-
+print(f"Остался человек под номером {list_of_people[0]}")

@@ -31,18 +31,21 @@
 # print(id(test)) # А здесь уже другой
 
 list_of_numbers = []
-amount = int(input('Сколько чисел в списке: '))
+amount = int(input("Сколько чисел в списке: "))
 
 for i in range(amount):
-    num = int(input(f'Введите {i + 1} число: '))
+    num = int(input(f"Введите {i + 1} число: "))
     if num % 2 == 0:
         list_of_numbers.append(num)
 
-print(f'Последовательность четных чисел {list_of_numbers}')
+print(f"Последовательность четных чисел {list_of_numbers}")
 
 for index in range(1, len(list_of_numbers) + 1):
     for i in range(1, len(list_of_numbers) + 1 - index):
         next_dig = -i - 1
-        list_of_numbers[-i], list_of_numbers[next_dig] = list_of_numbers[next_dig],  list_of_numbers[-i]
+        list_of_numbers[-i], list_of_numbers[next_dig] = (
+            list_of_numbers[next_dig],
+            list_of_numbers[-i],
+        )
 
-print(f'Обратная последовательность четных чисел {list_of_numbers}')
+print(f"Обратная последовательность четных чисел {list_of_numbers}")

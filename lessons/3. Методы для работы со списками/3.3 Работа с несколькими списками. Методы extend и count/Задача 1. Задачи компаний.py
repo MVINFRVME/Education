@@ -10,5 +10,5 @@ main.extend(first_company)
 main.extend(second_company)
 main.extend(third_company)
 
-print(f'Общий список задач: {main}')
-print(f'Количество невыполненных задач: {main.count(0)}')
+print(f"Общий список задач: {main}")
+print(f"Количество невыполненных задач: {main.count(0)}")

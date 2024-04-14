@@ -10,11 +10,9 @@
 # Строка: Привет
 # Ответ: ирПтев
 
-word = 'Привет'
+word = "Привет"
 print(word)
 
-pt_1 = word[:len(word) // 2]
-pt_2 = word[len(word) // 2:]
+pt_1 = word[: len(word) // 2]
+pt_2 = word[len(word) // 2 :]
 print(pt_1[::-1] + pt_2[::-1])
-
-

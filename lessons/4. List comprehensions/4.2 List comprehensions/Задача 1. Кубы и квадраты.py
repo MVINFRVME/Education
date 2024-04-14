@@ -13,13 +13,10 @@
 
 # Список квадратов чисел в диапазоне от 5 до 10: [25, 36, 49, 64, 81, 100]
 
-left_border = int(input('Левая граница: '))
-right_border = int(input('Правая граница: '))
+left_border = int(input("Левая граница: "))
+right_border = int(input("Правая граница: "))
 
-cubes = [x ** 3 for x in range(left_border, right_border + 1)]
-squares = [x ** 2 for x in range(left_border, right_border + 1)]
+cubes = [x**3 for x in range(left_border, right_border + 1)]
+squares = [x**2 for x in range(left_border, right_border + 1)]
 
-print(
-  f'Список кубов чисел: {cubes}\n'
-  f'Список квадратов чисел: {squares}'
-    )
+print(f"Список кубов чисел: {cubes}\n" f"Список квадратов чисел: {squares}")

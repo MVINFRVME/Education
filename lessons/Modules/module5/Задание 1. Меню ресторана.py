@@ -11,12 +11,10 @@
 #
 # Сейчас в меню есть: утиное филе, фланк-стейк, банановый пирог, плов.
 
-available_menu = 'утиное филе;фланк-стейк;банановый пирог;плов.'
-print(f'Доступное меню: {available_menu}')
+available_menu = "утиное филе;фланк-стейк;банановый пирог;плов."
+print(f"Доступное меню: {available_menu}")
 
-temporary_list = available_menu.split(';')
+temporary_list = available_menu.split(";")
 
-now_in_menu = ', '.join(temporary_list)
-print(f'Сейчас в меню есть: {now_in_menu}')
-
-
+now_in_menu = ", ".join(temporary_list)
+print(f"Сейчас в меню есть: {now_in_menu}")

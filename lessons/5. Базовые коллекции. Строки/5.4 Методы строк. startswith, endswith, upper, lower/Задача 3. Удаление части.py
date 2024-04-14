@@ -14,7 +14,7 @@
 # Введите строку: ПиТоН - ЭтО УДоБнО
 # Результат: ПИТОН - ЭТО УДОБНО
 
-user_string = input('Введите строку: ')
+user_string = input("Введите строку: ")
 lower_count = 0
 upper_count = 0
 
@@ -29,4 +29,4 @@ if lower_count > upper_count:
 else:
     result = user_string.upper()
 
-print(f'Результат: {result}')
+print(f"Результат: {result}")

@@ -6,20 +6,20 @@
 # Если в первой строке их больше, чем во второй, то на экран выводится первая строчка, объединённая со второй,
 # а иначе — вторая с первой. При равном количестве символов в строках выводится «Ой».
 
-first_message = input('Первое сообщение: ')
-second_message = input('Второе сообщение: ')
+first_message = input("Первое сообщение: ")
+second_message = input("Второе сообщение: ")
 
-first_message_count = first_message.count('!') + first_message.count('?')
-second_message_count = second_message.count('!') + second_message.count('?')
+first_message_count = first_message.count("!") + first_message.count("?")
+second_message_count = second_message.count("!") + second_message.count("?")
 
-print('Третье сообщение: ', end='')
+print("Третье сообщение: ", end="")
 
 if first_message_count > second_message_count:
-    print(f'{first_message}{second_message}')
+    print(f"{first_message}{second_message}")
 elif first_message_count < second_message_count:
-    print(f'{second_message}{first_message}')
+    print(f"{second_message}{first_message}")
 else:
-    print('Ой')
+    print("Ой")
 
 # Решение учителя
 

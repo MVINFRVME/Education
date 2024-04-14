@@ -27,17 +27,17 @@
 telephone_dict = dict()
 
 while True:
-    print('\nТекущие контакты на телефоне:')
+    print("\nТекущие контакты на телефоне:")
     for info in telephone_dict:
-        print(f'{info} {telephone_dict[info]}')
+        print(f"{info} {telephone_dict[info]}")
 
-    name = input('\nВведите имя: ')
+    name = input("\nВведите имя: ")
     if name in telephone_dict:
-        print('Ошибка: такое имя уже существует.')
-    elif name == 'Легион':
+        print("Ошибка: такое имя уже существует.")
+    elif name == "Легион":
         break
     else:
-        telephone_num = input('Введите номер телефона: ')
+        telephone_num = input("Введите номер телефона: ")
         telephone_dict[name] = telephone_num
 
 # current_contacts = {}

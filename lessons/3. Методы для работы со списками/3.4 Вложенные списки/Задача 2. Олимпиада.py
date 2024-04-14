@@ -1,16 +1,18 @@
-people_amt = int(input('Кол-во участников: '))
-team_amt = int(input('Кол-во человек в команде: '))
+people_amt = int(input("Кол-во участников: "))
+team_amt = int(input("Кол-во человек в команде: "))
 list_of_members = []
 num = 1
 
 if people_amt % team_amt == 0:
-    for _ in range((people_amt // team_amt), ):
+    for _ in range(
+        (people_amt // team_amt),
+    ):
         list_of_members.append(list(range(num, num + 3)))
         num += 3
-    print(f'Общий список команд: {list_of_members}')
+    print(f"Общий список команд: {list_of_members}")
 
 else:
-    print(f'{people_amt} участников невозможно поделить на команды по {team_amt}')
+    print(f"{people_amt} участников невозможно поделить на команды по {team_amt}")
 
 # Вариант учителя
 # human_count = int(input("Кол-во участников: "))

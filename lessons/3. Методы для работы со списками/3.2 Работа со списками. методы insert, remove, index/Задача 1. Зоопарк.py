@@ -17,11 +17,11 @@
 
 # Обезьяна сидит в клетке номер 4
 
-zoo = ['lion', 'kangaroo', 'elephant', 'monkey']
+zoo = ["lion", "kangaroo", "elephant", "monkey"]
 
-zoo.insert(1, 'bear')
-zoo.remove('elephant')
+zoo.insert(1, "bear")
+zoo.remove("elephant")
 
-print(f'Зоопарк: {zoo}')
-print('Лев сидит в клетке номер', zoo.index('lion') + 1)
-print('Обезьяна сидит в клетке номер', zoo.index('monkey') + 1)
+print(f"Зоопарк: {zoo}")
+print("Лев сидит в клетке номер", zoo.index("lion") + 1)
+print("Обезьяна сидит в клетке номер", zoo.index("monkey") + 1)

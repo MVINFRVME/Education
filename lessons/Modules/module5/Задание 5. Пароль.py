@@ -21,7 +21,7 @@
 # Это надёжный пароль.
 
 while True:
-    password = input('Придумайте пароль: ')
+    password = input("Придумайте пароль: ")
     digit_count = 0
     upper_count = 0
 
@@ -32,7 +32,7 @@ while True:
             upper_count += 1
 
     if digit_count >= 3 and upper_count >= 1 and len(password) >= 8:
-        print('Это надёжный пароль.')
+        print("Это надёжный пароль.")
         break
     else:
-        print('Пароль ненадёжный. Попробуйте ещё раз.')
+        print("Пароль ненадёжный. Попробуйте ещё раз.")

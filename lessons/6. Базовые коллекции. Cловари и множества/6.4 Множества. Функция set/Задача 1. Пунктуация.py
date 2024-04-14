@@ -7,6 +7,6 @@
 # Количество знаков пунктуации: 4
 
 symbol_set = set(".,;:!?")
-text = set(input('Введите строку: '))
+text = set(input("Введите строку: "))
 
-print(f'Количество знаков пунктуации: {len(text.intersection(symbol_set))}')
+print(f"Количество знаков пунктуации: {len(text.intersection(symbol_set))}")

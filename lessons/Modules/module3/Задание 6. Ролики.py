@@ -32,17 +32,17 @@
 # пар, старайтесь найти наименьший возможный размер роликов для каждого размера ноги.
 
 rollers_list = []
-rollers_amt = int(input('Количество роликов: '))
+rollers_amt = int(input("Количество роликов: "))
 for i in range(rollers_amt):
-    roller_size = int(input(f'Размер пары {i + 1}: '))
+    roller_size = int(input(f"Размер пары {i + 1}: "))
     rollers_list.append(roller_size)
 rollers_list.sort()
 
 
 foots_list = []
-people_amt = int(input('Количество людей: '))
+people_amt = int(input("Количество людей: "))
 for i in range(people_amt):
-    foot_size = int(input(f'Размер ноги человека {i + 1}: '))
+    foot_size = int(input(f"Размер ноги человека {i + 1}: "))
     foots_list.append(foot_size)
 foots_list.sort()
 
@@ -61,4 +61,4 @@ while True:
         break
     matches = 0
 
-print(f'Наибольшее количество людей, которые могут взять ролики: {total_matches}')
+print(f"Наибольшее количество людей, которые могут взять ролики: {total_matches}")

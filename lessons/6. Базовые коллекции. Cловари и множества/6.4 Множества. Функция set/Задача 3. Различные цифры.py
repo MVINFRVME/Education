@@ -20,7 +20,7 @@
 
 # или
 
-text = set('ab1n32kz2')
-digit_set = set('0123456789')
-result = ', '.join(text & digit_set)
-print(f'Различные цифры строки: {result}')
+text = set("ab1n32kz2")
+digit_set = set("0123456789")
+result = ", ".join(text & digit_set)
+print(f"Различные цифры строки: {result}")

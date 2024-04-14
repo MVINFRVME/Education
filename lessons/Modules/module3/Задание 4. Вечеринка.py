@@ -47,30 +47,29 @@
 #
 # Вечеринка закончилась, все легли спать.
 
-guests = ['Петя', 'Ваня', 'Саша', 'Лиза', 'Катя']
+guests = ["Петя", "Ваня", "Саша", "Лиза", "Катя"]
 
 while True:
-    print(f'Сейчас на вечеринке {len(guests)} человек: {guests}')
-    answer = input('Гость пришел или ушел? ')
-    name = input('Имя гостя: ')
+    print(f"Сейчас на вечеринке {len(guests)} человек: {guests}")
+    answer = input("Гость пришел или ушел? ")
+    name = input("Имя гостя: ")
 
-    if answer.lower() == 'пора спать':
-        print('Вечеринка закончилась, все легли спать.')
+    if answer.lower() == "пора спать":
+        print("Вечеринка закончилась, все легли спать.")
         break
 
-    elif answer.lower() == 'пришел' or answer.lower() == 'пришёл':
+    elif answer.lower() == "пришел" or answer.lower() == "пришёл":
         if len(guests) < 6:
-            print(f'Привет, {name.title()}!')
+            print(f"Привет, {name.title()}!")
             guests.append(name.title())
         else:
-            print(f'Прости, {name.title()}, но мест нет.')
+            print(f"Прости, {name.title()}, но мест нет.")
 
-    elif answer.lower() == 'ушел' or answer.lower() == 'ушёл':
+    elif answer.lower() == "ушел" or answer.lower() == "ушёл":
         for guest in guests:
             if guest == name.title():
-                print(f'Пока, {name.title()}!')
+                print(f"Пока, {name.title()}!")
                 guests.remove(name.title())
                 break
         else:
-            print('Такого гостя нет!')
-
+            print("Такого гостя нет!")

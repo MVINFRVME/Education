@@ -1,22 +1,22 @@
 def romanToInt(s):
     arabian_dig = 0
     for sym in s:
-        if sym == 'M':
+        if sym == "M":
             arabian_dig += 1000
-        elif sym == 'D':
+        elif sym == "D":
             arabian_dig += 500
-        elif sym == 'C':
+        elif sym == "C":
             arabian_dig += 100
-        elif sym == 'L':
+        elif sym == "L":
             arabian_dig += 50
-        elif sym == 'X':
+        elif sym == "X":
             arabian_dig += 10
-        elif sym == 'V':
+        elif sym == "V":
             arabian_dig += 5
-        elif sym == 'I':
+        elif sym == "I":
             arabian_dig += 1
         return arabian_dig
 
 
-s = 'XVIII'
+s = "XVIII"
 print(romanToInt(s))

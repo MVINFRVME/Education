@@ -25,7 +25,7 @@
 
 original_list = [1, 2, 3, 4, 5]
 new_list = []
-shift = int(input('Сдвиг: '))
+shift = int(input("Сдвиг: "))
 
 for i in range(shift):
     new_list.append(original_list[-shift + i])
@@ -38,8 +38,4 @@ for i, value in enumerate(original_list):
     else:
         new_list.append(value)
 
-print(f'Сдвинутый список: {new_list}')
-
-
-
-
+print(f"Сдвинутый список: {new_list}")

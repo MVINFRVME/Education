@@ -48,13 +48,13 @@ third_list = [1, 3, 1, 5, 3, 3]
 
 main_list.extend(second_list)
 fives_count = main_list.count(5)
-print(f'Количество цифр 5 при первом объединении: {fives_count}')
+print(f"Количество цифр 5 при первом объединении: {fives_count}")
 
 for _ in range(fives_count):
     main_list.remove(5)
 
 main_list.extend(third_list)
 threes_count = main_list.count(3)
-print(f'Количество цифр 3 при втором объединении: {threes_count}')
+print(f"Количество цифр 3 при втором объединении: {threes_count}")
 
-print(f'Итоговый список: {main_list}')
+print(f"Итоговый список: {main_list}")

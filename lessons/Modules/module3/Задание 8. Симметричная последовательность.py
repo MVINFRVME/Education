@@ -56,6 +56,7 @@
 #
 # [1, 2, 3, 4, 3] — в этом случае надо добавить минимум, то есть числа 2 и 1.
 
+
 def is_palindrom(num_list):
     reversed_list = []
     for i_num in range(len(num_list) - 1, -1, -1):
@@ -66,14 +67,14 @@ def is_palindrom(num_list):
         return False
 
 
-amt_of_nums = int(input('Количество чисел: '))
+amt_of_nums = int(input("Количество чисел: "))
 nums = []
 
 for _ in range(amt_of_nums):
-    num = int(input('Число: '))
+    num = int(input("Число: "))
     nums.append(num)
 
-print(f'Последовательность: {nums}')
+print(f"Последовательность: {nums}")
 
 new_nums = []
 answer = []
@@ -90,6 +91,6 @@ for i_nums in range(len(nums)):
 
     new_nums = []
 
-print(f'Исходный список: {nums}')
-print(f'Нужно чисел для палиндрома: {len(answer)}')
-print(f'Список этих чисел: {answer}')
+print(f"Исходный список: {nums}")
+print(f"Нужно чисел для палиндрома: {len(answer)}")
+print(f"Список этих чисел: {answer}")

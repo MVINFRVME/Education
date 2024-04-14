@@ -1,23 +1,15 @@
 data = dict()
 
 # До этого что-то происходит
-print(data.get('server'))
+print(data.get("server"))
 
-data['server'] = {
-    'host': '127.0.0.1',
-    'port': '10'
-}
+data["server"] = {"host": "127.0.0.1", "port": "10"}
 # До этого что-то происходит
-if data.get('configuration', {}).get('ssh', {}).get('login', {}):
-    print('В структуре уже есть логин')
+if data.get("configuration", {}).get("ssh", {}).get("login", {}):
+    print("В структуре уже есть логин")
 
-data['configuration'] = {
-    'ssh': {
-        'access': 'true',
-        'login': 'Ivan',
-        'password': 'qwerty'
-    }
+data["configuration"] = {
+    "ssh": {"access": "true", "login": "Ivan", "password": "qwerty"}
 }
 
 print(data)
-

@@ -3,9 +3,9 @@
 # У нас есть список из трёх слов, которые вводит пользователь. Затем вводится сам текст произведения, который вводится
 # уже в одну строку. Напишите программу, которая посчитает, сколько раз слова пользователя встречаются в тексте.
 
-words_list = [input('Введите слово: ') for _ in range(3)]
-text = input('\nВведите текст: ')
+words_list = [input("Введите слово: ") for _ in range(3)]
+text = input("\nВведите текст: ")
 words_count = [text.count(word) for word in words_list]
 
 for i in range(3):
-    print('{0}: {1}'.format(words_list[i], words_count[i]))
+    print("{0}: {1}".format(words_list[i], words_count[i]))

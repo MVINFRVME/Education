@@ -10,6 +10,6 @@
 
 # Исправленный текст: У нас пошёл снег !
 
-text = input('Введите текст: ').split()
-reformed_text = ' '.join(text)
-print('Исправленный текст:', reformed_text)
+text = input("Введите текст: ").split()
+reformed_text = " ".join(text)
+print("Исправленный текст:", reformed_text)

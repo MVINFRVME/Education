@@ -12,8 +12,8 @@
 # Закодированная строка: a2A2b2с1a3A1.
 
 
-user_text = input('Введите строку: ')
-cipher_string = ''
+user_text = input("Введите строку: ")
+cipher_string = ""
 duplicate_count = 0
 for i_sym, sym in enumerate(user_text):
     if len(user_text) == i_sym:

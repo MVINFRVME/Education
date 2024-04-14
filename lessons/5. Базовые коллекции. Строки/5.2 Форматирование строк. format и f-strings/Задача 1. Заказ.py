@@ -12,6 +12,10 @@
 #
 # Здравствуйте, Иван! Ваш номер заказа: 10948. Приятного дня!
 
-name = input('Имя: ')
-order_number = input('Номер заказа: ')
-print('Здравствуйте, {user}! Ваш номер заказа: {num}. Приятного дня!'.format(user=name, num=order_number))
+name = input("Имя: ")
+order_number = input("Номер заказа: ")
+print(
+    "Здравствуйте, {user}! Ваш номер заказа: {num}. Приятного дня!".format(
+        user=name, num=order_number
+    )
+)

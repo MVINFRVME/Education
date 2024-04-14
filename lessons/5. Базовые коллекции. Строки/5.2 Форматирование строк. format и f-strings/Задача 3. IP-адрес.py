@@ -17,6 +17,6 @@ while count < 4:
         numbers.append(new_number)
         count += 1
     else:
-        print('Диапазон числа должен быть от 0 до 225 (включительно).')
+        print("Диапазон числа должен быть от 0 до 225 (включительно).")
 
 print(ip_address.format(numbers[0], numbers[1], numbers[2], numbers[3]))

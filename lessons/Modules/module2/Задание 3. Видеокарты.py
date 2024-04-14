@@ -23,22 +23,22 @@
 
 # Новый список видеокарт: [ 3070 2060 3070 ]
 
-ammount = int(input('Введите количество видеокарт: '))
+ammount = int(input("Введите количество видеокарт: "))
 
 GPU_list = []
 GPU_max = 0
 
 for i in range(ammount):
-    GPU = int(input(f'Видеокарта {i + 1}: '))
+    GPU = int(input(f"Видеокарта {i + 1}: "))
     GPU_list.append(GPU)
     if GPU_max < GPU:
         GPU_max = GPU
 
-print(f'Старый список видеокарт: {GPU_list}')
+print(f"Старый список видеокарт: {GPU_list}")
 
 new_GPU_list = []
 for GPU in GPU_list:
     if GPU_max != GPU:
         new_GPU_list.append(GPU)
 
-print(f'Новый список видеокарт: {new_GPU_list}')
+print(f"Новый список видеокарт: {new_GPU_list}")

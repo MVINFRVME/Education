@@ -1,28 +1,24 @@
 # Задача 1. Заказ фруктов
 # В торговую компанию пришёл заказ:
 #
-order = {'apple': 2,
-         'banana': 3,
-         'pear': 1,
-         'watermelon': 10,
-         'chocolate': 5
-         }
+order = {"apple": 2, "banana": 3, "pear": 1, "watermelon": 10, "chocolate": 5}
 #
 # Ключи — названия товаров, значения — необходимое количество килограммов.
 
 # При помощи метода get и установки значения по умолчанию проверьте, есть ли товар на складе, и получите его цену.
 # Если товара нет, то по умолчанию получите 0. Подсчитайте итоговую выручку компании по имеющимся товарам.
 #
-incomes = {'apple': 5600.20,
-           'orange': 3500.45,
-           'banana': 5000.00,
-           'bergamot': 3700.56,
-           'durian': 5987.23,
-           'grapefruit': 300.40,
-           'peach': 10000.50,
-           'pear': 1020.00,
-           'persimmon': 310.00
-           }
+incomes = {
+    "apple": 5600.20,
+    "orange": 3500.45,
+    "banana": 5000.00,
+    "bergamot": 3700.56,
+    "durian": 5987.23,
+    "grapefruit": 300.40,
+    "peach": 10000.50,
+    "pear": 1020.00,
+    "persimmon": 310.00,
+}
 #
 # Ключи — названия товаров, значения — цена за один килограмм.
 #
@@ -33,6 +29,8 @@ total_order_price = 0
 
 for article in order.keys():
     if incomes.get(article, 0):
-        print(f'{article} - {incomes[article]} руб. за кг. Нужно заказать {order[article]} шт.')
+        print(
+            f"{article} - {incomes[article]} руб. за кг. Нужно заказать {order[article]} шт."
+        )
         total_order_price += order[article] * incomes[article]
-print(f'Итоговая сумма заказа: {total_order_price} руб.')
+print(f"Итоговая сумма заказа: {total_order_price} руб.")

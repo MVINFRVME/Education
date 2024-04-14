@@ -27,6 +27,6 @@
 #
 # Результат: [1, 1, 1, 3, 1, 0, 1, 2, 1, 4]
 
-num = int(input('Введите длину списка: '))
+num = int(input("Введите длину списка: "))
 num_list = [1 if index % 2 == 0 else index % 5 for index in range(num)]
 print(num_list)

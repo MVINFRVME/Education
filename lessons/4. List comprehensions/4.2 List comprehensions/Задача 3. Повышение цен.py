@@ -22,14 +22,15 @@
 
 # Сумма цен за каждый год: 93.83 93.83 103.21
 
-price_list = [float(input('Цена на товар: ')) for _ in range(5)]
+price_list = [float(input("Цена на товар: ")) for _ in range(5)]
 
-first_year_tax = int(input('Повышение на первый год: '))
-second_year_tax = int(input('Повышение на второй год: '))
+first_year_tax = int(input("Повышение на первый год: "))
+second_year_tax = int(input("Повышение на второй год: "))
 
 first_year_list = [x + (x * first_year_tax / 100) for x in price_list]
 second_year_list = [x + (x * second_year_tax / 100) for x in first_year_list]
-print(f'Сумма цен за каждый год: {round(sum(price_list), 2)}'
-      f' {round(sum(first_year_list), 2)} '
-      f'{round(sum(second_year_list), 2)}'
-      )
+print(
+    f"Сумма цен за каждый год: {round(sum(price_list), 2)}"
+    f" {round(sum(first_year_list), 2)} "
+    f"{round(sum(second_year_list), 2)}"
+)

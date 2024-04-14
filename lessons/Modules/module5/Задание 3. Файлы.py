@@ -24,14 +24,14 @@
 # Советы и рекомендации
 # Метод endswith (как и startswith) можно использовать для проверки нескольких окончаний.
 
-file_name = input('Название файла: ')
+file_name = input("Название файла: ")
 
-invalid_symbols = ('@', '№', '$', '%', '^', '&', '*', '()')
-valid_extensions = ('.txt', '.docx')
+invalid_symbols = ("@", "№", "$", "%", "^", "&", "*", "()")
+valid_extensions = (".txt", ".docx")
 
 if file_name.startswith(invalid_symbols):
-    print('Название начинается недопустимым символом.')
+    print("Название начинается недопустимым символом.")
 elif not file_name.endswith(valid_extensions):
-    print('Неверное расширение файла. Ожидалось .txt или .docx.')
+    print("Неверное расширение файла. Ожидалось .txt или .docx.")
 else:
-    print('Файл назван верно.')
+    print("Файл назван верно.")

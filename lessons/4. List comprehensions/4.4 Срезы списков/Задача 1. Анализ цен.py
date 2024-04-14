@@ -38,9 +38,9 @@ import random
 
 original_prices = [random.randint(-10, 10) for _ in range(5)]
 new_prices = original_prices[:]
-new_prices = [0 if num < 0
-              else num
-              for num in new_prices]
-print(f'Оригинальный список: {original_prices}\n'
-      f'С обнулением отрицательных цен: {new_prices}\n'
-      f'Мы потеряли: {abs(sum(original_prices) - sum(new_prices))}')
+new_prices = [0 if num < 0 else num for num in new_prices]
+print(
+    f"Оригинальный список: {original_prices}\n"
+    f"С обнулением отрицательных цен: {new_prices}\n"
+    f"Мы потеряли: {abs(sum(original_prices) - sum(new_prices))}"
+)

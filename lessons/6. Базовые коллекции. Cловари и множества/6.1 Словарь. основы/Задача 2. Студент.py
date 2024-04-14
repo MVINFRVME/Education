@@ -14,17 +14,18 @@
 # Место учёбы - МГУ
 # Оценки - [5, 4, 4, 4, 5]
 
-student_info = input('Введите информацию о студенте через пробел\n'
-                     '(имя, фамилия, город, место учёбы, оценки): '
-                     )
+student_info = input(
+    "Введите информацию о студенте через пробел\n"
+    "(имя, фамилия, город, место учёбы, оценки): "
+)
 
 student_list = student_info.split()
 student_dict = dict()
-student_dict['Имя'] = student_list[0]
-student_dict['Фамилия'] = student_list[1]
-student_dict['Город'] = student_list[2]
-student_dict['Место учёбы'] = student_list[3]
-student_dict['Оценки'] = student_list[4:]
+student_dict["Имя"] = student_list[0]
+student_dict["Фамилия"] = student_list[1]
+student_dict["Город"] = student_list[2]
+student_dict["Место учёбы"] = student_list[3]
+student_dict["Оценки"] = student_list[4:]
 
 for i_info in student_dict:
-    print(f'{i_info} - {student_dict[i_info]}')
+    print(f"{i_info} - {student_dict[i_info]}")

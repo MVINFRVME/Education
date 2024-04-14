@@ -20,7 +20,7 @@
 # ь : 1
 # Максимальная частота: 3
 
-text = input('Введите текст: ').lower()
+text = input("Введите текст: ").lower()
 sym_dict = dict()
 
 for sym in text:
@@ -30,6 +30,6 @@ for sym in text:
         sym_dict[sym] = 1
 
 for i_sym in sorted(sym_dict.keys()):
-    print(f'{i_sym} : {sym_dict[i_sym]}')
+    print(f"{i_sym} : {sym_dict[i_sym]}")
 
-print(f'Максимальная частота: {max(sym_dict.values())}')
+print(f"Максимальная частота: {max(sym_dict.values())}")

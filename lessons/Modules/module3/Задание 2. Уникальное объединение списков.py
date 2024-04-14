@@ -24,6 +24,7 @@
 # списками с повторяющимися элементами.Требование отсутствия дубликатов значительно усложняет задачу. Убедитесь, что в
 # вашем итоговом списке дубликатов не будет.
 
+
 def merge_sorted_lists(first_list, second_list):
     first_list.extend(second_list)
     first_list.sort()

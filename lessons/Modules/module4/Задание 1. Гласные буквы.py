@@ -15,10 +15,19 @@
 #
 # Длина списка: 9
 
-text = input('Введите текст: ')
-vowels_list = [sym for sym in text
-               if sym == 'а' or sym == 'я' or sym == 'у' or sym == 'ю' or sym == 'о'
-               or sym == 'е' or sym == 'ё' or sym == 'э' or sym == 'и' or sym == 'и']
-print(f'Список гласных букв: {vowels_list}\n'
-      f'Длина списка: {len(vowels_list)}')
-
+text = input("Введите текст: ")
+vowels_list = [
+    sym
+    for sym in text
+    if sym == "а"
+    or sym == "я"
+    or sym == "у"
+    or sym == "ю"
+    or sym == "о"
+    or sym == "е"
+    or sym == "ё"
+    or sym == "э"
+    or sym == "и"
+    or sym == "и"
+]
+print(f"Список гласных букв: {vowels_list}\n" f"Длина списка: {len(vowels_list)}")

@@ -11,11 +11,11 @@
 #
 # Первый день: ['Артемий', 'Влад', 'Дима', 'Женя']
 
-name_list = ['Артемий', 'Борис', 'Влад', 'Гоша', 'Дима', 'Евгений', 'Женя', 'Захар']
+name_list = ["Артемий", "Борис", "Влад", "Гоша", "Дима", "Евгений", "Женя", "Захар"]
 new_name_list = []
 
 for i, symbol in enumerate(name_list):
     if i % 2 == 0:
         new_name_list.append(symbol)
 
-print(f'Первый день: {new_name_list}')
+print(f"Первый день: {new_name_list}")

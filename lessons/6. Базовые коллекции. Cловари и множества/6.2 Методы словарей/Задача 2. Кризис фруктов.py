@@ -3,25 +3,15 @@
 # в виде пар «название фрукта — доход»:
 
 incomes = {
-
-    'apple': 5600.20,
-
-    'orange': 3500.45,
-
-    'banana': 5000.00,
-
-    'bergamot': 3700.56,
-
-    'durian': 5987.23,
-
-    'grapefruit': 300.40,
-
-    'peach': 10000.50,
-
-    'pear': 1020.00,
-
-    'persimmon': 310.00,
-
+    "apple": 5600.20,
+    "orange": 3500.45,
+    "banana": 5000.00,
+    "bergamot": 3700.56,
+    "durian": 5987.23,
+    "grapefruit": 300.40,
+    "peach": 10000.50,
+    "pear": 1020.00,
+    "persimmon": 310.00,
 }
 #
 # В компании наступил небольшой кризис, и нам поручено провести небольшой анализ дохода.
@@ -37,7 +27,7 @@ incomes = {
 
 income = 0
 min_price = None
-min_fruit = ''
+min_fruit = ""
 
 for fruit, price in incomes.items():
     income += incomes[fruit]
@@ -47,9 +37,11 @@ for fruit, price in incomes.items():
 
 incomes.pop(min_fruit)
 
-print(f'Общий доход за год составил {income} рублей\n'
-      f'Самый маленький доход у {min_fruit}. Он составляет {min_price}\n'
-      f'Итоговый словарь: {incomes}')
+print(
+    f"Общий доход за год составил {income} рублей\n"
+    f"Самый маленький доход у {min_fruit}. Он составляет {min_price}\n"
+    f"Итоговый словарь: {incomes}"
+)
 
 # def get_value(x):
 #     return x[1]

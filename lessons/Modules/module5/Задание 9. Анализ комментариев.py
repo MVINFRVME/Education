@@ -30,6 +30,7 @@
 # Чтобы вернуть несколько элементов из функции, перечислите их через запятую:
 # return a, b
 
+
 def count_uppercase_lowercase(text):
     upper_count = 0
     lower_count = 0

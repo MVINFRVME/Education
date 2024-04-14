@@ -16,13 +16,16 @@
 # Состояние третьего отряда: ['Погиб', 'Погиб', 'Погиб', 'Погиб', 'Погиб', 'Погиб', 'Выжил', 'Погиб', 'Погиб', 'Выжил']
 
 import random
+
 first_squad = [random.randint(50, 80) for _ in range(10)]
 second_squad = [random.randint(30, 60) for _ in range(10)]
 
-third_squad_result = ['Погиб' if first_squad[i] + second_squad[i] > 100
-                      else 'Выжил'
-                      for i in range(10)]
+third_squad_result = [
+    "Погиб" if first_squad[i] + second_squad[i] > 100 else "Выжил" for i in range(10)
+]
 
-print(f'Уровень первого отряда: {first_squad}\n'
-      f'Урон второго отряда: {second_squad}\n'
-      f'Состояние третьего отряда: {third_squad_result}')
+print(
+    f"Уровень первого отряда: {first_squad}\n"
+    f"Урон второго отряда: {second_squad}\n"
+    f"Состояние третьего отряда: {third_squad_result}"
+)
