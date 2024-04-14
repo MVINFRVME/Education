@@ -33,3 +33,26 @@
 # 3 : ['о']
 
 # text = input('Введите текст: ')
+text = 'здесь что-то написано'
+sym_dict = dict()
+
+for sym in text:
+    if sym in sym_dict:
+        sym_dict[sym] += 1
+    else:
+        sym_dict[sym] = 1
+print('Оригинальный словарь частот:')
+for key, value in sorted(sym_dict.items()):
+    print(f'{key} : {value}')
+
+new_dict = dict()
+for key, value in sym_dict.items():
+    if value in new_dict:
+        new_dict[value].append(key)
+    else:
+        new_dict[value] = []
+        new_dict[value].append(key)
+
+print('\nИнвертированный словарь частот: ')
+for key, value in new_dict.items():
+    print(f'{key} : {value}')

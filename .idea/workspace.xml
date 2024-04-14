@@ -4,99 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="Модуль 6. Закончил 6.3, 6.4">
-      <change afterPath="$PROJECT_DIR$/lessons/6. Базовые коллекции. Cловари и множества/6.5 Генерация словарей/Задача. Журнал посещений.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module6/Задание 1. Песни - 2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module6/Задание 2. Криптовалюта.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module6/Задание 3. Товары.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module6/Задание 4. Гистограмма частоты — 2.py" afterDir="false" />
+    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="Модуль 6. Закончил 6.5. Начал практическую работу module 6. Сделал 1-3">
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module6/Задание 5. Словарь синонимов.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module6/Задание 6. Пицца.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/2. Базовые коллекции 1. list (списки)/ 2.2 Индексы. Работа с элементами списка/Задача 1. Гугл.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/2. Базовые коллекции 1. list (списки)/ 2.2 Индексы. Работа с элементами списка/Задача 1. Гугл.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/2. Базовые коллекции 1. list (списки)/ 2.2 Индексы. Работа с элементами списка/Задача 2. Кратность.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/2. Базовые коллекции 1. list (списки)/ 2.2 Индексы. Работа с элементами списка/Задача 2. Кратность.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/2. Базовые коллекции 1. list (списки)/ 2.2 Индексы. Работа с элементами списка/Задача 3. Собачьи бега.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/2. Базовые коллекции 1. list (списки)/ 2.2 Индексы. Работа с элементами списка/Задача 3. Собачьи бега.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/2. Базовые коллекции 1. list (списки)/ 2.3 Списки. работа со строками/Задача 1. Текстовый редактор. возвращение.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/2. Базовые коллекции 1. list (списки)/ 2.3 Списки. работа со строками/Задача 1. Текстовый редактор. возвращение.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/2. Базовые коллекции 1. list (списки)/ 2.3 Списки. работа со строками/Задача 2. Соседи.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/2. Базовые коллекции 1. list (списки)/ 2.3 Списки. работа со строками/Задача 2. Соседи.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/2. Базовые коллекции 1. list (списки)/ 2.3 Списки. работа со строками/Задача 3. Улучшенная лингвистика.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/2. Базовые коллекции 1. list (списки)/ 2.3 Списки. работа со строками/Задача 3. Улучшенная лингвистика.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/2. Базовые коллекции 1. list (списки)/2.1 Списки и их инициализация/Задача 1. Таблица степеней.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/2. Базовые коллекции 1. list (списки)/2.1 Списки и их инициализация/Задача 1. Таблица степеней.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/2. Базовые коллекции 1. list (списки)/2.1 Списки и их инициализация/Задача 2. Очень простая задача.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/2. Базовые коллекции 1. list (списки)/2.1 Списки и их инициализация/Задача 2. Очень простая задача.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/2. Базовые коллекции 1. list (списки)/2.1 Списки и их инициализация/Задача 3. Контроль.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/2. Базовые коллекции 1. list (списки)/2.1 Списки и их инициализация/Задача 3. Контроль.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/3. Методы для работы со списками/3.2 Работа со списками. методы insert, remove, index/Задача 1. Зоопарк.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/3. Методы для работы со списками/3.2 Работа со списками. методы insert, remove, index/Задача 1. Зоопарк.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/3. Методы для работы со списками/3.2 Работа со списками. методы insert, remove, index/Задача 2. Сокращения.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/3. Методы для работы со списками/3.2 Работа со списками. методы insert, remove, index/Задача 2. Сокращения.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/3. Методы для работы со списками/3.2 Работа со списками. методы insert, remove, index/Задача 3. Кино.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/3. Методы для работы со списками/3.2 Работа со списками. методы insert, remove, index/Задача 3. Кино.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/3. Методы для работы со списками/3.3 Работа с несколькими списками. Методы extend и count/Задача 1. Задачи компаний.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/3. Методы для работы со списками/3.3 Работа с несколькими списками. Методы extend и count/Задача 1. Задачи компаний.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/3. Методы для работы со списками/3.3 Работа с несколькими списками. Методы extend и count/Задача 2. Вредоносное ПО.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/3. Методы для работы со списками/3.3 Работа с несколькими списками. Методы extend и count/Задача 2. Вредоносное ПО.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/3. Методы для работы со списками/3.3 Работа с несколькими списками. Методы extend и count/Задача 3. Пакеты.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/3. Методы для работы со списками/3.3 Работа с несколькими списками. Методы extend и count/Задача 3. Пакеты.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/3. Методы для работы со списками/3.4 Вложенные списки/Задача 1. Матрица.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/3. Методы для работы со списками/3.4 Вложенные списки/Задача 1. Матрица.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/3. Методы для работы со списками/3.4 Вложенные списки/Задача 2. Олимпиада.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/3. Методы для работы со списками/3.4 Вложенные списки/Задача 2. Олимпиада.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/3. Методы для работы со списками/3.4 Вложенные списки/Задача 3. Лавка.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/3. Методы для работы со списками/3.4 Вложенные списки/Задача 3. Лавка.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/4. List comprehensions/4.2 List comprehensions/Задача 1. Кубы и квадраты.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/4. List comprehensions/4.2 List comprehensions/Задача 1. Кубы и квадраты.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/4. List comprehensions/4.2 List comprehensions/Задача 2. Сообщение.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/4. List comprehensions/4.2 List comprehensions/Задача 2. Сообщение.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/4. List comprehensions/4.2 List comprehensions/Задача 3. Повышение цен.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/4. List comprehensions/4.2 List comprehensions/Задача 3. Повышение цен.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/4. List comprehensions/4.3 List comprehensions с условиями. Модуль random/Задача 1. Список чётных чисел.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/4. List comprehensions/4.3 List comprehensions с условиями. Модуль random/Задача 1. Список чётных чисел.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/4. List comprehensions/4.3 List comprehensions с условиями. Модуль random/Задача 2. Магазин.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/4. List comprehensions/4.3 List comprehensions с условиями. Модуль random/Задача 2. Магазин.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/4. List comprehensions/4.3 List comprehensions с условиями. Модуль random/Задача 3. Отряды.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/4. List comprehensions/4.3 List comprehensions с условиями. Модуль random/Задача 3. Отряды.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/4. List comprehensions/4.4 Срезы списков/Задача 1. Анализ цен.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/4. List comprehensions/4.4 Срезы списков/Задача 1. Анализ цен.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/4. List comprehensions/4.4 Срезы списков/Задача 2. Срезы.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/4. List comprehensions/4.4 Срезы списков/Задача 2. Срезы.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/4. List comprehensions/4.4 Срезы списков/Задача 3. Удаление части.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/4. List comprehensions/4.4 Срезы списков/Задача 3. Удаление части.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/4. List comprehensions/4.5 Строки - индексы и срезы/Задача. Деление строки.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/4. List comprehensions/4.5 Строки - индексы и срезы/Задача. Деление строки.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/5. Базовые коллекции. Строки/5.2 Форматирование строк. format и f-strings/Задача 1. Заказ.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/5. Базовые коллекции. Строки/5.2 Форматирование строк. format и f-strings/Задача 1. Заказ.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/5. Базовые коллекции. Строки/5.2 Форматирование строк. format и f-strings/Задача 2. Долги.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/5. Базовые коллекции. Строки/5.2 Форматирование строк. format и f-strings/Задача 2. Долги.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/5. Базовые коллекции. Строки/5.2 Форматирование строк. format и f-strings/Задача 3. IP-адрес.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/5. Базовые коллекции. Строки/5.2 Форматирование строк. format и f-strings/Задача 3. IP-адрес.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/5. Базовые коллекции. Строки/5.3 Методы строк. split и join/Задача 1. Улучшенная лингвистика 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/5. Базовые коллекции. Строки/5.3 Методы строк. split и join/Задача 1. Улучшенная лингвистика 2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/5. Базовые коллекции. Строки/5.3 Методы строк. split и join/Задача 2. Бабушка.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/5. Базовые коллекции. Строки/5.3 Методы строк. split и join/Задача 2. Бабушка.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/5. Базовые коллекции. Строки/5.3 Методы строк. split и join/Задача 3. Разделители символов.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/5. Базовые коллекции. Строки/5.3 Методы строк. split и join/Задача 3. Разделители символов.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/5. Базовые коллекции. Строки/5.4 Методы строк. startswith, endswith, upper, lower/Задача 1. Шифр Цезаря 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/5. Базовые коллекции. Строки/5.4 Методы строк. startswith, endswith, upper, lower/Задача 1. Шифр Цезаря 2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/5. Базовые коллекции. Строки/5.4 Методы строк. startswith, endswith, upper, lower/Задача 2. Путь к файлу.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/5. Базовые коллекции. Строки/5.4 Методы строк. startswith, endswith, upper, lower/Задача 2. Путь к файлу.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/5. Базовые коллекции. Строки/5.4 Методы строк. startswith, endswith, upper, lower/Задача 3. Удаление части.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/5. Базовые коллекции. Строки/5.4 Методы строк. startswith, endswith, upper, lower/Задача 3. Удаление части.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/5. Базовые коллекции. Строки/5.5 Форматирование строк. подстановки/Задача. Детали.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/5. Базовые коллекции. Строки/5.5 Форматирование строк. подстановки/Задача. Детали.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/6. Базовые коллекции. Cловари и множества/6.1 Словарь. основы/Задача 1. Словарь квадратов чисел.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/6. Базовые коллекции. Cловари и множества/6.1 Словарь. основы/Задача 1. Словарь квадратов чисел.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/6. Базовые коллекции. Cловари и множества/6.1 Словарь. основы/Задача 2. Студент.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/6. Базовые коллекции. Cловари и множества/6.1 Словарь. основы/Задача 2. Студент.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/6. Базовые коллекции. Cловари и множества/6.1 Словарь. основы/Задача 3. Контакты.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/6. Базовые коллекции. Cловари и множества/6.1 Словарь. основы/Задача 3. Контакты.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/6. Базовые коллекции. Cловари и множества/6.2 Методы словарей/Задача 1. Склады.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/6. Базовые коллекции. Cловари и множества/6.2 Методы словарей/Задача 1. Склады.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/6. Базовые коллекции. Cловари и множества/6.2 Методы словарей/Задача 2. Кризис фруктов.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/6. Базовые коллекции. Cловари и множества/6.2 Методы словарей/Задача 2. Кризис фруктов.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/6. Базовые коллекции. Cловари и множества/6.2 Методы словарей/Задача 3. Гистограмма частоты.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/6. Базовые коллекции. Cловари и множества/6.2 Методы словарей/Задача 3. Гистограмма частоты.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/6. Базовые коллекции. Cловари и множества/6.3 Вложенные словари и значения по умолчанию в get/Задача 1. Заказ фруктов.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/6. Базовые коллекции. Cловари и множества/6.3 Вложенные словари и значения по умолчанию в get/Задача 1. Заказ фруктов.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/6. Базовые коллекции. Cловари и множества/6.3 Вложенные словари и значения по умолчанию в get/Задача 2. Игроки.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/6. Базовые коллекции. Cловари и множества/6.3 Вложенные словари и значения по умолчанию в get/Задача 2. Игроки.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/6. Базовые коллекции. Cловари и множества/6.3 Вложенные словари и значения по умолчанию в get/Задача.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/6. Базовые коллекции. Cловари и множества/6.3 Вложенные словари и значения по умолчанию в get/Задача.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/6. Базовые коллекции. Cловари и множества/6.4 Множества. Функция set/Задача 1. Пунктуация.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/6. Базовые коллекции. Cловари и множества/6.4 Множества. Функция set/Задача 1. Пунктуация.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/6. Базовые коллекции. Cловари и множества/6.4 Множества. Функция set/Задача 2. Семинар.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/6. Базовые коллекции. Cловари и множества/6.4 Множества. Функция set/Задача 2. Семинар.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/6. Базовые коллекции. Cловари и множества/6.4 Множества. Функция set/Задача 3. Различные цифры.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/6. Базовые коллекции. Cловари и множества/6.4 Множества. Функция set/Задача 3. Различные цифры.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Draft.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Draft3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module2/Задание 1. Генерация списка.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module2/Задание 1. Генерация списка.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module2/Задание 2. Турнир.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module2/Задание 2. Турнир.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module2/Задание 3. Видеокарты.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module2/Задание 3. Видеокарты.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module2/Задание 4. Кино.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module2/Задание 4. Кино.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module2/Задание 5. Контейнеры.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module2/Задание 5. Контейнеры.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module2/Задание 6. Бегущие цифры.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module2/Задание 6. Бегущие цифры.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module2/Задание 7. Анализ слова — 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module2/Задание 7. Анализ слова — 2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module2/Задание 8. Сортировка.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module2/Задание 8. Сортировка.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module2/Задание 9. Обратный анализ чётных чисел.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module2/Задание 9. Обратный анализ чётных чисел.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module3/Задание 1. Страшный код.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module3/Задание 1. Страшный код.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module3/Задание 2. Уникальное объединение списков.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module3/Задание 2. Уникальное объединение списков.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module3/Задание 3. Детали.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module3/Задание 3. Детали.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module3/Задание 4. Вечеринка.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module3/Задание 4. Вечеринка.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module3/Задание 5. Песни.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module3/Задание 5. Песни.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module3/Задание 6. Ролики.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module3/Задание 6. Ролики.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module3/Задание 7. Считалка.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module3/Задание 7. Считалка.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module3/Задание 8. Симметричная последовательность.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module3/Задание 8. Симметричная последовательность.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module4/Задание 1. Гласные буквы.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module4/Задание 1. Гласные буквы.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module4/Задание 2. Генерация.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module4/Задание 2. Генерация.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module4/Задание 3. Случайные соревнования.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module4/Задание 3. Случайные соревнования.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module4/Задание 4. Тренировка со срезами.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module4/Задание 4. Тренировка со срезами.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module4/Задание 5. Разворот.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module4/Задание 5. Разворот.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module4/Задание 6. Двумерный список.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module4/Задание 6. Двумерный список.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module4/Задание 7. Список списков.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module4/Задание 7. Список списков.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module4/Задание 8. Шифр Цезаря.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module4/Задание 8. Шифр Цезаря.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module5/Задание 1. Меню ресторана.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module5/Задание 1. Меню ресторана.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module5/Задание 2. Самое длинное слово.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module5/Задание 2. Самое длинное слово.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module5/Задание 3. Файлы.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module5/Задание 3. Файлы.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module5/Задание 4. Заглавные буквы.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module5/Задание 4. Заглавные буквы.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module5/Задание 5. Пароль.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module5/Задание 5. Пароль.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module5/Задание 6. Сжатие.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module5/Задание 6. Сжатие.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module5/Задание 7. Ip-адрес 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module5/Задание 7. Ip-адрес 2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module5/Задание 8. Бегущая строка.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module5/Задание 8. Бегущая строка.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module5/Задание 9. Анализ комментариев.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module5/Задание 9. Анализ комментариев.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Modules/module6/Задание 4. Гистограмма частоты — 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module6/Задание 4. Гистограмма частоты — 2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,6 +112,7 @@
     "Python.Задача 3. Улучшенная лингвистика.executor": "Run",
     "Python.Задача. Деление строки.executor": "Run",
     "Python.Задача. Детали.executor": "Run",
+    "Python.Задача. Журнал посещений.executor": "Run",
     "Python.Задача.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -380,7 +293,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712852520471</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Модуль 6. Закончил 6.5. Начал практическую работу module 6. Сделал 1-3">
+      <option name="closed" value="true" />
+      <created>1713080710157</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1713080710157</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -424,7 +345,8 @@
     <MESSAGE value="Закончил практическую работу module 5." />
     <MESSAGE value="Модуль 6. Закончил 6.1, 6.2" />
     <MESSAGE value="Модуль 6. Закончил 6.3, 6.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Модуль 6. Закончил 6.3, 6.4" />
+    <MESSAGE value="Модуль 6. Закончил 6.5. Начал практическую работу module 6. Сделал 1-3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Модуль 6. Закончил 6.5. Начал практическую работу module 6. Сделал 1-3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
