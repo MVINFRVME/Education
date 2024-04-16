@@ -16,3 +16,28 @@
 # Введите слово: здравствуйте
 # Синоним: Привет
 
+pairs_num = int(input('Введите количество пар слов: '))
+byword_dict = dict()
+
+for pair in range(1, pairs_num + 1):
+    bywords = input(f'{pair} пара: ').lower().split(' - ')
+    byword_dict[bywords[0]] = bywords[1]
+
+is_in_dict = False
+
+while True:
+    if is_in_dict:
+        break
+
+    check_word = input('Введите слово: ').lower()
+    for key, value in byword_dict.items():
+        if key == check_word:
+            print(f'Синоним: {value}')
+            is_in_dict = True
+            break
+        elif value == check_word:
+            print(f'Синоним: {key}')
+            is_in_dict = True
+            break
+    else:
+        print('Такого слова в словаре нет.')
