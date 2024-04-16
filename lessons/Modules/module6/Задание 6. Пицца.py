@@ -23,3 +23,23 @@
 # Де-Люкс: 2
 # Интересная: 5
 
+order_dict = dict()
+number_of_orders = int(input('Введите количество заказов: '))
+
+for i_order in range(1, number_of_orders + 1):
+    info = input(f'{i_order} заказ: ').split()
+
+    if info[0] in order_dict:
+        if info[1] in order_dict[info[0]]:
+            order_dict[info[0]][info[1]] += int(info[2])
+        else:
+            order_dict[info[0]][info[1]] = int(info[2])
+    else:
+        order_dict[info[0]] = {info[1]: int(info[2])}
+
+print()
+for name, menu in sorted(order_dict.items()):
+    print(f'\n{name}: ')
+    for pizza, quantity in sorted(menu.items()):
+        print(f'{pizza} : {quantity}')
+

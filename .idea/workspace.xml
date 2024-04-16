@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="Модуль 6. Закончил 6.5. Начал практическую работу module 6. Сделал 1-3">
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module6/Задание 5. Словарь синонимов.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module6/Задание 6. Пицца.py" afterDir="false" />
+    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="Практическая работа module 6. Сделал 4.">
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module6/Задание 7. Три списка.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module6/Задание 8. Снова палиндром.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module6/Задание 4. Гистограмма частоты — 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module6/Задание 4. Гистограмма частоты — 2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Draft.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Draft2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Modules/module6/Задание 5. Словарь синонимов.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module6/Задание 5. Словарь синонимов.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Modules/module6/Задание 6. Пицца.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module6/Задание 6. Пицца.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +60,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.Draft.executor": "Debug",
+    "Python.Draft.executor": "Run",
     "Python.Draft2.executor": "Debug",
     "Python.Draft3.executor": "Run",
     "Python.Задание 1. Гласные буквы.executor": "Run",
@@ -74,13 +77,17 @@
     "Python.Задание 5. Пароль.executor": "Run",
     "Python.Задание 5. Песни.executor": "Run",
     "Python.Задание 5. Разворот.executor": "Run",
+    "Python.Задание 5. Словарь синонимов.executor": "Run",
     "Python.Задание 6. Двумерный список.executor": "Run",
+    "Python.Задание 6. Пицца.executor": "Run",
     "Python.Задание 6. Ролики.executor": "Run",
     "Python.Задание 6. Сжатие.executor": "Run",
     "Python.Задание 7. Ip-адрес 2.executor": "Run",
     "Python.Задание 7. Список списков.executor": "Run",
     "Python.Задание 7. Считалка.executor": "Run",
+    "Python.Задание 7. Три списка.executor": "Run",
     "Python.Задание 8. Бегущая строка.executor": "Run",
+    "Python.Задание 8. Снова палиндром.executor": "Run",
     "Python.Задание 8. Шифр Цезаря.executor": "Debug",
     "Python.Задание 9. Анализ комментариев.executor": "Run",
     "Python.Задача 1. Анализ цен.executor": "Run",
@@ -301,7 +308,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713080710157</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Практическая работа module 6. Сделал 4.">
+      <option name="closed" value="true" />
+      <created>1713101436707</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1713101436707</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -315,7 +330,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/dev" />
+                        <option value="dev" />
                       </list>
                     </value>
                   </entry>
@@ -346,7 +361,8 @@
     <MESSAGE value="Модуль 6. Закончил 6.1, 6.2" />
     <MESSAGE value="Модуль 6. Закончил 6.3, 6.4" />
     <MESSAGE value="Модуль 6. Закончил 6.5. Начал практическую работу module 6. Сделал 1-3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Модуль 6. Закончил 6.5. Начал практическую работу module 6. Сделал 1-3" />
+    <MESSAGE value="Практическая работа module 6. Сделал 4." />
+    <option name="LAST_COMMIT_MESSAGE" value="Практическая работа module 6. Сделал 4." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -368,13 +384,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lessons/Draft.py</url>
-          <line>1</line>
+          <line>4</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lessons/Draft2.py</url>
           <line>1</line>
           <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/Modules/module6/Задание 8. Снова палиндром.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="43" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
