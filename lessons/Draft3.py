@@ -1,33 +1,41 @@
-goods = {
-    "Лампа": "12345",
-    "Стол": "23456",
-    "Диван": "34567",
-    "Стул": "45678",
-}
-store = {
-    "12345": [
-        {
-            "quantity": 27,
-            "price": 42
-        },
-    ],
-    "23456": [
-        {
-            "quantity": 22,
-            "price": 510
-        },
-        {
-            "quantity": 32,
-            "price": 520
-        },
-    ],
-    "34567": [
-        {"quantity": 2, "price": 1200},
-        {"quantity": 1, "price": 1150},
-    ],
-    "45678": [
-        {"quantity": 50, "price": 100},
-        {"quantity": 12, "price": 95},
-        {"quantity": 43, "price": 97},
-    ],
-}
+def longestCommonPrefix(strs):
+    res = ''
+    min_len = len(min(strs, key=len))
+    for i in range(min_len):
+        for s in strs:
+            x = strs[0][i]
+            if s[i] != strs[0][i]:
+                return res
+        res += strs[0][i]
+    return res
+
+strs = ["flower", "flow", "flight"]
+print(longestCommonPrefix(strs))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# res = ''
+# for i in range(len(strs[0])):
+#     for s in strs:
+#         if i == len(s) or s[i] != strs[0][i]:
+#             return res
+#     res += strs[0][i]
+#
+# return res

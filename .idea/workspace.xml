@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="Практическая работа module 6. Сделал 4.">
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module6/Задание 7. Три списка.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module6/Задание 8. Снова палиндром.py" afterDir="false" />
+    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="Merge remote-tracking branch 'origin/dev' into dev&#10;&#10;# Conflicts:&#10;#&#9;lessons/Modules/module6/Задание 5. Словарь синонимов.py&#10;#&#9;lessons/Modules/module6/Задание 6. Пицца.py&#10;#&#9;lessons/Modules/module6/Задание 8. Снова палиндром.py">
+      <change afterPath="$PROJECT_DIR$/lessons/7. Базовые коллекции. Кортежи/7.2 Кортежи/Задача 1. Создание кортежей.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/7. Базовые коллекции. Кортежи/7.2 Кортежи/Задача 2. Цилиндр.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/7. Базовые коллекции. Кортежи/7.2 Кортежи/Задача 3. Неправильный код.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/7. Базовые коллекции. Кортежи/7.3 Функция enumerate. Перебор нескольких значений/Задача 1. Саботаж!.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/7. Базовые коллекции. Кортежи/7.3 Функция enumerate. Перебор нескольких значений/Задача 2. Словари из списков.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/7. Базовые коллекции. Кортежи/7.3 Функция enumerate. Перебор нескольких значений/Задача 3. Универсальная программа.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lessons/Draft.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Draft2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module6/Задание 5. Словарь синонимов.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module6/Задание 5. Словарь синонимов.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module6/Задание 6. Пицца.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module6/Задание 6. Пицца.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Draft3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +67,7 @@
     "Python.Draft3.executor": "Run",
     "Python.Задание 1. Гласные буквы.executor": "Run",
     "Python.Задание 1. Меню ресторана.executor": "Run",
+    "Python.Задание 2. Криптовалюта.executor": "Run",
     "Python.Задание 2. Самое длинное слово.executor": "Debug",
     "Python.Задание 2. Уникальное объединение списков.executor": "Debug",
     "Python.Задание 3. Детали.executor": "Run",
@@ -94,8 +97,10 @@
     "Python.Задача 1. Задачи компаний.executor": "Run",
     "Python.Задача 1. Заказ фруктов.executor": "Run",
     "Python.Задача 1. Заказ.executor": "Run",
+    "Python.Задача 1. Саботаж!.executor": "Run",
     "Python.Задача 1. Склады.executor": "Run",
     "Python.Задача 1. Словарь квадратов чисел.executor": "Run",
+    "Python.Задача 1. Создание кортежей.executor": "Run",
     "Python.Задача 1. Список чётных чисел.executor": "Run",
     "Python.Задача 1. Шифр Цезаря 2.executor": "Run",
     "Python.Задача 2. Вредоносное ПО.executor": "Run",
@@ -106,17 +111,21 @@
     "Python.Задача 2. Олимпиада.executor": "Debug",
     "Python.Задача 2. Путь к файлу.executor": "Run",
     "Python.Задача 2. Семинар.executor": "Run",
+    "Python.Задача 2. Словари из списков.executor": "Run",
     "Python.Задача 2. Срезы.executor": "Run",
     "Python.Задача 2. Студент.executor": "Run",
+    "Python.Задача 2. Цилиндр.executor": "Run",
     "Python.Задача 3. IP-адрес.executor": "Run",
     "Python.Задача 3. Гистограмма частоты.executor": "Run",
     "Python.Задача 3. Контакты.executor": "Run",
     "Python.Задача 3. Лавка.executor": "Run",
+    "Python.Задача 3. Неправильный код.executor": "Run",
     "Python.Задача 3. Отряды.executor": "Run",
     "Python.Задача 3. Пакеты.executor": "Run",
     "Python.Задача 3. Различные цифры.executor": "Debug",
     "Python.Задача 3. Удаление части.executor": "Run",
     "Python.Задача 3. Улучшенная лингвистика.executor": "Run",
+    "Python.Задача 3. Универсальная программа.executor": "Run",
     "Python.Задача. Деление строки.executor": "Run",
     "Python.Задача. Детали.executor": "Run",
     "Python.Задача. Журнал посещений.executor": "Run",
@@ -316,7 +325,39 @@
       <option name="project" value="LOCAL" />
       <updated>1713101436707</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Закончил Практическая работа module 6">
+      <option name="closed" value="true" />
+      <created>1713293118854</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1713293118854</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Закончил Практическая работа module 6">
+      <option name="closed" value="true" />
+      <created>1713293216034</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1713293216034</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Закончил Практическая работа module 6">
+      <option name="closed" value="true" />
+      <created>1713293231196</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1713293231196</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Merge remote-tracking branch 'origin/dev' into dev&#10;&#10;# Conflicts:&#10;#&#9;lessons/Modules/module6/Задание 5. Словарь синонимов.py&#10;#&#9;lessons/Modules/module6/Задание 6. Пицца.py&#10;#&#9;lessons/Modules/module6/Задание 8. Снова палиндром.py">
+      <option name="closed" value="true" />
+      <created>1713293380674</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1713293380674</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -362,7 +403,9 @@
     <MESSAGE value="Модуль 6. Закончил 6.3, 6.4" />
     <MESSAGE value="Модуль 6. Закончил 6.5. Начал практическую работу module 6. Сделал 1-3" />
     <MESSAGE value="Практическая работа module 6. Сделал 4." />
-    <option name="LAST_COMMIT_MESSAGE" value="Практическая работа module 6. Сделал 4." />
+    <MESSAGE value="Закончил Практическая работа module 6" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/dev' into dev&#10;&#10;# Conflicts:&#10;#&#9;lessons/Modules/module6/Задание 5. Словарь синонимов.py&#10;#&#9;lessons/Modules/module6/Задание 6. Пицца.py&#10;#&#9;lessons/Modules/module6/Задание 8. Снова палиндром.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/dev' into dev&#10;&#10;# Conflicts:&#10;#&#9;lessons/Modules/module6/Задание 5. Словарь синонимов.py&#10;#&#9;lessons/Modules/module6/Задание 6. Пицца.py&#10;#&#9;lessons/Modules/module6/Задание 8. Снова палиндром.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -383,19 +426,34 @@
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lessons/Draft.py</url>
-          <line>4</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lessons/Draft2.py</url>
           <line>1</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lessons/Modules/module6/Задание 8. Снова палиндром.py</url>
-          <line>34</line>
+          <line>35</line>
           <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/Draft3.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/7. Базовые коллекции. Кортежи/7.2 Кортежи/Задача 2. Цилиндр.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/Draft.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/7. Базовые коллекции. Кортежи/7.3 Функция enumerate. Перебор нескольких значений/Задача 2. Словари из списков.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="62" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
