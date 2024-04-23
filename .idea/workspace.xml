@@ -4,16 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="Merge remote-tracking branch 'origin/dev' into dev&#10;&#10;# Conflicts:&#10;#&#9;lessons/Modules/module6/Задание 5. Словарь синонимов.py&#10;#&#9;lessons/Modules/module6/Задание 6. Пицца.py&#10;#&#9;lessons/Modules/module6/Задание 8. Снова палиндром.py">
-      <change afterPath="$PROJECT_DIR$/lessons/7. Базовые коллекции. Кортежи/7.2 Кортежи/Задача 1. Создание кортежей.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/7. Базовые коллекции. Кортежи/7.2 Кортежи/Задача 2. Цилиндр.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/7. Базовые коллекции. Кортежи/7.2 Кортежи/Задача 3. Неправильный код.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/7. Базовые коллекции. Кортежи/7.3 Функция enumerate. Перебор нескольких значений/Задача 1. Саботаж!.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/7. Базовые коллекции. Кортежи/7.3 Функция enumerate. Перебор нескольких значений/Задача 2. Словари из списков.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/7. Базовые коллекции. Кортежи/7.3 Функция enumerate. Перебор нескольких значений/Задача 3. Универсальная программа.py" afterDir="false" />
+    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="Начал Модуль 7. Сделал 7.2, 7.3">
+      <change afterPath="$PROJECT_DIR$/lessons/7. Базовые коллекции. Кортежи/7.4 Перебор ключей и значений в словаре. Метод items/Задача 1. Кризис миновал.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/7. Базовые коллекции. Кортежи/7.4 Перебор ключей и значений в словаре. Метод items/Задача 2. Сервер.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/7. Базовые коллекции. Кортежи/7.4 Перебор ключей и значений в словаре. Метод items/Задача 3. В одну строчку.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/7. Базовые коллекции. Кортежи/7.5 Составные ключи/Задача 1. Паспортные данные.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/7. Базовые коллекции. Кортежи/7.5 Составные ключи/Задача 2. Контакты 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/7. Базовые коллекции. Кортежи/7.6 Функция zip/Задача.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module7/Задача 1. Ревью кода.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module7/Задача 2. Универсальная программа.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module7/Задача 3. Игроки.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module7/Задача 4. По парам.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module7/Задача 5. Функция сортировки.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module7/Задача 6. Контакты 3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module7/Задача 7. Своя функция Zip.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lessons/Draft.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Draft3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +68,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.Draft.executor": "Run",
+    "Python.Draft.executor": "Debug",
     "Python.Draft2.executor": "Debug",
     "Python.Draft3.executor": "Run",
     "Python.Задание 1. Гласные буквы.executor": "Run",
@@ -97,6 +103,7 @@
     "Python.Задача 1. Задачи компаний.executor": "Run",
     "Python.Задача 1. Заказ фруктов.executor": "Run",
     "Python.Задача 1. Заказ.executor": "Run",
+    "Python.Задача 1. Ревью кода.executor": "Run",
     "Python.Задача 1. Саботаж!.executor": "Run",
     "Python.Задача 1. Склады.executor": "Run",
     "Python.Задача 1. Словарь квадратов чисел.executor": "Run",
@@ -114,6 +121,7 @@
     "Python.Задача 2. Словари из списков.executor": "Run",
     "Python.Задача 2. Срезы.executor": "Run",
     "Python.Задача 2. Студент.executor": "Run",
+    "Python.Задача 2. Универсальная программа.executor": "Run",
     "Python.Задача 2. Цилиндр.executor": "Run",
     "Python.Задача 3. IP-адрес.executor": "Run",
     "Python.Задача 3. Гистограмма частоты.executor": "Run",
@@ -126,6 +134,10 @@
     "Python.Задача 3. Удаление части.executor": "Run",
     "Python.Задача 3. Улучшенная лингвистика.executor": "Run",
     "Python.Задача 3. Универсальная программа.executor": "Run",
+    "Python.Задача 4. По парам.executor": "Run",
+    "Python.Задача 5. Функция сортировки.executor": "Run",
+    "Python.Задача 6. Контакты 3.executor": "Debug",
+    "Python.Задача 7. Своя функция Zip.executor": "Run",
     "Python.Задача. Деление строки.executor": "Run",
     "Python.Задача. Детали.executor": "Run",
     "Python.Задача. Журнал посещений.executor": "Run",
@@ -357,7 +369,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713293380674</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Начал Модуль 7. Сделал 7.2, 7.3">
+      <option name="closed" value="true" />
+      <created>1713365684423</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1713365684423</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -405,7 +425,8 @@
     <MESSAGE value="Практическая работа module 6. Сделал 4." />
     <MESSAGE value="Закончил Практическая работа module 6" />
     <MESSAGE value="Merge remote-tracking branch 'origin/dev' into dev&#10;&#10;# Conflicts:&#10;#&#9;lessons/Modules/module6/Задание 5. Словарь синонимов.py&#10;#&#9;lessons/Modules/module6/Задание 6. Пицца.py&#10;#&#9;lessons/Modules/module6/Задание 8. Снова палиндром.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/dev' into dev&#10;&#10;# Conflicts:&#10;#&#9;lessons/Modules/module6/Задание 5. Словарь синонимов.py&#10;#&#9;lessons/Modules/module6/Задание 6. Пицца.py&#10;#&#9;lessons/Modules/module6/Задание 8. Снова палиндром.py" />
+    <MESSAGE value="Начал Модуль 7. Сделал 7.2, 7.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Начал Модуль 7. Сделал 7.2, 7.3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -446,14 +467,19 @@
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lessons/Draft.py</url>
-          <line>1</line>
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lessons/7. Базовые коллекции. Кортежи/7.3 Функция enumerate. Перебор нескольких значений/Задача 2. Словари из списков.py</url>
           <line>19</line>
           <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/Draft.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/Modules/module7/Задача 5. Функция сортировки.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="69" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
