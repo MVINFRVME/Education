@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="Начал Модуль 7. Сделал 7.2, 7.3">
-      <change afterPath="$PROJECT_DIR$/lessons/7. Базовые коллекции. Кортежи/7.4 Перебор ключей и значений в словаре. Метод items/Задача 1. Кризис миновал.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/7. Базовые коллекции. Кортежи/7.4 Перебор ключей и значений в словаре. Метод items/Задача 2. Сервер.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/7. Базовые коллекции. Кортежи/7.4 Перебор ключей и значений в словаре. Метод items/Задача 3. В одну строчку.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/7. Базовые коллекции. Кортежи/7.5 Составные ключи/Задача 1. Паспортные данные.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/7. Базовые коллекции. Кортежи/7.5 Составные ключи/Задача 2. Контакты 2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/7. Базовые коллекции. Кортежи/7.6 Функция zip/Задача.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module7/Задача 1. Ревью кода.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module7/Задача 2. Универсальная программа.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module7/Задача 3. Игроки.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module7/Задача 4. По парам.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module7/Задача 5. Функция сортировки.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module7/Задача 6. Контакты 3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module7/Задача 7. Своя функция Zip.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Draft.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft.py" afterDir="false" />
-    </list>
+    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="Закончил Практическую работу module 7" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -377,7 +361,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713365684423</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Закончил Практическую работу module 7">
+      <option name="closed" value="true" />
+      <created>1713867196005</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1713867196006</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -426,7 +418,8 @@
     <MESSAGE value="Закончил Практическая работа module 6" />
     <MESSAGE value="Merge remote-tracking branch 'origin/dev' into dev&#10;&#10;# Conflicts:&#10;#&#9;lessons/Modules/module6/Задание 5. Словарь синонимов.py&#10;#&#9;lessons/Modules/module6/Задание 6. Пицца.py&#10;#&#9;lessons/Modules/module6/Задание 8. Снова палиндром.py" />
     <MESSAGE value="Начал Модуль 7. Сделал 7.2, 7.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Начал Модуль 7. Сделал 7.2, 7.3" />
+    <MESSAGE value="Закончил Практическую работу module 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Закончил Практическую работу module 7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
