@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="Закончил Практическую работу module 7" />
+    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="Начал модуль 8. Закончил 8.2">
+      <change afterPath="$PROJECT_DIR$/lessons/8. Функции. Рекурсия/8.4 Передача изменяемых и неизменяемых данных в функцию/Задача 2. Непонятно!.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Draft.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,9 +56,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.Draft.executor": "Debug",
+    "Python.Draft.executor": "Run",
     "Python.Draft2.executor": "Debug",
-    "Python.Draft3.executor": "Run",
+    "Python.Draft3.executor": "Debug",
     "Python.Задание 1. Гласные буквы.executor": "Run",
     "Python.Задание 1. Меню ресторана.executor": "Run",
     "Python.Задание 2. Криптовалюта.executor": "Run",
@@ -83,10 +87,12 @@
     "Python.Задание 8. Снова палиндром.executor": "Run",
     "Python.Задание 8. Шифр Цезаря.executor": "Debug",
     "Python.Задание 9. Анализ комментариев.executor": "Run",
+    "Python.Задача 1. Challege.executor": "Debug",
     "Python.Задача 1. Анализ цен.executor": "Run",
     "Python.Задача 1. Задачи компаний.executor": "Run",
     "Python.Задача 1. Заказ фруктов.executor": "Run",
     "Python.Задача 1. Заказ.executor": "Run",
+    "Python.Задача 1. Ошибка.executor": "Debug",
     "Python.Задача 1. Ревью кода.executor": "Run",
     "Python.Задача 1. Саботаж!.executor": "Run",
     "Python.Задача 1. Склады.executor": "Run",
@@ -99,11 +105,13 @@
     "Python.Задача 2. Игроки.executor": "Run",
     "Python.Задача 2. Кризис фруктов.executor": "Run",
     "Python.Задача 2. Магазин.executor": "Run",
+    "Python.Задача 2. Непонятно!.executor": "Run",
     "Python.Задача 2. Олимпиада.executor": "Debug",
     "Python.Задача 2. Путь к файлу.executor": "Run",
     "Python.Задача 2. Семинар.executor": "Run",
     "Python.Задача 2. Словари из списков.executor": "Run",
     "Python.Задача 2. Срезы.executor": "Run",
+    "Python.Задача 2. Степень числа.executor": "Debug",
     "Python.Задача 2. Студент.executor": "Run",
     "Python.Задача 2. Универсальная программа.executor": "Run",
     "Python.Задача 2. Цилиндр.executor": "Run",
@@ -114,6 +122,7 @@
     "Python.Задача 3. Неправильный код.executor": "Run",
     "Python.Задача 3. Отряды.executor": "Run",
     "Python.Задача 3. Пакеты.executor": "Run",
+    "Python.Задача 3. Поиск элемента.executor": "Debug",
     "Python.Задача 3. Различные цифры.executor": "Debug",
     "Python.Задача 3. Удаление части.executor": "Run",
     "Python.Задача 3. Улучшенная лингвистика.executor": "Run",
@@ -144,6 +153,58 @@
       <recent name="F:\Education\lessons\3. Методы для работы со списками" />
       <recent name="F:\Education\lessons" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Draft2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Education" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lessons" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lessons/Draft2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Draft3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Education" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lessons" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lessons/Draft3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Draft2" />
+        <item itemvalue="Python.Draft3" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -369,7 +430,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713867196006</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Закончил Практическую работу module 7">
+      <option name="closed" value="true" />
+      <created>1713867226232</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1713867226232</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Начал модуль 8. Закончил 8.2">
+      <option name="closed" value="true" />
+      <created>1714053268830</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1714053268831</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -419,7 +496,8 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/dev' into dev&#10;&#10;# Conflicts:&#10;#&#9;lessons/Modules/module6/Задание 5. Словарь синонимов.py&#10;#&#9;lessons/Modules/module6/Задание 6. Пицца.py&#10;#&#9;lessons/Modules/module6/Задание 8. Снова палиндром.py" />
     <MESSAGE value="Начал Модуль 7. Сделал 7.2, 7.3" />
     <MESSAGE value="Закончил Практическую работу module 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Закончил Практическую работу module 7" />
+    <MESSAGE value="Начал модуль 8. Закончил 8.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Начал модуль 8. Закончил 8.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -440,19 +518,9 @@
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lessons/Draft2.py</url>
-          <line>1</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lessons/Modules/module6/Задание 8. Снова палиндром.py</url>
           <line>35</line>
           <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lessons/Draft3.py</url>
-          <line>2</line>
-          <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lessons/7. Базовые коллекции. Кортежи/7.2 Кортежи/Задача 2. Цилиндр.py</url>
@@ -465,14 +533,34 @@
           <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lessons/Draft.py</url>
-          <line>3</line>
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lessons/Modules/module7/Задача 5. Функция сортировки.py</url>
           <line>17</line>
           <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/Draft2.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/8. Функции. Рекурсия/8.2 Рекурсия/Задача 1. Challege.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/8. Функции. Рекурсия/8.2 Рекурсия/Задача 2. Степень числа.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/8. Функции. Рекурсия/8.2 Рекурсия/Задача 3. Поиск элемента.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/8. Функции. Рекурсия/8.4 Передача изменяемых и неизменяемых данных в функцию/Задача 1. Ошибка.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="91" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
