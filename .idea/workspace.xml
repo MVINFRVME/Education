@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="Закончил 8.4">
+    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="Закончил 8.6">
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module8/Задача 1. Challenge - 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module8/Задача 2. Поиск элемента -2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module8/Задача 3. Глубокое копирование.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module8/Задача 4. Продвинутая функция sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module8/Задача 5. Список списков — 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module8/Задача 6. Быстрая сортировка.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Draft3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +64,7 @@
     "Python.Draft.executor": "Run",
     "Python.Draft2.executor": "Debug",
     "Python.Draft3.executor": "Debug",
+    "Python.parse.executor": "Debug",
     "Python.Задание 1. Гласные буквы.executor": "Run",
     "Python.Задание 1. Меню ресторана.executor": "Run",
     "Python.Задание 2. Криптовалюта.executor": "Run",
@@ -86,6 +94,7 @@
     "Python.Задание 8. Шифр Цезаря.executor": "Debug",
     "Python.Задание 9. Анализ комментариев.executor": "Run",
     "Python.Задача 1. Challege.executor": "Debug",
+    "Python.Задача 1. Challenge - 2.executor": "Debug",
     "Python.Задача 1. Анализ цен.executor": "Run",
     "Python.Задача 1. Задачи компаний.executor": "Run",
     "Python.Задача 1. Заказ фруктов.executor": "Run",
@@ -105,6 +114,7 @@
     "Python.Задача 2. Магазин.executor": "Run",
     "Python.Задача 2. Непонятно!.executor": "Run",
     "Python.Задача 2. Олимпиада.executor": "Debug",
+    "Python.Задача 2. Поиск элемента -2.executor": "Run",
     "Python.Задача 2. Путь к файлу.executor": "Run",
     "Python.Задача 2. Семинар.executor": "Run",
     "Python.Задача 2. Словари из списков.executor": "Run",
@@ -115,6 +125,7 @@
     "Python.Задача 2. Цилиндр.executor": "Run",
     "Python.Задача 3. IP-адрес.executor": "Run",
     "Python.Задача 3. Гистограмма частоты.executor": "Run",
+    "Python.Задача 3. Глубокое копирование.executor": "Run",
     "Python.Задача 3. Контакты.executor": "Run",
     "Python.Задача 3. Лавка.executor": "Run",
     "Python.Задача 3. Неправильный код.executor": "Run",
@@ -126,7 +137,10 @@
     "Python.Задача 3. Удаление части.executor": "Run",
     "Python.Задача 3. Улучшенная лингвистика.executor": "Run",
     "Python.Задача 3. Универсальная программа.executor": "Run",
+    "Python.Задача 3..executor": "Debug",
     "Python.Задача 4. По парам.executor": "Run",
+    "Python.Задача 4. Продвинутая функция sum.executor": "Debug",
+    "Python.Задача 5. Список списков — 2.executor": "Debug",
     "Python.Задача 5. Функция сортировки.executor": "Run",
     "Python.Задача 6. Контакты 3.executor": "Debug",
     "Python.Задача 7. Своя функция Zip.executor": "Run",
@@ -134,6 +148,7 @@
     "Python.Задача. Детали.executor": "Run",
     "Python.Задача. Журнал посещений.executor": "Run",
     "Python.Задача.executor": "Run",
+    "Python.Калькулятор дистанции.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -152,58 +167,6 @@
       <recent name="F:\Education\lessons\3. Методы для работы со списками" />
       <recent name="F:\Education\lessons" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="Draft2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Education" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lessons" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lessons/Draft2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Draft3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Education" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lessons" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lessons/Draft3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.Draft2" />
-        <item itemvalue="Python.Draft3" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -453,7 +416,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714145980825</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Закончил 8.4">
+      <option name="closed" value="true" />
+      <created>1714317482862</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1714317482862</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Закончил 8.6">
+      <option name="closed" value="true" />
+      <created>1714317506240</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1714317506240</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -480,7 +459,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial" />
     <MESSAGE value="Прошел урок 3.3 и решил задачи" />
     <MESSAGE value="Прошел урок 3.4 и решил задачи. Начал практическую работу модуль 3." />
     <MESSAGE value="Решены задачи 1 - 6 в практической работе модуль 3." />
@@ -505,7 +483,8 @@
     <MESSAGE value="Закончил Практическую работу module 7" />
     <MESSAGE value="Начал модуль 8. Закончил 8.2" />
     <MESSAGE value="Закончил 8.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Закончил 8.4" />
+    <MESSAGE value="Закончил 8.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Закончил 8.6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -569,6 +548,36 @@
           <url>file://$PROJECT_DIR$/lessons/8. Функции. Рекурсия/8.4 Передача изменяемых и неизменяемых данных в функцию/Задача 1. Ошибка.py</url>
           <line>12</line>
           <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/Modules/module8/Задача 1. Challenge - 2.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/Modules/module8/Задача 3. Глубокое копирование</url>
+          <line>2</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/Modules/module8/Задача 2. Поиск элемента -2.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/Modules/module8/Задача 4. Продвинутая функция sum.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/Modules/module8/Задача 5. Список списков — 2.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/Draft3.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="118" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
