@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="Закончил 8.6">
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module8/Задача 1. Challenge - 2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module8/Задача 2. Поиск элемента -2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module8/Задача 3. Глубокое копирование.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module8/Задача 4. Продвинутая функция sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module8/Задача 5. Список списков — 2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module8/Задача 6. Быстрая сортировка.py" afterDir="false" />
+    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="Finished 8 module Practice Work.">
+      <change afterPath="$PROJECT_DIR$/lessons/3. Методы для работы со списками/3.2 Работа со списками. методы insert, remove, index/Draft4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/9. Работа с файлами/9.1 Модуль os. генерация путей и метод listdir/Задача 1. Сисадмин.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/9. Работа с файлами/9.1 Модуль os. генерация путей и метод listdir/Задача 2. Содержимое.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/9. Работа с файлами/9.1 Модуль os. генерация путей и метод listdir/Задача 3. Корень диска.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/9. Работа с файлами/9.2 Модуль os. проверки/Задача 1. Иконки.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/9. Работа с файлами/9.2 Модуль os. проверки/Задача 2. Поиск файла.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/9. Работа с файлами/9.3 Базовые операции с файлами. open, close, read/Задача 1. Результаты.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/9. Работа с файлами/9.3 Базовые операции с файлами. open, close, read/Задача 2. Поиск файла 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test dir/shrek" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Draft.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lessons/Draft3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +65,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.Draft.executor": "Run",
+    "Python.Draft.executor": "Debug",
     "Python.Draft2.executor": "Debug",
     "Python.Draft3.executor": "Debug",
     "Python.parse.executor": "Debug",
@@ -99,9 +103,12 @@
     "Python.Задача 1. Задачи компаний.executor": "Run",
     "Python.Задача 1. Заказ фруктов.executor": "Run",
     "Python.Задача 1. Заказ.executor": "Run",
+    "Python.Задача 1. Иконки.executor": "Run",
     "Python.Задача 1. Ошибка.executor": "Debug",
     "Python.Задача 1. Ревью кода.executor": "Run",
+    "Python.Задача 1. Результаты.executor": "Debug",
     "Python.Задача 1. Саботаж!.executor": "Run",
+    "Python.Задача 1. Сисадмин.executor": "Run",
     "Python.Задача 1. Склады.executor": "Run",
     "Python.Задача 1. Словарь квадратов чисел.executor": "Run",
     "Python.Задача 1. Создание кортежей.executor": "Run",
@@ -114,10 +121,13 @@
     "Python.Задача 2. Магазин.executor": "Run",
     "Python.Задача 2. Непонятно!.executor": "Run",
     "Python.Задача 2. Олимпиада.executor": "Debug",
+    "Python.Задача 2. Поиск файла 2.executor": "Debug",
+    "Python.Задача 2. Поиск файла.executor": "Run",
     "Python.Задача 2. Поиск элемента -2.executor": "Run",
     "Python.Задача 2. Путь к файлу.executor": "Run",
     "Python.Задача 2. Семинар.executor": "Run",
     "Python.Задача 2. Словари из списков.executor": "Run",
+    "Python.Задача 2. Содержимое.executor": "Run",
     "Python.Задача 2. Срезы.executor": "Run",
     "Python.Задача 2. Степень числа.executor": "Debug",
     "Python.Задача 2. Студент.executor": "Run",
@@ -127,6 +137,7 @@
     "Python.Задача 3. Гистограмма частоты.executor": "Run",
     "Python.Задача 3. Глубокое копирование.executor": "Run",
     "Python.Задача 3. Контакты.executor": "Run",
+    "Python.Задача 3. Корень диска.executor": "Run",
     "Python.Задача 3. Лавка.executor": "Run",
     "Python.Задача 3. Неправильный код.executor": "Run",
     "Python.Задача 3. Отряды.executor": "Run",
@@ -432,7 +443,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714317506240</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Finished 8 module Practice Work.">
+      <option name="closed" value="true" />
+      <created>1714927748395</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1714927748395</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -459,7 +478,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Прошел урок 3.3 и решил задачи" />
     <MESSAGE value="Прошел урок 3.4 и решил задачи. Начал практическую работу модуль 3." />
     <MESSAGE value="Решены задачи 1 - 6 в практической работе модуль 3." />
     <MESSAGE value="Решены задачи 7 - 8 в практической работе модуль 3." />
@@ -484,7 +502,8 @@
     <MESSAGE value="Начал модуль 8. Закончил 8.2" />
     <MESSAGE value="Закончил 8.4" />
     <MESSAGE value="Закончил 8.6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Закончил 8.6" />
+    <MESSAGE value="Finished 8 module Practice Work." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished 8 module Practice Work." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -575,9 +594,29 @@
           <option name="timeStamp" value="114" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/9. Работа с файлами/9.1 Модуль os. генерация путей и метод listdir/Задача 2. Содержимое.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lessons/Draft3.py</url>
-          <line>1</line>
-          <option name="timeStamp" value="118" />
+          <line>4</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/9. Работа с файлами/9.2 Модуль os. проверки/Задача 2. Поиск файла.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/9. Работа с файлами/9.3 Базовые операции с файлами. open, close, read/Задача 1. Результаты.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/9. Работа с файлами/9.3 Базовые операции с файлами. open, close, read/Задача 2. Поиск файла 2.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="135" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
