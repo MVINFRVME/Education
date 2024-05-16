@@ -4,18 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="Finished 8 module Practice Work.">
-      <change afterPath="$PROJECT_DIR$/lessons/3. Методы для работы со списками/3.2 Работа со списками. методы insert, remove, index/Draft4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/9. Работа с файлами/9.1 Модуль os. генерация путей и метод listdir/Задача 1. Сисадмин.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/9. Работа с файлами/9.1 Модуль os. генерация путей и метод listdir/Задача 2. Содержимое.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/9. Работа с файлами/9.1 Модуль os. генерация путей и метод listdir/Задача 3. Корень диска.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/9. Работа с файлами/9.2 Модуль os. проверки/Задача 1. Иконки.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/9. Работа с файлами/9.2 Модуль os. проверки/Задача 2. Поиск файла.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/9. Работа с файлами/9.3 Базовые операции с файлами. open, close, read/Задача 1. Результаты.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/9. Работа с файлами/9.3 Базовые операции с файлами. open, close, read/Задача 2. Поиск файла 2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test dir/shrek" afterDir="false" />
+    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="working at module 9. done 9.1, 9.2, 9.3">
+      <change afterPath="$PROJECT_DIR$/lessons/9. Работа с файлами/9.4 Метод write. Режимы записи/numbers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/9. Работа с файлами/9.4 Метод write. Режимы записи/Задача 1. Сумма чисел.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/9. Работа с файлами/9.4 Метод write. Режимы записи/Задача 2. Всё в одном.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module9/first_tour.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module9/numbers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module9/text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module9/zen.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module9/Задача 1. Сумма чисел 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module9/Задача 2. Дзен Пайтона.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module9/Задача 3. Файлы и папки.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module9/Задача 4. Турнир.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module9/Задача 5. Частотный анализ.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Draft.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/9. Работа с файлами/9.3 Базовые операции с файлами. open, close, read/Задача 2. Поиск файла 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/9. Работа с файлами/9.3 Базовые операции с файлами. open, close, read/Задача 2. Поиск файла 2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lessons/Draft3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,15 +116,19 @@
     "Python.Задача 1. Словарь квадратов чисел.executor": "Run",
     "Python.Задача 1. Создание кортежей.executor": "Run",
     "Python.Задача 1. Список чётных чисел.executor": "Run",
+    "Python.Задача 1. Сумма чисел 2.executor": "Run",
+    "Python.Задача 1. Сумма чисел.executor": "Run",
     "Python.Задача 1. Шифр Цезаря 2.executor": "Run",
     "Python.Задача 2. Вредоносное ПО.executor": "Run",
+    "Python.Задача 2. Всё в одном.executor": "Run",
+    "Python.Задача 2. Дзен Пайтона.executor": "Run",
     "Python.Задача 2. Долги.executor": "Run",
     "Python.Задача 2. Игроки.executor": "Run",
     "Python.Задача 2. Кризис фруктов.executor": "Run",
     "Python.Задача 2. Магазин.executor": "Run",
     "Python.Задача 2. Непонятно!.executor": "Run",
     "Python.Задача 2. Олимпиада.executor": "Debug",
-    "Python.Задача 2. Поиск файла 2.executor": "Debug",
+    "Python.Задача 2. Поиск файла 2.executor": "Run",
     "Python.Задача 2. Поиск файла.executor": "Run",
     "Python.Задача 2. Поиск элемента -2.executor": "Run",
     "Python.Задача 2. Путь к файлу.executor": "Run",
@@ -148,11 +155,13 @@
     "Python.Задача 3. Удаление части.executor": "Run",
     "Python.Задача 3. Улучшенная лингвистика.executor": "Run",
     "Python.Задача 3. Универсальная программа.executor": "Run",
+    "Python.Задача 3. Файлы и папки.executor": "Run",
     "Python.Задача 3..executor": "Debug",
     "Python.Задача 4. По парам.executor": "Run",
     "Python.Задача 4. Продвинутая функция sum.executor": "Debug",
     "Python.Задача 5. Список списков — 2.executor": "Debug",
     "Python.Задача 5. Функция сортировки.executor": "Run",
+    "Python.Задача 5. Частотный анализ.executor": "Debug",
     "Python.Задача 6. Контакты 3.executor": "Debug",
     "Python.Задача 7. Своя функция Zip.executor": "Run",
     "Python.Задача. Деление строки.executor": "Run",
@@ -451,7 +460,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714927748395</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="working at module 9. done 9.1, 9.2, 9.3">
+      <option name="closed" value="true" />
+      <created>1715535815927</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1715535815927</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -478,7 +495,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Прошел урок 3.4 и решил задачи. Начал практическую работу модуль 3." />
     <MESSAGE value="Решены задачи 1 - 6 в практической работе модуль 3." />
     <MESSAGE value="Решены задачи 7 - 8 в практической работе модуль 3." />
     <MESSAGE value="Начат модуль 4. Пройден 4.2, 4.3" />
@@ -503,7 +519,8 @@
     <MESSAGE value="Закончил 8.4" />
     <MESSAGE value="Закончил 8.6" />
     <MESSAGE value="Finished 8 module Practice Work." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished 8 module Practice Work." />
+    <MESSAGE value="working at module 9. done 9.1, 9.2, 9.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="working at module 9. done 9.1, 9.2, 9.3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -542,11 +559,6 @@
           <url>file://$PROJECT_DIR$/lessons/Modules/module7/Задача 5. Функция сортировки.py</url>
           <line>17</line>
           <option name="timeStamp" value="69" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lessons/Draft2.py</url>
-          <line>1</line>
-          <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lessons/8. Функции. Рекурсия/8.2 Рекурсия/Задача 1. Challege.py</url>
@@ -615,8 +627,43 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lessons/9. Работа с файлами/9.3 Базовые операции с файлами. open, close, read/Задача 2. Поиск файла 2.py</url>
-          <line>24</line>
-          <option name="timeStamp" value="135" />
+          <line>13</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/Draft2.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/9. Работа с файлами/9.4 Метод write. Режимы записи/Задача 1. Сумма чисел.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/9. Работа с файлами/9.4 Метод write. Режимы записи/Задача 2. Всё в одном.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/9. Работа с файлами/9.4 Метод write. Режимы записи/Задача 2. Всё в одном.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/9. Работа с файлами/9.4 Метод write. Режимы записи/Задача 2. Всё в одном.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/Modules/module9/Задача 1. Сумма чисел 2.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/Modules/module9/Задача 5. Частотный анализ.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="154" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

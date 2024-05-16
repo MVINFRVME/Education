@@ -10,8 +10,8 @@ import os
 import random
 
 
-def find_file(cur_path, files):
-    paths = []
+def find_file(cur_path, files, paths=None):
+    paths = paths or []
     for i_elem in os.listdir(cur_path):
         path = os.path.join(cur_path, i_elem)
         if i_elem in files:
