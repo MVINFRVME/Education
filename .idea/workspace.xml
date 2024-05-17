@@ -4,22 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="working at module 9. done 9.1, 9.2, 9.3">
-      <change afterPath="$PROJECT_DIR$/lessons/9. Работа с файлами/9.4 Метод write. Режимы записи/numbers.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/9. Работа с файлами/9.4 Метод write. Режимы записи/Задача 1. Сумма чисел.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/9. Работа с файлами/9.4 Метод write. Режимы записи/Задача 2. Всё в одном.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module9/first_tour.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module9/numbers.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module9/text.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module9/zen.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module9/Задача 1. Сумма чисел 2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module9/Задача 2. Дзен Пайтона.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module9/Задача 3. Файлы и папки.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module9/Задача 4. Турнир.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module9/Задача 5. Частотный анализ.py" afterDir="false" />
+    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="module 9 done. started practice work module 9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/9. Работа с файлами/9.3 Базовые операции с файлами. open, close, read/Задача 2. Поиск файла 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/9. Работа с файлами/9.3 Базовые операции с файлами. open, close, read/Задача 2. Поиск файла 2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Draft3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Modules/module9/Задача 6. Война и мир.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module9/Задача 6. Война и мир.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,6 +149,7 @@
     "Python.Задача 5. Список списков — 2.executor": "Debug",
     "Python.Задача 5. Функция сортировки.executor": "Run",
     "Python.Задача 5. Частотный анализ.executor": "Debug",
+    "Python.Задача 6. Война и мир.executor": "Run",
     "Python.Задача 6. Контакты 3.executor": "Debug",
     "Python.Задача 7. Своя функция Zip.executor": "Run",
     "Python.Задача. Деление строки.executor": "Run",
@@ -468,7 +456,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715535815927</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="module 9 done. started practice work module 9">
+      <option name="closed" value="true" />
+      <created>1715865365721</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1715865365721</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -495,7 +491,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Решены задачи 1 - 6 в практической работе модуль 3." />
     <MESSAGE value="Решены задачи 7 - 8 в практической работе модуль 3." />
     <MESSAGE value="Начат модуль 4. Пройден 4.2, 4.3" />
     <MESSAGE value="Закончил модуль 4." />
@@ -520,7 +515,8 @@
     <MESSAGE value="Закончил 8.6" />
     <MESSAGE value="Finished 8 module Practice Work." />
     <MESSAGE value="working at module 9. done 9.1, 9.2, 9.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="working at module 9. done 9.1, 9.2, 9.3" />
+    <MESSAGE value="module 9 done. started practice work module 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="module 9 done. started practice work module 9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -664,6 +660,11 @@
           <url>file://$PROJECT_DIR$/lessons/Modules/module9/Задача 5. Частотный анализ.py</url>
           <line>47</line>
           <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/Modules/module9/Задача 6. Война и мир.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="155" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

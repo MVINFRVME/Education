@@ -1,0 +1,88 @@
+20
+****************************************
+1
+2
+3
+4
+10
+****************************************
+# Задача 1. Сумма чисел
+# Во входном файле numbers.txt записано N целых чисел, каждое в отдельной строке. Напишите программу, которая выводит их
+# сумму в выходной файл answer.txt.
+
+# Пример:
+# Содержимое файла numbers.txt:
+# 1
+# 2
+# 3
+# 4
+# 10
+
+# Содержимое файла answer.txt
+# 20
+
+import os
+
+
+numbers_file = open('numbers.txt', 'r')
+summ = 0
+
+print('Содержимое файла numbers.txt:')
+for i_line in numbers_file:
+    print(i_line, end='')
+    clear_line = i_line.rstrip()
+    summ += int(clear_line)
+numbers_file.close()
+
+answer_file = open('answer.txt', 'w')
+answer_file.write(str(summ))
+answer_file.close()
+
+answer_file = open('answer.txt', 'r')
+print(f'\n\nСодержимое файла answer.txt:'
+      f'\n{answer_file.read()}')
+answer_file.close()
+
+****************************************
+# Задача 2. Всё в одном
+# Ваш друг, который тоже проходит курс Python Basic, поехал с ноутбуком в другой город, и там у него случилась беда:
+# его диск пришлось отформатировать, а доступ в интернет отсутствует. Остался только телефон с мобильным интернетом.
+# Так как со связью (и с памятью) проблемы, друг попросил вас скинуть одним файлом все решения и скрипты, которые у вас
+# сейчас есть.
+
+# Напишите программу, которая копирует код каждого скрипта в папке проекта python_basic в файл scripts.txt, разделяя код
+# строкой из 40 символов *.
+# ****************************************
+
+import os
+
+
+def find_file(cur_path, paths=None):
+    paths = paths or []
+    for i_elem in os.listdir(cur_path):
+        path = os.path.abspath(os.path.join(cur_path, i_elem))
+        if os.path.isfile(path):
+            paths.append(path)
+        else:
+            paths.extend(find_file(path))
+    return paths
+
+
+def get_text(paths):
+    script_file = open('scripts.txt', 'a', encoding='utf-8')
+    for path in paths:
+        text_file = open(path, 'r', encoding='utf-8')
+        text = text_file.read()
+        script_file.write(text)
+        script_file.write('\n****************************************\n')
+        text_file.close()
+
+    script_file.close()
+
+
+my_path = os.path.abspath(os.path.join('.'))
+file_paths = find_file(my_path)
+get_text(file_paths)
+
+
+****************************************

@@ -9,3 +9,24 @@
 # (можно использовать и другой модуль) и попробовать написать код, который будет распаковывать архив за вас.
 # https://docs.python.org/3/library/zipfile.html
 
+import zipfile
+
+
+with zipfile.ZipFile('Ohlobystin_Musorshchik.zip', 'r') as myzip:
+    myzip.extractall()
+
+chars = {}
+text_file = open('Ohlobystin_Musorshchik_RuLit_Me.txt', 'r', encoding='utf-8')
+
+for line in text_file:
+    for sym in line:
+        if sym.isalpha():
+            if sym in chars:
+                chars[sym] += 1
+            else:
+                chars[sym] = 0
+
+sorted_chars = sorted(chars.items(), reverse=True, key=lambda x: x[1])
+
+for char_info in sorted_chars:
+    print(char_info[0], char_info[1])
