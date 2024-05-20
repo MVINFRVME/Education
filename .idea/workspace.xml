@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="module 9 done. started practice work module 9">
+    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="module 9 practice work done.">
+      <change afterPath="$PROJECT_DIR$/lessons/10. Исключения. Работа с ошибками/10.2 Обработка исключений. операторы try except/ages.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/10. Исключения. Работа с ошибками/10.2 Обработка исключений. операторы try except/Задача 1. Пятый элемент.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/10. Исключения. Работа с ошибками/10.2 Обработка исключений. операторы try except/Задача 2. Возраст.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module9/Задача 6. Война и мир.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module9/Задача 6. Война и мир.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +97,7 @@
     "Python.Задача 1. Заказ.executor": "Run",
     "Python.Задача 1. Иконки.executor": "Run",
     "Python.Задача 1. Ошибка.executor": "Debug",
+    "Python.Задача 1. Пятый элемент.executor": "Run",
     "Python.Задача 1. Ревью кода.executor": "Run",
     "Python.Задача 1. Результаты.executor": "Debug",
     "Python.Задача 1. Саботаж!.executor": "Run",
@@ -106,6 +109,7 @@
     "Python.Задача 1. Сумма чисел 2.executor": "Run",
     "Python.Задача 1. Сумма чисел.executor": "Run",
     "Python.Задача 1. Шифр Цезаря 2.executor": "Run",
+    "Python.Задача 2. Возраст.executor": "Run",
     "Python.Задача 2. Вредоносное ПО.executor": "Run",
     "Python.Задача 2. Всё в одном.executor": "Run",
     "Python.Задача 2. Дзен Пайтона.executor": "Run",
@@ -464,7 +468,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715865365721</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="module 9 practice work done.">
+      <option name="closed" value="true" />
+      <created>1715939839228</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1715939839228</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -491,7 +503,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Решены задачи 7 - 8 в практической работе модуль 3." />
     <MESSAGE value="Начат модуль 4. Пройден 4.2, 4.3" />
     <MESSAGE value="Закончил модуль 4." />
     <MESSAGE value="Закончил практическое задание модуль 4." />
@@ -516,7 +527,8 @@
     <MESSAGE value="Finished 8 module Practice Work." />
     <MESSAGE value="working at module 9. done 9.1, 9.2, 9.3" />
     <MESSAGE value="module 9 done. started practice work module 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="module 9 done. started practice work module 9" />
+    <MESSAGE value="module 9 practice work done." />
+    <option name="LAST_COMMIT_MESSAGE" value="module 9 practice work done." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -662,9 +674,9 @@
           <option name="timeStamp" value="154" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lessons/Modules/module9/Задача 6. Война и мир.py</url>
+          <url>file://$PROJECT_DIR$/lessons/10. Исключения. Работа с ошибками/10.2 Обработка исключений. операторы try except/Задача 2. Возраст.py</url>
           <line>14</line>
-          <option name="timeStamp" value="155" />
+          <option name="timeStamp" value="156" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
