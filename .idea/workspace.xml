@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="module 9 practice work done.">
-      <change afterPath="$PROJECT_DIR$/lessons/10. Исключения. Работа с ошибками/10.2 Обработка исключений. операторы try except/ages.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/10. Исключения. Работа с ошибками/10.2 Обработка исключений. операторы try except/Задача 1. Пятый элемент.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/10. Исключения. Работа с ошибками/10.2 Обработка исключений. операторы try except/Задача 2. Возраст.py" afterDir="false" />
+    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="module 10 stared">
+      <change afterPath="$PROJECT_DIR$/lessons/10. Исключения. Работа с ошибками/10.3 Обработка исключений. операторы else, finally/Задача 1. Простая программа.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/10. Исключения. Работа с ошибками/10.3 Обработка исключений. операторы else, finally/Задача 2. Старая задача.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/10. Исключения. Работа с ошибками/10.4 Вызов исключений. оператор raise/people.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/10. Исключения. Работа с ошибками/10.4 Вызов исключений. оператор raise/Задача 1. Имена.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,6 +98,7 @@
     "Python.Задача 1. Заказ.executor": "Run",
     "Python.Задача 1. Иконки.executor": "Run",
     "Python.Задача 1. Ошибка.executor": "Debug",
+    "Python.Задача 1. Простая программа.executor": "Run",
     "Python.Задача 1. Пятый элемент.executor": "Run",
     "Python.Задача 1. Ревью кода.executor": "Run",
     "Python.Задача 1. Результаты.executor": "Debug",
@@ -127,6 +129,7 @@
     "Python.Задача 2. Словари из списков.executor": "Run",
     "Python.Задача 2. Содержимое.executor": "Run",
     "Python.Задача 2. Срезы.executor": "Run",
+    "Python.Задача 2. Старая задача.executor": "Run",
     "Python.Задача 2. Степень числа.executor": "Debug",
     "Python.Задача 2. Студент.executor": "Run",
     "Python.Задача 2. Универсальная программа.executor": "Run",
@@ -476,7 +479,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715939839228</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="module 10 stared">
+      <option name="closed" value="true" />
+      <created>1716224696454</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1716224696454</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -503,7 +514,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Начат модуль 4. Пройден 4.2, 4.3" />
     <MESSAGE value="Закончил модуль 4." />
     <MESSAGE value="Закончил практическое задание модуль 4." />
     <MESSAGE value="Начал модуль 5. &#10;Завершил 5.2 Форматирование строк: format и f-strings" />
@@ -528,7 +538,8 @@
     <MESSAGE value="working at module 9. done 9.1, 9.2, 9.3" />
     <MESSAGE value="module 9 done. started practice work module 9" />
     <MESSAGE value="module 9 practice work done." />
-    <option name="LAST_COMMIT_MESSAGE" value="module 9 practice work done." />
+    <MESSAGE value="module 10 stared" />
+    <option name="LAST_COMMIT_MESSAGE" value="module 10 stared" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
