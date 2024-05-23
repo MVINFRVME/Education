@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="module 10 stared">
-      <change afterPath="$PROJECT_DIR$/lessons/10. Исключения. Работа с ошибками/10.3 Обработка исключений. операторы else, finally/Задача 1. Простая программа.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/10. Исключения. Работа с ошибками/10.3 Обработка исключений. операторы else, finally/Задача 2. Старая задача.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/10. Исключения. Работа с ошибками/10.4 Вызов исключений. оператор raise/people.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/10. Исключения. Работа с ошибками/10.4 Вызов исключений. оператор raise/Задача 1. Имена.py" afterDir="false" />
+    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="module 10 finished">
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module10/people.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module10/registrations.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module10/Задача 1. Имена 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module10/Задача 2. Счастливое число.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module10/Задача 3. Регистрация.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,6 +98,7 @@
     "Python.Задача 1. Заказ фруктов.executor": "Run",
     "Python.Задача 1. Заказ.executor": "Run",
     "Python.Задача 1. Иконки.executor": "Run",
+    "Python.Задача 1. Имена 2.executor": "Run",
     "Python.Задача 1. Ошибка.executor": "Debug",
     "Python.Задача 1. Простая программа.executor": "Run",
     "Python.Задача 1. Пятый элемент.executor": "Run",
@@ -132,6 +134,7 @@
     "Python.Задача 2. Старая задача.executor": "Run",
     "Python.Задача 2. Степень числа.executor": "Debug",
     "Python.Задача 2. Студент.executor": "Run",
+    "Python.Задача 2. Счастливое число.executor": "Run",
     "Python.Задача 2. Универсальная программа.executor": "Run",
     "Python.Задача 2. Цилиндр.executor": "Run",
     "Python.Задача 3. IP-адрес.executor": "Run",
@@ -146,6 +149,7 @@
     "Python.Задача 3. Поиск элемента.executor": "Debug",
     "Python.Задача 3. Помощь другу.executor": "Run",
     "Python.Задача 3. Различные цифры.executor": "Debug",
+    "Python.Задача 3. Регистрация.executor": "Run",
     "Python.Задача 3. Удаление части.executor": "Run",
     "Python.Задача 3. Улучшенная лингвистика.executor": "Run",
     "Python.Задача 3. Универсальная программа.executor": "Run",
@@ -487,7 +491,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716224696454</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="module 10 finished">
+      <option name="closed" value="true" />
+      <created>1716450991549</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1716450991549</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -514,7 +526,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Закончил модуль 4." />
     <MESSAGE value="Закончил практическое задание модуль 4." />
     <MESSAGE value="Начал модуль 5. &#10;Завершил 5.2 Форматирование строк: format и f-strings" />
     <MESSAGE value="Завершил 5.3 Методы строк. split и join" />
@@ -539,7 +550,8 @@
     <MESSAGE value="module 9 done. started practice work module 9" />
     <MESSAGE value="module 9 practice work done." />
     <MESSAGE value="module 10 stared" />
-    <option name="LAST_COMMIT_MESSAGE" value="module 10 stared" />
+    <MESSAGE value="module 10 finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="module 10 finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -688,6 +700,11 @@
           <url>file://$PROJECT_DIR$/lessons/10. Исключения. Работа с ошибками/10.2 Обработка исключений. операторы try except/Задача 2. Возраст.py</url>
           <line>14</line>
           <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/Modules/module10/Задача 3. Регистрация.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="157" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
