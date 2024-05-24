@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="module 10 finished">
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module10/people.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module10/registrations.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module10/Задача 1. Имена 2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module10/Задача 2. Счастливое число.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module10/Задача 3. Регистрация.py" afterDir="false" />
+    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="module 10 practice work. In the process">
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module10/Задача 4. Чат.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module10/Задача 5. Надёжные вычесления.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -157,6 +154,8 @@
     "Python.Задача 3..executor": "Debug",
     "Python.Задача 4. По парам.executor": "Run",
     "Python.Задача 4. Продвинутая функция sum.executor": "Debug",
+    "Python.Задача 4. Чат.executor": "Run",
+    "Python.Задача 5. Надёжные вычесления.executor": "Run",
     "Python.Задача 5. Список списков — 2.executor": "Debug",
     "Python.Задача 5. Функция сортировки.executor": "Run",
     "Python.Задача 5. Частотный анализ.executor": "Debug",
@@ -499,7 +498,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716450991549</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="module 10 practice work. In the process">
+      <option name="closed" value="true" />
+      <created>1716459962219</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1716459962219</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -526,7 +533,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Закончил практическое задание модуль 4." />
     <MESSAGE value="Начал модуль 5. &#10;Завершил 5.2 Форматирование строк: format и f-strings" />
     <MESSAGE value="Завершил 5.3 Методы строк. split и join" />
     <MESSAGE value="Завершил 5.4 Методы строк. startswith, endswith, upper, lower" />
@@ -551,7 +557,8 @@
     <MESSAGE value="module 9 practice work done." />
     <MESSAGE value="module 10 stared" />
     <MESSAGE value="module 10 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="module 10 finished" />
+    <MESSAGE value="module 10 practice work. In the process" />
+    <option name="LAST_COMMIT_MESSAGE" value="module 10 practice work. In the process" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -705,6 +712,11 @@
           <url>file://$PROJECT_DIR$/lessons/Modules/module10/Задача 3. Регистрация.py</url>
           <line>51</line>
           <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/Modules/module10/Задача 4. Чат.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="161" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
