@@ -4,20 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="module 10 practice work done.">
-      <change afterPath="$PROJECT_DIR$/lessons/11. Введение в ООП/11.2 Классы/Задача 1. Машина.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/11. Введение в ООП/11.2 Классы/Задача 2. Однотипные объекты.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/11. Введение в ООП/11.3 Методы класса, аргумент self/Задача 1. Машина 2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/11. Введение в ООП/11.3 Методы класса, аргумент self/Задача 2. Семья.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/11. Введение в ООП/11.4 Конструктор __init__ и работа с несколькими классами/Задача 1. Машина 3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/11. Введение в ООП/11.4 Конструктор __init__ и работа с несколькими классами/Задача 2. Координаты точки.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/11. Введение в ООП/11.4 Конструктор __init__ и работа с несколькими классами/Задача 3. Весёлая ферма.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module11/Задача 1. Драка.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module11/Задача 2. Студенты.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module11/Задача 3. Отцы, матери и дети.py" afterDir="false" />
+    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="module 11. stared Pracitce work">
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module11/family.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module11/Задача 4. Магия.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module11/Задача 5. Совместное проживание.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module11/Задача 6. Крестики - нолики.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module11/Задача 7. Матрицы.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lessons/Draft.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lessons/Draft2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Draft3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Modules/module11/Задача 1. Драка.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module11/Задача 1. Драка.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Modules/module11/Задача 2. Студенты.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module11/Задача 2. Студенты.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Modules/module11/Задача 3. Отцы, матери и дети.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module11/Задача 3. Отцы, матери и дети.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,6 +145,7 @@
     "Python.Задача 2. Старая задача.executor": "Run",
     "Python.Задача 2. Степень числа.executor": "Debug",
     "Python.Задача 2. Студент.executor": "Run",
+    "Python.Задача 2. Студенты.executor": "Run",
     "Python.Задача 2. Счастливое число.executor": "Run",
     "Python.Задача 2. Универсальная программа.executor": "Run",
     "Python.Задача 2. Цилиндр.executor": "Run",
@@ -169,15 +169,19 @@
     "Python.Задача 3. Универсальная программа.executor": "Run",
     "Python.Задача 3. Файлы и папки.executor": "Run",
     "Python.Задача 3..executor": "Debug",
+    "Python.Задача 4. Магия.executor": "Run",
     "Python.Задача 4. По парам.executor": "Run",
     "Python.Задача 4. Продвинутая функция sum.executor": "Debug",
     "Python.Задача 4. Чат.executor": "Run",
     "Python.Задача 5. Надёжные вычесления.executor": "Run",
+    "Python.Задача 5. Совместное проживание.executor": "Run",
     "Python.Задача 5. Список списков — 2.executor": "Debug",
     "Python.Задача 5. Функция сортировки.executor": "Run",
     "Python.Задача 5. Частотный анализ.executor": "Debug",
     "Python.Задача 6. Война и мир.executor": "Run",
     "Python.Задача 6. Контакты 3.executor": "Debug",
+    "Python.Задача 6. Крестики - нолики.executor": "Run",
+    "Python.Задача 7. Матрицы.executor": "Run",
     "Python.Задача 7. Своя функция Zip.executor": "Run",
     "Python.Задача. Деление строки.executor": "Run",
     "Python.Задача. Детали.executor": "Run",
@@ -560,7 +564,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716552077379</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="module 11. stared Pracitce work">
+      <option name="closed" value="true" />
+      <created>1717325078274</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1717325078274</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -587,7 +599,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Завершил 5.3 Методы строк. split и join" />
     <MESSAGE value="Завершил 5.4 Методы строк. startswith, endswith, upper, lower" />
     <MESSAGE value="Начал Практическую работу module 5. Сделал задания с 1 по 3." />
     <MESSAGE value="Практическую работа module 5. Сделал задания 4,5." />
@@ -612,7 +623,8 @@
     <MESSAGE value="module 10 finished" />
     <MESSAGE value="module 10 practice work. In the process" />
     <MESSAGE value="module 10 practice work done." />
-    <option name="LAST_COMMIT_MESSAGE" value="module 10 practice work done." />
+    <MESSAGE value="module 11. stared Pracitce work" />
+    <option name="LAST_COMMIT_MESSAGE" value="module 11. stared Pracitce work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -761,6 +773,16 @@
           <url>file://$PROJECT_DIR$/lessons/Modules/module10/Задача 4. Чат.py</url>
           <line>13</line>
           <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/Modules/module11/Задача 2. Студенты.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/Modules/module11/Задача 5. Совместное проживание.py</url>
+          <line>96</line>
+          <option name="timeStamp" value="169" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

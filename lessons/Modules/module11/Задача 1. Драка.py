@@ -17,7 +17,7 @@ class Warrior:
     def __init__(self, hp=100):
         self.hp = hp
 
-    def recieve_dmg(self, dmg=20):
+    def receive_dmg(self, dmg=20):
         self.hp -= dmg
 
     def show_hp(self):
@@ -27,11 +27,11 @@ class Warrior:
 def choose_target():
     target = random.randint(1, 2)
     if target == 1:
-        warrior_1.recieve_dmg()
+        warrior_1.receive_dmg()
         print('Атаковал "Воин-2"!')
         warrior_1.show_hp()
     else:
-        warrior_2.recieve_dmg()
+        warrior_2.receive_dmg()
         print('Атаковал "Воин-1"!')
         warrior_2.show_hp()
 

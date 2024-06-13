@@ -12,21 +12,24 @@ class Student:
         self.grades = grades
 
 
-data = [
-    ['Ivanov Ivan', 1, [5, 4, 4, 3, 4]],
-    ['Petrov Petr', 1, [3, 4, 3, 3, 4]],
-    ['Sidorov Sidor', 2, [4, 4, 5, 4, 4]],
-    ['Kozlov Kozel', 2, [5, 5, 5, 5, 5]],
-    ['Ivanova Irina', 1, [1, 1, 1, 1, 1]],
-    ['Petrova Polina', 3, [5, 5, 4, 5, 5]],
-    ['Sidorova Svetlana', 3, [3, 4, 4, 4, 4]],
-    ['Kozlova Kristina', 2, [5, 5, 5, 5, 5]],
-    ['Ivan Ivanov', 4, [4, 4, 3, 4, 4]],
-    ['Petr Petrov', 4, [5, 5, 5, 5, 5]]
-]
+students = [Student('Ivanov Ivan', 1, [5, 4, 4, 3, 4]),
+            Student('Petrov Petr', 1, [3, 4, 3, 3, 4]),
+            Student('Sidorov Sidor', 2, [4, 4, 5, 4, 4]),
+            Student('Kozlov Kozel', 2, [5, 5, 5, 5, 5]),
+            Student('Ivanova Irina', 1, [1, 1, 1, 1, 1]),
+            Student('Petrova Polina', 3, [5, 5, 4, 5, 5]),
+            Student('Sidorova Svetlana', 3, [3, 4, 4, 4, 4]),
+            Student('Kozlova Kristina', 2, [5, 5, 5, 5, 5]),
+            Student('Ivan Ivanov', 4, [4, 4, 3, 4, 4]),
+            Student('Petr Petrov', 4, [5, 5, 5, 5, 5])]
 
-students = [Student(student_info[0], student_info[1], student_info[2]) for student_info in data]
-print(students)
+for i_student in students:
+    cur_grades = 0
+    for grade in i_student.grades:
+        cur_grades += grade
+    i_student.grades = cur_grades / len(i_student.grades)
 
-for objct in students:
-    print(objct.name, objct.group_num, objct.grades)
+sorted_students = sorted(students, key=lambda x: x.grades)
+
+for i_student in sorted_students:
+    print(f'Студент: {i_student.name}, группа: {i_student.group_num}, средний бал: {i_student.grades}')
