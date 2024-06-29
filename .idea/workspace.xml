@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="module 12. done 12.2, 12.3">
-      <change afterPath="$PROJECT_DIR$/lessons/12. Основные принципы ООП/12.4 Полиморфизм/Задача 1. Юниты.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/12. Основные принципы ООП/12.4 Полиморфизм/Задача 2. Полёт.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/12. Основные принципы ООП/12.6 Готовые реализации структур данных. Очередь, стек, бинарное дерево.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module12/Задача 1. Налоги.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module12/Задача 2. Карма.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module12/Задача 3. Свой словарь.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module12/Задача 4. RPG - игра/heroes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module12/Задача 4. RPG - игра/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module12/Задача 4. RPG - игра/monsters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module12/Задача 5. Стек.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module12/Задача 6. Абстрактный класс.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Draft2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/12. Основные принципы ООП/12.6 Готовые реализации структур данных. Очередь, стек, бинарное дерево.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/12. Основные принципы ООП/12.6 Готовые реализации структур данных. Очередь, стек, бинарное дерево.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,146 +61,153 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.12.6 Готовые реализации структур данных. Очередь, стек, бинарное дерево.executor": "Run",
-    "Python.Draft.executor": "Run",
-    "Python.Draft2.executor": "Run",
-    "Python.Draft3.executor": "Run",
-    "Python.parse.executor": "Debug",
-    "Python.Задание 1. Гласные буквы.executor": "Run",
-    "Python.Задание 1. Меню ресторана.executor": "Run",
-    "Python.Задание 2. Криптовалюта.executor": "Run",
-    "Python.Задание 2. Самое длинное слово.executor": "Debug",
-    "Python.Задание 2. Уникальное объединение списков.executor": "Debug",
-    "Python.Задание 3. Детали.executor": "Run",
-    "Python.Задание 3. Товары.executor": "Run",
-    "Python.Задание 3. Файлы.executor": "Run",
-    "Python.Задание 4. Вечеринка.executor": "Run",
-    "Python.Задание 4. Гистограмма частоты — 2.executor": "Run",
-    "Python.Задание 4. Заглавные буквы.executor": "Run",
-    "Python.Задание 4. Тренировка со срезами.executor": "Run",
-    "Python.Задание 5. Пароль.executor": "Run",
-    "Python.Задание 5. Песни.executor": "Run",
-    "Python.Задание 5. Разворот.executor": "Run",
-    "Python.Задание 5. Словарь синонимов.executor": "Run",
-    "Python.Задание 6. Двумерный список.executor": "Run",
-    "Python.Задание 6. Пицца.executor": "Run",
-    "Python.Задание 6. Ролики.executor": "Run",
-    "Python.Задание 6. Сжатие.executor": "Run",
-    "Python.Задание 7. Ip-адрес 2.executor": "Run",
-    "Python.Задание 7. Список списков.executor": "Run",
-    "Python.Задание 7. Считалка.executor": "Run",
-    "Python.Задание 7. Три списка.executor": "Run",
-    "Python.Задание 8. Бегущая строка.executor": "Run",
-    "Python.Задание 8. Снова палиндром.executor": "Run",
-    "Python.Задание 8. Шифр Цезаря.executor": "Debug",
-    "Python.Задание 9. Анализ комментариев.executor": "Run",
-    "Python.Задача 1. Challege.executor": "Debug",
-    "Python.Задача 1. Challenge - 2.executor": "Debug",
-    "Python.Задача 1. Анализ цен.executor": "Run",
-    "Python.Задача 1. Драка.executor": "Run",
-    "Python.Задача 1. Задачи компаний.executor": "Run",
-    "Python.Задача 1. Заказ фруктов.executor": "Run",
-    "Python.Задача 1. Заказ.executor": "Run",
-    "Python.Задача 1. Иконки.executor": "Run",
-    "Python.Задача 1. Имена 2.executor": "Run",
-    "Python.Задача 1. Корабли.executor": "Run",
-    "Python.Задача 1. Машина 2.executor": "Run",
-    "Python.Задача 1. Машина 3.executor": "Run",
-    "Python.Задача 1. Ошибка.executor": "Debug",
-    "Python.Задача 1. Простая программа.executor": "Run",
-    "Python.Задача 1. Пятый элемент.executor": "Run",
-    "Python.Задача 1. Ревью кода.executor": "Run",
-    "Python.Задача 1. Результаты.executor": "Debug",
-    "Python.Задача 1. Саботаж!.executor": "Run",
-    "Python.Задача 1. Сисадмин.executor": "Run",
-    "Python.Задача 1. Склады.executor": "Run",
-    "Python.Задача 1. Словарь квадратов чисел.executor": "Run",
-    "Python.Задача 1. Создание кортежей.executor": "Run",
-    "Python.Задача 1. Список чётных чисел.executor": "Run",
-    "Python.Задача 1. Сумма чисел 2.executor": "Run",
-    "Python.Задача 1. Сумма чисел.executor": "Run",
-    "Python.Задача 1. Шифр Цезаря 2.executor": "Run",
-    "Python.Задача 1. Юниты.executor": "Run",
-    "Python.Задача 2. Возраст.executor": "Run",
-    "Python.Задача 2. Вредоносное ПО.executor": "Run",
-    "Python.Задача 2. Всё в одном.executor": "Run",
-    "Python.Задача 2. Дзен Пайтона.executor": "Run",
-    "Python.Задача 2. Долги.executor": "Run",
-    "Python.Задача 2. Игроки.executor": "Run",
-    "Python.Задача 2. Координаты точки.executor": "Run",
-    "Python.Задача 2. Кризис фруктов.executor": "Run",
-    "Python.Задача 2. Магазин.executor": "Run",
-    "Python.Задача 2. Непонятно!.executor": "Run",
-    "Python.Задача 2. Олимпиада.executor": "Debug",
-    "Python.Задача 2. Поиск файла 2.executor": "Run",
-    "Python.Задача 2. Поиск файла.executor": "Run",
-    "Python.Задача 2. Поиск элемента -2.executor": "Run",
-    "Python.Задача 2. Полёт.executor": "Run",
-    "Python.Задача 2. Путь к файлу.executor": "Run",
-    "Python.Задача 2. Роботы.executor": "Run",
-    "Python.Задача 2. Семинар.executor": "Run",
-    "Python.Задача 2. Семья.executor": "Run",
-    "Python.Задача 2. Словари из списков.executor": "Run",
-    "Python.Задача 2. Содержимое.executor": "Run",
-    "Python.Задача 2. Срезы.executor": "Run",
-    "Python.Задача 2. Старая задача.executor": "Run",
-    "Python.Задача 2. Степень числа.executor": "Debug",
-    "Python.Задача 2. Студент.executor": "Run",
-    "Python.Задача 2. Студенты.executor": "Run",
-    "Python.Задача 2. Счастливое число.executor": "Run",
-    "Python.Задача 2. Универсальная программа.executor": "Run",
-    "Python.Задача 2. Цилиндр.executor": "Run",
-    "Python.Задача 3. IP-адрес.executor": "Run",
-    "Python.Задача 3. Весёлая ферма.executor": "Run",
-    "Python.Задача 3. Гистограмма частоты.executor": "Run",
-    "Python.Задача 3. Глубокое копирование.executor": "Run",
-    "Python.Задача 3. Кастомные исключения.executor": "Run",
-    "Python.Задача 3. Контакты.executor": "Run",
-    "Python.Задача 3. Корень диска.executor": "Run",
-    "Python.Задача 3. Лавка.executor": "Run",
-    "Python.Задача 3. Неправильный код.executor": "Run",
-    "Python.Задача 3. Отряды.executor": "Run",
-    "Python.Задача 3. Отцы, матери и дети.executor": "Run",
-    "Python.Задача 3. Пакеты.executor": "Run",
-    "Python.Задача 3. Поиск элемента.executor": "Debug",
-    "Python.Задача 3. Помощь другу.executor": "Run",
-    "Python.Задача 3. Различные цифры.executor": "Debug",
-    "Python.Задача 3. Регистрация.executor": "Run",
-    "Python.Задача 3. Удаление части.executor": "Run",
-    "Python.Задача 3. Улучшенная лингвистика.executor": "Run",
-    "Python.Задача 3. Универсальная программа.executor": "Run",
-    "Python.Задача 3. Файлы и папки.executor": "Run",
-    "Python.Задача 3..executor": "Debug",
-    "Python.Задача 4. Магия.executor": "Run",
-    "Python.Задача 4. По парам.executor": "Run",
-    "Python.Задача 4. Продвинутая функция sum.executor": "Debug",
-    "Python.Задача 4. Чат.executor": "Run",
-    "Python.Задача 5. Надёжные вычесления.executor": "Run",
-    "Python.Задача 5. Совместное проживание.executor": "Run",
-    "Python.Задача 5. Список списков — 2.executor": "Debug",
-    "Python.Задача 5. Функция сортировки.executor": "Run",
-    "Python.Задача 5. Частотный анализ.executor": "Debug",
-    "Python.Задача 6. Война и мир.executor": "Run",
-    "Python.Задача 6. Контакты 3.executor": "Debug",
-    "Python.Задача 6. Крестики - нолики.executor": "Run",
-    "Python.Задача 7. Матрицы.executor": "Run",
-    "Python.Задача 7. Своя функция Zip.executor": "Run",
-    "Python.Задача. Деление строки.executor": "Run",
-    "Python.Задача. Детали.executor": "Run",
-    "Python.Задача. Журнал посещений.executor": "Run",
-    "Python.Задача.executor": "Run",
-    "Python.Калькулятор дистанции.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "dev",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "F:/Education",
-    "settings.editor.selected.configurable": "preferences.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.12.6 Готовые реализации структур данных. Очередь, стек, бинарное дерево.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Draft.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Draft2.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Draft3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.heroes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.monsters.executor&quot;: &quot;Run&quot;,
+    &quot;Python.parse.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Задание 1. Гласные буквы.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задание 1. Меню ресторана.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задание 2. Криптовалюта.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задание 2. Самое длинное слово.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Задание 2. Уникальное объединение списков.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Задание 3. Детали.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задание 3. Товары.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задание 3. Файлы.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задание 4. Вечеринка.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задание 4. Гистограмма частоты — 2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задание 4. Заглавные буквы.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задание 4. Тренировка со срезами.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задание 5. Пароль.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задание 5. Песни.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задание 5. Разворот.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задание 5. Словарь синонимов.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задание 6. Двумерный список.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задание 6. Пицца.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задание 6. Ролики.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задание 6. Сжатие.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задание 7. Ip-адрес 2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задание 7. Список списков.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задание 7. Считалка.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задание 7. Три списка.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задание 8. Бегущая строка.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задание 8. Снова палиндром.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задание 8. Шифр Цезаря.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Задание 9. Анализ комментариев.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 1. Challege.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Задача 1. Challenge - 2.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Задача 1. Анализ цен.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 1. Драка.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 1. Задачи компаний.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 1. Заказ фруктов.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 1. Заказ.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 1. Иконки.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 1. Имена 2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 1. Корабли.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 1. Машина 2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 1. Машина 3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 1. Налоги.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 1. Ошибка.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Задача 1. Простая программа.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 1. Пятый элемент.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 1. Ревью кода.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 1. Результаты.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Задача 1. Саботаж!.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 1. Сисадмин.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 1. Склады.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 1. Словарь квадратов чисел.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 1. Создание кортежей.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 1. Список чётных чисел.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 1. Сумма чисел 2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 1. Сумма чисел.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 1. Шифр Цезаря 2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 1. Юниты.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 2. Возраст.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 2. Вредоносное ПО.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 2. Всё в одном.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 2. Дзен Пайтона.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 2. Долги.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 2. Игроки.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 2. Карма.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 2. Координаты точки.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 2. Кризис фруктов.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 2. Магазин.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 2. Непонятно!.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 2. Олимпиада.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Задача 2. Поиск файла 2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 2. Поиск файла.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 2. Поиск элемента -2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 2. Полёт.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 2. Путь к файлу.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 2. Роботы.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 2. Семинар.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 2. Семья.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 2. Словари из списков.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 2. Содержимое.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 2. Срезы.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 2. Старая задача.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 2. Степень числа.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Задача 2. Студент.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 2. Студенты.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 2. Счастливое число.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 2. Универсальная программа.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 2. Цилиндр.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 3. IP-адрес.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 3. Весёлая ферма.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 3. Гистограмма частоты.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 3. Глубокое копирование.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 3. Кастомные исключения.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 3. Контакты.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 3. Корень диска.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 3. Лавка.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 3. Неправильный код.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 3. Отряды.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 3. Отцы, матери и дети.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 3. Пакеты.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 3. Поиск элемента.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Задача 3. Помощь другу.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 3. Различные цифры.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Задача 3. Регистрация.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 3. Свой словарь.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 3. Удаление части.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 3. Улучшенная лингвистика.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 3. Универсальная программа.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 3. Файлы и папки.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 3..executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Задача 4. Магия.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 4. По парам.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 4. Продвинутая функция sum.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Задача 4. Чат.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 5. Надёжные вычесления.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 5. Совместное проживание.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 5. Список списков — 2.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Задача 5. Стек.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 5. Функция сортировки.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 5. Частотный анализ.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Задача 6. Война и мир.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 6. Контакты 3.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Задача 6. Крестики - нолики.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 7. Матрицы.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 7. Своя функция Zip.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача. Деление строки.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача. Детали.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача. Журнал посещений.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Калькулятор дистанции.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Education&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Education" />
@@ -205,35 +217,6 @@
       <recent name="F:\Education\lessons\3. Методы для работы со списками" />
       <recent name="F:\Education\lessons" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="Задача 3. Отцы, матери и дети" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Education" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lessons/Modules/module11" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lessons/Modules/module11/Задача 3. Отцы, матери и дети.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.Задача 3. Отцы, матери и дети" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -798,6 +781,11 @@
           <url>file://$PROJECT_DIR$/lessons/Modules/module11/Задача 5. Совместное проживание.py</url>
           <line>96</line>
           <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/Modules/module12/Задача 4. RPG - игра/main.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="174" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
