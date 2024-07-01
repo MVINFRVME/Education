@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="module 12. done 12.2, 12.3">
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module12/Задача 1. Налоги.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module12/Задача 2. Карма.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module12/Задача 3. Свой словарь.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module12/Задача 4. RPG - игра/heroes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module12/Задача 4. RPG - игра/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module12/Задача 4. RPG - игра/monsters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module12/Задача 5. Стек.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module12/Задача 6. Абстрактный класс.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/12. Основные принципы ООП/12.6 Готовые реализации структур данных. Очередь, стек, бинарное дерево.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/12. Основные принципы ООП/12.6 Готовые реализации структур данных. Очередь, стек, бинарное дерево.py" afterDir="false" />
-    </list>
+    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="module 12. practice work in process" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -570,7 +559,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718704976991</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="module 12. practice work in process">
+      <option name="closed" value="true" />
+      <created>1719686203124</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1719686203124</updated>
+    </task>
+    <task id="LOCAL-00044" summary="module 12. practice work in process">
+      <option name="closed" value="true" />
+      <created>1719686287116</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1719686287116</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -597,7 +602,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Практическую работа module 5. Сделал задания 4,5." />
     <MESSAGE value="Практическая работа module 5. Сделал задания 6, 7, 8." />
     <MESSAGE value="Закончил практическую работу module 5." />
     <MESSAGE value="Модуль 6. Закончил 6.1, 6.2" />
@@ -622,7 +626,8 @@
     <MESSAGE value="module 11. stared Pracitce work" />
     <MESSAGE value="module 11. finished Pracitce work" />
     <MESSAGE value="module 12. done 12.2, 12.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="module 12. done 12.2, 12.3" />
+    <MESSAGE value="module 12. practice work in process" />
+    <option name="LAST_COMMIT_MESSAGE" value="module 12. practice work in process" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

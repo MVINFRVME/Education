@@ -34,43 +34,83 @@
 # Дополнительно: реализуйте также удаление задач и подумайте, что делать с дубликатами.
 
 class Stack:
+    """Класс Stack представляющий собой список элементов, организованных по принципу LIFO"""
+
     def __init__(self):
-        self.sequence = []
+        self.__st = []
 
     def __str__(self):
-        return f'Stack {self.sequence}'
+        """Метод __str__ выводит список элементов стека"""
+        # return f'Стек: {self.__st}' # для проверки стека
+        return '; '.join(self.__st)  # отображает как в указано в задании
 
-    def add(self, value):
-        self.sequence.append(value)
+    def push(self, elem):
+        """Метод добавление элемента в стек. Добавляет элемент в конец стека"""
+        self.__st.append(elem)
 
-    def remove(self):
-        self.sequence.remove(self.sequence[-1])
+    def remove(self, elem=None):
+        """Метод удаление элемента из стека. Удаляет по умолчанию последний элемент, также можно указать определенный
+        элемент. Если стек пустой, возвращает None."""
+        if len(self.__st) == 0:
+            return None
+        if elem:
+            return self.__st.remove(elem)
+        else:
+            return self.__st.remove(self.__st[-1])
 
 
 class TaskManager:
+    """Класс TaskManager создает менеджер задач с заданным приоритетом. Работает на основе стека (не наследование)"""
+
     def __init__(self):
-        self.tasks = Stack()
+        self.task = {}
 
     def __str__(self):
-        return (f'Результат:\n'
-                f'{self.tasks}')
+        """Метод __str__ отображает отсортированный по приоритету список задач"""
+        display = []
+        if self.task:
+            for i_priority in sorted(self.task.keys()):
+                display.append('{prior} - {task}\n'.format(
+                    prior=str(i_priority),
+                    task=self.task[i_priority]
+                )
+                )
+
+        return ''.join(display)
 
     def new_task(self, task: str, priority: int):
-        self.tasks.add([task, priority])
+        """Метод позволяет добавить задачу в менеджер задач(словарь) с указанным приоритетом"""
+        if priority not in self.task:
+            self.task[priority] = Stack()
+        if task not in str(self.task[priority]):
+            self.task[priority].push(task)
+        """Если встретится дубликат задачи, то он добавлен не будет"""
 
-    def sort_tasks(self):
+    def remove_task(self, task: str):
+        """Метод удаляет задачу из менеджера по названию задачи"""
+        for key, val in self.task.items():
+            if task in str(val):
+                val.remove(task)
+                break
 
 
-
-s = Stack()
-print(s)
-s.add(1)
-print(s)
-s.add(2)
-print(s)
-s.remove()
-print(s)
+# s = Stack()
+# print(s)
+# s.push(1)
+# s.push(2)
+# s.push(3)
+# print(s)
+# s.remove()
+# s.remove(1)
+# print(s)
 
 manager = TaskManager()
 manager.new_task("сделать уборку", 4)
+manager.new_task("помыть посуду", 4)
+manager.new_task("отдохнуть", 1)
+manager.new_task("поесть", 2)
+manager.new_task("поесть", 2)  # дубликат
+manager.new_task("сдать ДЗ", 2)
+print(manager)
+manager.remove_task("сделать уборку")  # удаляем задачу
 print(manager)
