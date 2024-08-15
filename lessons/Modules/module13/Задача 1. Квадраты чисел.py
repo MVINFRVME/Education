@@ -39,7 +39,7 @@ class SquareIterator:
     def __iter__(self):
         """Метод  __iter__ возвращает итератор для данного объекта.
 
-        :return: возвращает сам объект итератора"""
+        :return: Возвращает сам объект итератора"""
         return self
 
     def __next__(self):
@@ -50,9 +50,6 @@ class SquareIterator:
 
          :raises StopIteration: если текущее число превышает указанный предел
          """
-        return self
-
-    def __next__(self):
         while self.__count < self.__limit:
             self.__count += 1
             return self.__count ** 2

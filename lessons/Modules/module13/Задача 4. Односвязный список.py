@@ -49,19 +49,51 @@ from typing import Any, Optional
 
 
 class Node:
+    """Класс Node(узел)
+
+    Args:
+        value (Optional[Any]): данные, которые хранятся в узле
+        next (Optional[Node]): ссылка на следующий узел
+
+    """
     def __init__(self, value: Optional[Any] = None, next: Optional['Node'] = None) -> None:
         self.value = value
         self.next = next
 
     def __str__(self) -> str:
+        """Метод __str__ возвращает строковое представление узла в формате: Node [value]"""
         return f'Node [{self.value}]'
 
 
 class LinkedList:
+    """ Класс LinkedList (Односвязный список)
+
+    Attributes:
+        head (Optional[Node]): головной элемент списка (указатель)
+        length (int): длина односвязного списка (кол-во его элементов)
+    """
     def __init__(self) -> None:
         self.head: Optional[Node] = None
+        self.length = 0
+
+    def __str__(self) -> str:
+        """Метод __str__ возвращает строковое представление односвязного списка
+         в формате: LinkedList [value value ... ]"""
+        if self.head is not None:
+            current = self.head
+            values = [str(current.value)]
+            while current.next is not None:
+                current = current.next
+                values.append(str(current.value))
+            return 'LinkedList [{values}]'.format(values=' '.join(values))
+        return 'LinkedList []'
 
     def append(self, elem: Any) -> None:
+        """Метод append добавляет новый узел в односвязный список.
+        Если список пустой, то создает узел и объявляет его головным элементом.
+        Если же узлы уже есть, то проходимся по всем узлам(начиная с головы) и связываем последний узел с новым.
+        Также с добавлением элемента увеличивает длину списка на 1.
+        """
         new_node = Node(elem)
         if self.head is None:
             self.head = Node(elem)
@@ -71,9 +103,67 @@ class LinkedList:
         while last.next:
             last = last.next
         last.next = new_node
+        self.length += 1
+
+    def remove(self, index: int) -> None:
+        """Метод remove удаляет узел по его индексу.
+
+        :param index: Передается индекс для удаления
+        :type index: int
+
+        :raises IndexError: если длина списка равна нулю или передаваемый индекс
+        превышает длину списка
+        """
+        cur_node = self.head  # указатель текущего узла
+        cur_index = 0  # текущий индекс
+        if self.length == 0 or self.length <= index:
+            raise IndexError
+
+        if cur_node is not None:
+            if index == 0:
+                self.head = cur_node.next
+                self.length -= 1
+                return
+
+        while cur_node is not None:
+            if cur_index == index:
+                break
+            prev = cur_node
+            cur_node = cur_node.next
+            cur_index += 1
+
+        prev.next = cur_node.next
+        self.length -= 1
+
+    def get(self, index: int) -> Node:
+        """Метод get позволяет получить узел по его индексу.
+
+        :param index: Передается индекс для получения узла
+        :type index: int
+
+        :return cur_node: возвращает указанный узел
+        :rtype cur_node: Node
+
+        :raises IndexError: если длина списка равна нулю или передаваемый индекс
+        превышает длину списка
+        """
+        cur_node = self.head
+        cur_index = 0
+
+        if self.length == 0 or self.length < index:
+            raise IndexError
+
+        while cur_index < index:
+            cur_node = cur_node.next
+            cur_index += 1
+        return cur_node
 
 
 my_list = LinkedList()
 my_list.append(10)
 my_list.append(20)
 my_list.append(30)
+print(my_list)
+my_list.remove(1)
+print(my_list)
+print(my_list.get(1))

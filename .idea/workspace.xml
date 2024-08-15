@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="module 13. Practice work. Done tasks: 1, (2, 3 - with doc str).">
+    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="module 13. Practice work. Done all tasks, except 4.">
+      <change afterPath="$PROJECT_DIR$/lessons/14. Декораторы. Базовый уровень/14.2 Функция как объект. Функции высшего порядка/Задача 1. Функция.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/14. Декораторы. Базовый уровень/14.2 Функция как объект. Функции высшего порядка/Задача 2. Таймер.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/14. Декораторы. Базовый уровень/14.3 Декораторы/Задача 1. Двойной вызов.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/14. Декораторы. Базовый уровень/14.3 Декораторы/Задача 2. Таймер 2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Draft.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lessons/Draft3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lessons/Modules/module13/Задача 1. Квадраты чисел.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module13/Задача 1. Квадраты чисел.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module13/Задача 3. Количество строк.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module13/Задача 3. Количество строк.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module13/Задача 5. Обработка логов.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module13/Задача 5. Обработка логов.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Modules/module13/Задача 4. Односвязный список.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module13/Задача 4. Односвязный список.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +33,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -159,6 +162,7 @@
     "Python.Задача 2. Студент.executor": "Run",
     "Python.Задача 2. Студенты.executor": "Run",
     "Python.Задача 2. Счастливое число.executor": "Run",
+    "Python.Задача 2. Таймер 2.executor": "Run",
     "Python.Задача 2. Универсальная программа.executor": "Run",
     "Python.Задача 2. Цилиндр.executor": "Run",
     "Python.Задача 3. IP-адрес.executor": "Run",
@@ -186,7 +190,7 @@
     "Python.Задача 3. Файлы и папки.executor": "Run",
     "Python.Задача 3..executor": "Debug",
     "Python.Задача 4. Магия.executor": "Run",
-    "Python.Задача 4. Односвязный список.executor": "Debug",
+    "Python.Задача 4. Односвязный список.executor": "Run",
     "Python.Задача 4. По парам.executor": "Run",
     "Python.Задача 4. Продвинутая функция sum.executor": "Debug",
     "Python.Задача 4. Чат.executor": "Run",
@@ -243,22 +247,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710929081455</updated>
-    </task>
-    <task id="LOCAL-00001" summary="initial">
-      <option name="closed" value="true" />
-      <created>1710929223962</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1710929223962</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Прошел урок 3.3 и решил задачи">
-      <option name="closed" value="true" />
-      <created>1710942644359</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1710942644359</updated>
     </task>
     <task id="LOCAL-00003" summary="Прошел урок 3.4 и решил задачи. Начал практическую работу модуль 3.">
       <option name="closed" value="true" />
@@ -620,7 +608,39 @@
       <option name="project" value="LOCAL" />
       <updated>1723555757251</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="module 13. Practice work. Done all tasks, except 4.">
+      <option name="closed" value="true" />
+      <created>1723720392967</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1723720392967</updated>
+    </task>
+    <task id="LOCAL-00049" summary="module 13. Practice work. Done all tasks, except 4.">
+      <option name="closed" value="true" />
+      <created>1723720523955</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1723720523955</updated>
+    </task>
+    <task id="LOCAL-00050" summary="module 13. Practice work. Done all tasks, except 4.">
+      <option name="closed" value="true" />
+      <created>1723720707203</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1723720707203</updated>
+    </task>
+    <task id="LOCAL-00051" summary="module 13. Practice work. Done all tasks, except 4.">
+      <option name="closed" value="true" />
+      <created>1723720761683</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1723720761683</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -647,7 +667,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Модуль 6. Закончил 6.3, 6.4" />
     <MESSAGE value="Модуль 6. Закончил 6.5. Начал практическую работу module 6. Сделал 1-3" />
     <MESSAGE value="Практическая работа module 6. Сделал 4." />
     <MESSAGE value="Закончил Практическая работа module 6" />
@@ -672,7 +691,8 @@
     <MESSAGE value="module 12. practice work done" />
     <MESSAGE value="module 13. Practice work. 5 done(without docstring), 4 in progress" />
     <MESSAGE value="module 13. Practice work. Done tasks: 1, (2, 3 - with doc str)." />
-    <option name="LAST_COMMIT_MESSAGE" value="module 13. Practice work. Done tasks: 1, (2, 3 - with doc str)." />
+    <MESSAGE value="module 13. Practice work. Done all tasks, except 4." />
+    <option name="LAST_COMMIT_MESSAGE" value="module 13. Practice work. Done all tasks, except 4." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -864,18 +884,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lessons/Modules/module13/Задача 3. Количество строк.py</url>
-          <line>36</line>
+          <line>38</line>
           <option name="timeStamp" value="212" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lessons/Modules/module13/Задача 4. Односвязный список.py</url>
-          <line>75</line>
-          <option name="timeStamp" value="215" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lessons/Modules/module13/Задача 5. Обработка логов.py</url>
           <line>46</line>
           <option name="timeStamp" value="216" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/Modules/module13/Задача 4. Односвязный список.py</url>
+          <line>156</line>
+          <option name="timeStamp" value="222" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
