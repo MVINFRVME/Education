@@ -15,18 +15,30 @@
 
 
 from pathlib import Path
+<<<<<<< HEAD
 from collections.abc import Iterable
 
 
 def count_lines_generator(cur_path: str) -> Iterable[int]:
+=======
+from collections.abc import Generator
+
+
+def count_lines_generator(cur_path: str) -> Generator[int]:
+>>>>>>> origin/dev
     """Функция-генератор берёт все файлы с расширением ".py" в директории и вычисляет количество строк в каждом
      файле, игнорируя пустые строки и строки комментариев.
 
 
      :param cur_path: Путь к директории
      :type cur_path: str
+<<<<<<< HEAD
      :return count_lines: С помощью yield каждый раз возвращает количество строк в очередном файле
      :rtype: Iterable[int]
+=======
+     :return count_lines: С помощью yield каждый раз возвращает количество строк в очередном файле.
+     :rtype: Generator[int]
+>>>>>>> origin/dev
      """
     py_files = list(Path(cur_path).glob('*.py'))
     for file in py_files:

@@ -19,10 +19,17 @@
 
 from os import walk
 from pathlib import Path
+<<<<<<< HEAD
 from collections.abc import Iterable
 
 
 def gen_files_path(searching_dir_name: str, directory: str = 'F:/') -> Iterable[Path]:
+=======
+from collections.abc import Generator
+
+
+def gen_files_path(searching_dir_name: str, directory: str = 'F:/') -> Generator[Path]:
+>>>>>>> origin/dev
     """Функция генератор пути, которая рекурсивно проходит по всем каталогам указанной директории
     находит указанный пользователем каталог и генерирует пути всех встреченных файлов.
 
@@ -31,7 +38,11 @@ def gen_files_path(searching_dir_name: str, directory: str = 'F:/') -> Iterable[
     :param directory: Путь старта поиска(по умолчанию используется корневой диск)
     :type directory: str
     :return Path(cur_root, file): При помощи yield возвращает путь к файлу внутри искомой директории.
+<<<<<<< HEAD
     :rtype: Iterable[Path]
+=======
+    :rtype: Path
+>>>>>>> origin/dev
     """
 
     for root, dirs, files in walk(Path(directory)):
