@@ -25,7 +25,7 @@ def count_lines_generator(cur_path: str) -> Iterable[int]:
 
      :param cur_path: Путь к директории
      :type cur_path: str
-     :return count_lines: С помощью yield каждый раз возвращает количество строк в очередном файле.
+     :return count_lines: С помощью yield каждый раз возвращает количество строк в очередном файле
      :rtype: Iterable[int]
      """
     py_files = list(Path(cur_path).glob('*.py'))

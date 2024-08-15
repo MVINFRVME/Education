@@ -27,6 +27,15 @@ from pathlib import Path
 
 
 def error_log_generator(cur_path):
+    """Функция-генератор получает на вход путь до файла с логами и возвращает
+    строки из этого файла, которые содержат слово ERROR
+
+    :param cur_path: Путь до файла
+    :type cur_path: str
+    :return line: С помощью yield строку из файла, если она содержит слово ERROR
+    :rtype: str
+    """
+
     with open(Path(cur_path), 'r', encoding='utf-8') as text_file:
         for line in text_file:
             if 'ERROR' in line:
