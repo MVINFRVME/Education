@@ -22,7 +22,6 @@ from collections.abc import Iterable
 
 
 class SquareIterator:
-<<<<<<< HEAD
     """Класс SquareIterator генерирует последовательность из квадратов чисел от 1 до limit
 
     Args:
@@ -32,15 +31,12 @@ class SquareIterator:
         __limit (int): предел, до которого генерируются квадраты
         __count (int): счетчик итераций
         """
-=======
 
->>>>>>> origin/dev
     def __init__(self, limit: int) -> None:
         self.__count = 0
         self.__limit = limit
 
     def __iter__(self):
-<<<<<<< HEAD
         """Метод  __iter__ возвращает итератор для данного объекта.
 
         :return: возвращает сам объект итератора"""
@@ -54,11 +50,9 @@ class SquareIterator:
 
          :raises StopIteration: если текущее число превышает указанный предел
          """
-=======
         return self
 
     def __next__(self):
->>>>>>> origin/dev
         while self.__count < self.__limit:
             self.__count += 1
             return self.__count ** 2
