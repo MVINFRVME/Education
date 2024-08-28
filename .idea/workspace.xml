@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="module 14. at work">
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module14/Задача 1. Как дела.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module14/Задача 2. Замедление кода.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module14/Задача 3. Логирование.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Алгоритмы/Бинарный поиск.py" afterDir="false" />
+    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="Module 13 done. Practice work module 14 on work.">
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module14/Задача 4. Счетчик.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module14/Задача 5. Кэширование для ускорения вычислений.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/14. Декораторы. Базовый уровень/14.4 Некоторые особенности использования декораторов/Задача 1. Сэндвич.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/14. Декораторы. Базовый уровень/14.4 Некоторые особенности использования декораторов/Задача 1. Сэндвич.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/14. Декораторы. Базовый уровень/14.4 Некоторые особенности использования декораторов/Задача 2. Плагины.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/14. Декораторы. Базовый уровень/14.4 Некоторые особенности использования декораторов/Задача 2. Плагины.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Draft.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Draft2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,7 @@
   "keyToString": {
     "Python tests.Doctests in typing.executor": "Debug",
     "Python.12.6 Готовые реализации структур данных. Очередь, стек, бинарное дерево.executor": "Run",
-    "Python.Draft.executor": "Run",
+    "Python.Draft.executor": "Debug",
     "Python.Draft2.executor": "Run",
     "Python.Draft3.executor": "Debug",
     "Python.heroes.executor": "Run",
@@ -199,7 +197,9 @@
     "Python.Задача 4. Односвязный список.executor": "Run",
     "Python.Задача 4. По парам.executor": "Run",
     "Python.Задача 4. Продвинутая функция sum.executor": "Debug",
+    "Python.Задача 4. Счетчик.executor": "Debug",
     "Python.Задача 4. Чат.executor": "Run",
+    "Python.Задача 5. Кэширование для ускорения вычислений.executor": "Debug",
     "Python.Задача 5. Надёжные вычесления.executor": "Run",
     "Python.Задача 5. Обработка логов.executor": "Run",
     "Python.Задача 5. Совместное проживание.executor": "Run",
@@ -254,14 +254,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710929081455</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Начат модуль 4. Пройден 4.2, 4.3">
-      <option name="closed" value="true" />
-      <created>1711698058900</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1711698058900</updated>
     </task>
     <task id="LOCAL-00008" summary="Закончил модуль 4.">
       <option name="closed" value="true" />
@@ -647,7 +639,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724338152981</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Module 13 done. Practice work module 14 on work.">
+      <option name="closed" value="true" />
+      <created>1724688694297</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1724688694297</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -674,7 +674,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Merge remote-tracking branch 'origin/dev' into dev&#10;&#10;# Conflicts:&#10;#&#9;lessons/Modules/module6/Задание 5. Словарь синонимов.py&#10;#&#9;lessons/Modules/module6/Задание 6. Пицца.py&#10;#&#9;lessons/Modules/module6/Задание 8. Снова палиндром.py" />
     <MESSAGE value="Начал Модуль 7. Сделал 7.2, 7.3" />
     <MESSAGE value="Закончил Практическую работу module 7" />
     <MESSAGE value="Начал модуль 8. Закончил 8.2" />
@@ -699,7 +698,8 @@
     <MESSAGE value="module 13. Practice work. Done all tasks, except 4." />
     <MESSAGE value="module 13. Practice work done" />
     <MESSAGE value="module 14. at work" />
-    <option name="LAST_COMMIT_MESSAGE" value="module 14. at work" />
+    <MESSAGE value="Module 13 done. Practice work module 14 on work." />
+    <option name="LAST_COMMIT_MESSAGE" value="Module 13 done. Practice work module 14 on work." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -738,11 +738,6 @@
           <url>file://$PROJECT_DIR$/lessons/Modules/module7/Задача 5. Функция сортировки.py</url>
           <line>17</line>
           <option name="timeStamp" value="69" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lessons/8. Функции. Рекурсия/8.2 Рекурсия/Задача 1. Challege.py</url>
-          <line>10</line>
-          <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lessons/8. Функции. Рекурсия/8.2 Рекурсия/Задача 2. Степень числа.py</url>
@@ -911,6 +906,31 @@
           <url>file://$PROJECT_DIR$/Алгоритмы/Бинарный поиск.py</url>
           <line>17</line>
           <option name="timeStamp" value="234" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/Modules/module14/Задача 4. Счетчик.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/Modules/module14/Задача 5. Кэширование для ускорения вычислений.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/Draft2.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/Draft.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/8. Функции. Рекурсия/8.2 Рекурсия/Задача 1. Challege.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="244" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
