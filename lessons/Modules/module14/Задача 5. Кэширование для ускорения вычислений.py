@@ -22,19 +22,34 @@
 # Лучше создавать отдельные словари для каждой декорируемой функции.
 
 from typing import Callable
+from functools import wraps
 
 
-def casher(func):
+def casher(func: Callable) -> Callable:
+    """Декоратор casher, который кэширует результаты вызова функции и позволяет
+     избежать повторных вычислений для одних и тех же аргументов """
+    cash = {}
+
+    @wraps(func)
     def wrapper(*args, **kwargs):
-        result = func(*args, **kwargs)
+        if args in cash:
+            result = cash[args]
+        else:
+            result = func(*args, **kwargs)
+            cash[args] = result
         return result
     return wrapper
 
 
-def fibonacci(number):
+@casher
+def fibonacci(number: int) -> int:
+    """Функции вычисления чисел Фибоначчи при помощи рекурсии."""
     if number <= 1:
         return number
     return fibonacci(number - 1) + fibonacci(number - 2)
 
 
+print(fibonacci(4))
+print(fibonacci(4))
+print(fibonacci(5))
 print(fibonacci(10))

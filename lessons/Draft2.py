@@ -1,20 +1,27 @@
+def number_cache(func):
+    """Декоратор кэширует полученные ранее занчения и возвращает их"""
+    cache = dict()
+    def inner(*args, **kwargs):
+        if args in cache:
+            return cache[args]
+        else:
+            value = func(*args, **kwargs)
+            cache[args] = value
+            return value
+    return inner
 
-class Solution:
-    def maxDepth(self, s: str) -> int:
-        count = 0
-        result = 0
-        for sym in s:
-            if count > result:
-                result = count
-            if sym == '(':
-                count += 1
-            elif sym == ')':
-                count -= 1
-
-        return result
+@number_cache
+def fibonacci(number):
+    if number <= 1:
+        return number
+    return fibonacci(number - 1) + fibonacci(number - 2)
 
 
-ex = Solution()
-assert ex.maxDepth("(1+(2*3)+((8)/4))+1") == 3
-assert ex.maxDepth("(1)+((2))+(((3)))") == 3
-assert ex.maxDepth("()(())((()()))") == 3
+# Вычисление числа Фибоначчи с использованием кеширования
+print(fibonacci(10))  # Результат будет кеширован
+
+# Повторное вычисление числа Фибоначчи с теми же аргументами
+print(fibonacci(10))  # Результат будет взят из кеша
+
+# Вычисление числа Фибоначчи с другим аргументом
+print(fibonacci(5))

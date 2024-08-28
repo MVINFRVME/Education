@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="Module 13 done. Practice work module 14 on work.">
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module14/Задача 4. Счетчик.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module14/Задача 5. Кэширование для ускорения вычислений.py" afterDir="false" />
+    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="Practice work module 14 added task 4.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Draft.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Draft2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Modules/module14/Задача 5. Кэширование для ускорения вычислений.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module14/Задача 5. Кэширование для ускорения вычислений.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +196,7 @@
     "Python.Задача 4. Продвинутая функция sum.executor": "Debug",
     "Python.Задача 4. Счетчик.executor": "Debug",
     "Python.Задача 4. Чат.executor": "Run",
-    "Python.Задача 5. Кэширование для ускорения вычислений.executor": "Debug",
+    "Python.Задача 5. Кэширование для ускорения вычислений.executor": "Run",
     "Python.Задача 5. Надёжные вычесления.executor": "Run",
     "Python.Задача 5. Обработка логов.executor": "Run",
     "Python.Задача 5. Совместное проживание.executor": "Run",
@@ -254,14 +251,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710929081455</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Закончил модуль 4.">
-      <option name="closed" value="true" />
-      <created>1711801809228</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1711801809228</updated>
     </task>
     <task id="LOCAL-00009" summary="Закончил практическое задание модуль 4.">
       <option name="closed" value="true" />
@@ -647,7 +636,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724688694297</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Practice work module 14 added task 4.">
+      <option name="closed" value="true" />
+      <created>1724846161852</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1724846161852</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -674,7 +671,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Начал Модуль 7. Сделал 7.2, 7.3" />
     <MESSAGE value="Закончил Практическую работу module 7" />
     <MESSAGE value="Начал модуль 8. Закончил 8.2" />
     <MESSAGE value="Закончил 8.4" />
@@ -699,7 +695,8 @@
     <MESSAGE value="module 13. Practice work done" />
     <MESSAGE value="module 14. at work" />
     <MESSAGE value="Module 13 done. Practice work module 14 on work." />
-    <option name="LAST_COMMIT_MESSAGE" value="Module 13 done. Practice work module 14 on work." />
+    <MESSAGE value="Practice work module 14 added task 4." />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice work module 14 added task 4." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -914,7 +911,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lessons/Modules/module14/Задача 5. Кэширование для ускорения вычислений.py</url>
-          <line>39</line>
+          <line>50</line>
           <option name="timeStamp" value="239" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
