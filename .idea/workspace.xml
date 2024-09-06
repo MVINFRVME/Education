@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="Practice work module 14 added task 4.">
+    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="Practice work module 14 done">
+      <change afterPath="$PROJECT_DIR$/lessons/15. Углублённая работа с классами и встроенные декораторы/15.2 Множественное наследование. MRO/Задача 1. Снова роботы.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/15. Углублённая работа с классами и встроенные декораторы/15.4 Множественное наследование. Примеси и абстрактные классы/Задача 1. Транспорт.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/15. Углублённая работа с классами и встроенные декораторы/15.4 Множественное наследование. Примеси и абстрактные классы/Задача 2. Фигуры.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/15. Углублённая работа с классами и встроенные декораторы/15.5 Класс как контекст-менеджер. Методы enter и exit/Задача 1. Работа с файлом.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/15. Углублённая работа с классами и встроенные декораторы/15.5 Класс как контекст-менеджер. Методы enter и exit/Задача 2. Пример.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Fibonacci.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Алгоритмы/Сортировка выбором.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module14/Задача 5. Кэширование для ускорения вычислений.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module14/Задача 5. Кэширование для ускорения вычислений.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Draft.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +122,7 @@
     "Python.Задача 1. Ошибка.executor": "Debug",
     "Python.Задача 1. Простая программа.executor": "Run",
     "Python.Задача 1. Пятый элемент.executor": "Run",
+    "Python.Задача 1. Работа с файлом.executor": "Run",
     "Python.Задача 1. Ревью кода.executor": "Run",
     "Python.Задача 1. Результаты.executor": "Debug",
     "Python.Задача 1. Саботаж!.executor": "Run",
@@ -127,6 +135,7 @@
     "Python.Задача 1. Сумма чисел 2.executor": "Run",
     "Python.Задача 1. Сумма чисел.executor": "Run",
     "Python.Задача 1. Сэндвич.executor": "Run",
+    "Python.Задача 1. Транспорт.executor": "Run",
     "Python.Задача 1. Шифр Цезаря 2.executor": "Run",
     "Python.Задача 1. Юниты.executor": "Run",
     "Python.Задача 2. Возраст.executor": "Run",
@@ -148,6 +157,7 @@
     "Python.Задача 2. Поиск файла.executor": "Run",
     "Python.Задача 2. Поиск элемента -2.executor": "Run",
     "Python.Задача 2. Полёт.executor": "Run",
+    "Python.Задача 2. Пример.executor": "Run",
     "Python.Задача 2. Пути файлов.executor": "Run",
     "Python.Задача 2. Путь к файлу.executor": "Run",
     "Python.Задача 2. Роботы.executor": "Run",
@@ -164,6 +174,7 @@
     "Python.Задача 2. Счастливое число.executor": "Run",
     "Python.Задача 2. Таймер 2.executor": "Run",
     "Python.Задача 2. Универсальная программа.executor": "Run",
+    "Python.Задача 2. Фигуры.executor": "Debug",
     "Python.Задача 2. Цилиндр.executor": "Run",
     "Python.Задача 3. IP-адрес.executor": "Run",
     "Python.Задача 3. Весёлая ферма.executor": "Run",
@@ -196,7 +207,7 @@
     "Python.Задача 4. Продвинутая функция sum.executor": "Debug",
     "Python.Задача 4. Счетчик.executor": "Debug",
     "Python.Задача 4. Чат.executor": "Run",
-    "Python.Задача 5. Кэширование для ускорения вычислений.executor": "Run",
+    "Python.Задача 5. Кэширование для ускорения вычислений.executor": "Debug",
     "Python.Задача 5. Надёжные вычесления.executor": "Run",
     "Python.Задача 5. Обработка логов.executor": "Run",
     "Python.Задача 5. Совместное проживание.executor": "Run",
@@ -205,6 +216,7 @@
     "Python.Задача 5. Функция сортировки.executor": "Run",
     "Python.Задача 5. Частотный анализ.executor": "Debug",
     "Python.Задача 6. Абстрактный класс.executor": "Run",
+    "Python.Задача 6. Быстрая сортировка.executor": "Debug",
     "Python.Задача 6. Война и мир.executor": "Run",
     "Python.Задача 6. Контакты 3.executor": "Debug",
     "Python.Задача 6. Крестики - нолики.executor": "Run",
@@ -216,6 +228,7 @@
     "Python.Задача.executor": "Run",
     "Python.Калькулятор дистанции.executor": "Run",
     "Python.Пример.executor": "Debug",
+    "Python.Сортировка выбором.executor": "Run",
     "Python.Урок.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -251,14 +264,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710929081455</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Закончил практическое задание модуль 4.">
-      <option name="closed" value="true" />
-      <created>1712055513116</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1712055513116</updated>
     </task>
     <task id="LOCAL-00010" summary="Начал модуль 5. &#10;Завершил 5.2 Форматирование строк: format и f-strings">
       <option name="closed" value="true" />
@@ -644,7 +649,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724846161852</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Practice work module 14 done">
+      <option name="closed" value="true" />
+      <created>1724852159246</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1724852159246</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -671,7 +684,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Закончил Практическую работу module 7" />
     <MESSAGE value="Начал модуль 8. Закончил 8.2" />
     <MESSAGE value="Закончил 8.4" />
     <MESSAGE value="Закончил 8.6" />
@@ -696,7 +708,8 @@
     <MESSAGE value="module 14. at work" />
     <MESSAGE value="Module 13 done. Practice work module 14 on work." />
     <MESSAGE value="Practice work module 14 added task 4." />
-    <option name="LAST_COMMIT_MESSAGE" value="Practice work module 14 added task 4." />
+    <MESSAGE value="Practice work module 14 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice work module 14 done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -910,17 +923,7 @@
           <option name="timeStamp" value="237" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lessons/Modules/module14/Задача 5. Кэширование для ускорения вычислений.py</url>
-          <line>50</line>
-          <option name="timeStamp" value="239" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lessons/Draft2.py</url>
-          <line>3</line>
-          <option name="timeStamp" value="242" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lessons/Draft.py</url>
+          <url>file://$PROJECT_DIR$/lessons/Fibonacci.py</url>
           <line>75</line>
           <option name="timeStamp" value="243" />
         </line-breakpoint>
@@ -928,6 +931,21 @@
           <url>file://$PROJECT_DIR$/lessons/8. Функции. Рекурсия/8.2 Рекурсия/Задача 1. Challege.py</url>
           <line>15</line>
           <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/Modules/module8/Задача 6. Быстрая сортировка.py</url>
+          <line>107</line>
+          <option name="timeStamp" value="246" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/15. Углублённая работа с классами и встроенные декораторы/15.4 Множественное наследование. Примеси и абстрактные классы/Задача 2. Фигуры.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="258" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/15. Углублённая работа с классами и встроенные декораторы/15.5 Класс как контекст-менеджер. Методы enter и exit/Задача 1. Работа с файлом.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="260" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
