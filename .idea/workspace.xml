@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="Practice work module 14 done">
-      <change afterPath="$PROJECT_DIR$/lessons/15. Углублённая работа с классами и встроенные декораторы/15.2 Множественное наследование. MRO/Задача 1. Снова роботы.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/15. Углублённая работа с классами и встроенные декораторы/15.4 Множественное наследование. Примеси и абстрактные классы/Задача 1. Транспорт.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/15. Углублённая работа с классами и встроенные декораторы/15.4 Множественное наследование. Примеси и абстрактные классы/Задача 2. Фигуры.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/15. Углублённая работа с классами и встроенные декораторы/15.5 Класс как контекст-менеджер. Методы enter и exit/Задача 1. Работа с файлом.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/15. Углублённая работа с классами и встроенные декораторы/15.5 Класс как контекст-менеджер. Методы enter и exit/Задача 2. Пример.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/Fibonacci.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Алгоритмы/Сортировка выбором.py" afterDir="false" />
+    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="module 15 at work">
+      <change afterPath="$PROJECT_DIR$/lessons/15. Углублённая работа с классами и встроенные декораторы/15.6 Методы класса. Декораторы setter и property/Задача 1. Транспорт.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module15/Задача 1. Работы с файлом 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module15/Задача 2. Математический модуль.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module15/Задача 3. Дата.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module15/Задача 4. Кэширование запросов.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lessons/Draft.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft.py" afterDir="false" />
     </list>
@@ -65,7 +63,7 @@
   "keyToString": {
     "Python tests.Doctests in typing.executor": "Debug",
     "Python.12.6 Готовые реализации структур данных. Очередь, стек, бинарное дерево.executor": "Run",
-    "Python.Draft.executor": "Debug",
+    "Python.Draft.executor": "Run",
     "Python.Draft2.executor": "Run",
     "Python.Draft3.executor": "Debug",
     "Python.heroes.executor": "Run",
@@ -149,6 +147,7 @@
     "Python.Задача 2. Координаты точки.executor": "Run",
     "Python.Задача 2. Кризис фруктов.executor": "Run",
     "Python.Задача 2. Магазин.executor": "Run",
+    "Python.Задача 2. Математический модуль.executor": "Run",
     "Python.Задача 2. Непонятно!.executor": "Run",
     "Python.Задача 2. Олимпиада.executor": "Debug",
     "Python.Задача 2. Очень большой файл.executor": "Run",
@@ -180,6 +179,7 @@
     "Python.Задача 3. Весёлая ферма.executor": "Run",
     "Python.Задача 3. Гистограмма частоты.executor": "Run",
     "Python.Задача 3. Глубокое копирование.executor": "Run",
+    "Python.Задача 3. Дата.executor": "Run",
     "Python.Задача 3. Кастомные исключения.executor": "Run",
     "Python.Задача 3. Количество строк.executor": "Run",
     "Python.Задача 3. Контакты.executor": "Run",
@@ -264,14 +264,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710929081455</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Начал модуль 5. &#10;Завершил 5.2 Форматирование строк: format и f-strings">
-      <option name="closed" value="true" />
-      <created>1712078460996</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1712078460996</updated>
     </task>
     <task id="LOCAL-00011" summary="Завершил 5.3 Методы строк. split и join">
       <option name="closed" value="true" />
@@ -657,7 +649,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724852159246</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="module 15 at work">
+      <option name="closed" value="true" />
+      <created>1725628243100</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1725628243100</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -684,7 +684,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Начал модуль 8. Закончил 8.2" />
     <MESSAGE value="Закончил 8.4" />
     <MESSAGE value="Закончил 8.6" />
     <MESSAGE value="Finished 8 module Practice Work." />
@@ -709,7 +708,8 @@
     <MESSAGE value="Module 13 done. Practice work module 14 on work." />
     <MESSAGE value="Practice work module 14 added task 4." />
     <MESSAGE value="Practice work module 14 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practice work module 14 done" />
+    <MESSAGE value="module 15 at work" />
+    <option name="LAST_COMMIT_MESSAGE" value="module 15 at work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -946,6 +946,11 @@
           <url>file://$PROJECT_DIR$/lessons/15. Углублённая работа с классами и встроенные декораторы/15.5 Класс как контекст-менеджер. Методы enter и exit/Задача 1. Работа с файлом.py</url>
           <line>24</line>
           <option name="timeStamp" value="260" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/Draft.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="272" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
