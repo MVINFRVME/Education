@@ -37,5 +37,3 @@ assert ex.isLongPressedName("saeed", "ssaaedd") == False
 assert ex.isLongPressedName("alex", "aaleexeex") == False
 assert ex.isLongPressedName("abcd", "aaabbbcccddd") == True
 
-
-

@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="started module 15 practice work. Done 1,2,3.">
-      <change afterPath="$PROJECT_DIR$/lessons/tbot_check/buttons.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/tbot_check/start.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Задачи с собеседований/Т4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Задачи с собеседований/Т5.py" afterDir="false" />
+    <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="module 15 practice work done, started module 16">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lessons/Draft.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Draft2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Draft3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module15/Задача 4. Кэширование запросов.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module15/Задача 4. Кэширование запросов.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test dir/test1/fiona" beforeDir="false" afterPath="$PROJECT_DIR$/test dir/test1/fiona" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +21,26 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/dev" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -51,6 +57,9 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -66,11 +75,12 @@
   &quot;keyToString&quot;: {
     &quot;Python tests.Doctests in typing.executor&quot;: &quot;Debug&quot;,
     &quot;Python.12.6 Готовые реализации структур данных. Очередь, стек, бинарное дерево.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Draft.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Draft.executor&quot;: &quot;Debug&quot;,
     &quot;Python.Draft2.executor&quot;: &quot;Debug&quot;,
     &quot;Python.Draft3.executor&quot;: &quot;Run&quot;,
     &quot;Python._strptime.executor&quot;: &quot;Debug&quot;,
     &quot;Python.buttons.executor&quot;: &quot;Run&quot;,
+    &quot;Python.check.executor&quot;: &quot;Run&quot;,
     &quot;Python.heroes.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;Python.monsters.executor&quot;: &quot;Run&quot;,
@@ -145,6 +155,7 @@
     &quot;Python.Задача 2. Вредоносное ПО.executor&quot;: &quot;Run&quot;,
     &quot;Python.Задача 2. Всё в одном.executor&quot;: &quot;Run&quot;,
     &quot;Python.Задача 2. Дзен Пайтона.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Задача 2. Директории.executor&quot;: &quot;Run&quot;,
     &quot;Python.Задача 2. Долги.executor&quot;: &quot;Run&quot;,
     &quot;Python.Задача 2. Замедление кода.executor&quot;: &quot;Run&quot;,
     &quot;Python.Задача 2. Игроки.executor&quot;: &quot;Run&quot;,
@@ -235,14 +246,22 @@
     &quot;Python.Калькулятор дистанции.executor&quot;: &quot;Run&quot;,
     &quot;Python.Пример.executor&quot;: &quot;Debug&quot;,
     &quot;Python.Сортировка выбором.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Т4.executor&quot;: &quot;Run&quot;,
     &quot;Python.Урок.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/structure_example&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+    &quot;last_opened_file_path&quot;: &quot;F:/Education&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -255,8 +274,20 @@
       <recent name="F:\Education\lessons" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.buttons">
-    <configuration name="Draft" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration default="true" type="PyRemoteDebugConfigurationType" factoryName="Python Remote Debug">
+      <option name="PORT" value="0" />
+      <option name="HOST" value="localhost" />
+      <PathMappingSettings>
+        <option name="pathMappings">
+          <list />
+        </option>
+      </PathMappingSettings>
+      <option name="REDIRECT_OUTPUT" value="true" />
+      <option name="SUSPEND_AFTER_CONNECT" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Education" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -264,12 +295,13 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lessons" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="F:\Education\.venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lessons/Draft.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -278,62 +310,12 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Draft2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Education" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lessons" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lessons/Draft2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="buttons" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Education" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lessons/tbot_check" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lessons/tbot_check/buttons.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.buttons" />
-        <item itemvalue="Python.Draft" />
-        <item itemvalue="Python.Draft2" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-09665e90c3a7-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15026.15" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.22855.92" />
+        <option value="bundled-python-sdk-b068d85d1acf-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.22855.92" />
       </set>
     </attachedChunks>
   </component>
@@ -345,30 +327,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710929081455</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Завершил 5.4 Методы строк. startswith, endswith, upper, lower">
-      <option name="closed" value="true" />
-      <created>1712312491058</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1712312491059</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Начал Практическую работу module 5. Сделал задания с 1 по 3.">
-      <option name="closed" value="true" />
-      <created>1712347631155</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1712347631155</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Практическую работа module 5. Сделал задания 4,5.">
-      <option name="closed" value="true" />
-      <created>1712411793310</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1712411793310</updated>
+      <workItem from="1726489238978" duration="253000" />
+      <workItem from="1726489502454" duration="44000" />
+      <workItem from="1726489547349" duration="214000" />
+      <workItem from="1726499129383" duration="1032000" />
+      <workItem from="1726502918722" duration="619000" />
+      <workItem from="1726504155704" duration="489000" />
+      <workItem from="1726504842983" duration="1737000" />
+      <workItem from="1726552191136" duration="492000" />
+      <workItem from="1726553235270" duration="13000" />
+      <workItem from="1726553448793" duration="67000" />
+      <workItem from="1726554285302" duration="260000" />
+      <workItem from="1726554804621" duration="561000" />
+      <workItem from="1726555378321" duration="304000" />
+      <workItem from="1726555692265" duration="10000" />
+      <workItem from="1726555734702" duration="75000" />
+      <workItem from="1726556434629" duration="4594000" />
+      <workItem from="1726832294167" duration="1111000" />
+      <workItem from="1726910406388" duration="3058000" />
+      <workItem from="1726918622449" duration="566000" />
+      <workItem from="1726919698981" duration="1815000" />
     </task>
     <task id="LOCAL-00015" summary="Практическая работа module 5. Сделал задания 6, 7, 8.">
       <option name="closed" value="true" />
@@ -738,8 +716,35 @@
       <option name="project" value="LOCAL" />
       <updated>1726138508151</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="module 15 practice work done">
+      <option name="closed" value="true" />
+      <created>1726488549435</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1726488549435</updated>
+    </task>
+    <task id="LOCAL-00062" summary="module 15 practice work done, started module 16">
+      <option name="closed" value="true" />
+      <created>1726832566039</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1726832566039</updated>
+    </task>
+    <task id="LOCAL-00063" summary="module 15 practice work done, started module 16">
+      <option name="closed" value="true" />
+      <created>1726832877250</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1726832877250</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -752,7 +757,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="dev" />
+                        <option value="origin/dev" />
                       </list>
                     </value>
                   </entry>
@@ -765,8 +770,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Закончил 8.6" />
-    <MESSAGE value="Finished 8 module Practice Work." />
     <MESSAGE value="working at module 9. done 9.1, 9.2, 9.3" />
     <MESSAGE value="module 9 done. started practice work module 9" />
     <MESSAGE value="module 9 practice work done." />
@@ -790,7 +793,9 @@
     <MESSAGE value="Practice work module 14 done" />
     <MESSAGE value="module 15 at work" />
     <MESSAGE value="started module 15 practice work. Done 1,2,3." />
-    <option name="LAST_COMMIT_MESSAGE" value="started module 15 practice work. Done 1,2,3." />
+    <MESSAGE value="module 15 practice work done" />
+    <MESSAGE value="module 15 practice work done, started module 16" />
+    <option name="LAST_COMMIT_MESSAGE" value="module 15 practice work done, started module 16" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1029,6 +1034,11 @@
           <line>37</line>
           <option name="timeStamp" value="271" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lessons/Draft.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="275" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -1038,5 +1048,15 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Education$reply_buttons__1_.coverage" NAME="reply_buttons (1) Coverage Results" MODIFIED="1726559319671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons/tbot_check" />
+    <SUITE FILE_PATH="coverage/Education$4.coverage" NAME="Т4 Coverage Results" MODIFIED="1726832370638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Задачи с собеседований" />
+    <SUITE FILE_PATH="coverage/Education$inline_buttons.coverage" NAME="inline_buttons Coverage Results" MODIFIED="1726558733256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons/tbot_check" />
+    <SUITE FILE_PATH="coverage/Education$_4___.coverage" NAME="Задача 4. Кэширование запросов Coverage Results" MODIFIED="1726554493863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons/Modules/module15" />
+    <SUITE FILE_PATH="coverage/Education$start.coverage" NAME="start Coverage Results" MODIFIED="1726558532152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons/tbot_check" />
+    <SUITE FILE_PATH="coverage/Education$buttons.coverage" NAME="buttons Coverage Results" MODIFIED="1726558549915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons/tbot_check" />
+    <SUITE FILE_PATH="coverage/Education$check.coverage" NAME="check Coverage Results" MODIFIED="1726560192886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons/tbot_check" />
+    <SUITE FILE_PATH="coverage/Education$Draft.coverage" NAME="Draft Coverage Results" MODIFIED="1726910722562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons" />
   </component>
 </project>
