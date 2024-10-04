@@ -32,3 +32,33 @@
 # Классы и методы (функции) имеют прописанную документацию.
 # Есть аннотация типов для методов (функций) и их аргументов, кроме args и kwargs. Если функция или метод ничего
 # не возвращает, то используется None.
+
+import functools
+from typing import Callable
+
+app = {}
+
+def callback(route: str) -> Callable:
+    """Декоратор функции обратного вызова."""
+    def callback_decorator(func: Callable) -> Callable:
+        app[route] = func
+        @functools.wraps(func)
+        def wrapper(*args, **kwargs):
+            result =  func(*args, **kwargs)
+            return result
+        return wrapper
+    return callback_decorator
+
+
+@callback('//')
+def example() -> str:
+    print('Пример функции, которая возвращает ответ сервера')
+    return 'OK'
+
+
+route = app.get('//')
+if route:
+    response = route()
+    print('Ответ:', response)
+else:
+    print('Такого пути нет')

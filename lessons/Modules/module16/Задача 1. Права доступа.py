@@ -37,6 +37,8 @@ import functools
 
 
 def check_permission(name: str) -> Callable:
+    """Декоратор, который проверяет, есть ли у пользователя доступ к вызываемой функции,
+       если нет, то выдаёт исключение PermissionError."""
     def permission_decorator(func: Callable) -> Callable:
         @functools.wraps(func)
         def wrapper(*args, **kwargs):

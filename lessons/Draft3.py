@@ -1,11 +1,30 @@
+# s = [[1,2],[3,4]]
+# for i, j in s:
+#     print(i, j)
 
-def t(n):
-    for i in range(2, n - 2):
-        st = str(i)
-        b = int(n, i)
-        if str(i) != str(i)[::-1]:
-            return False
-    else:
-        return True
+app = {}
 
-print(t(9))
+def callback(route: str):
+  """Функция обратного вызова"""
+
+  def decorator(func):
+    app[route] = func
+
+    def inner(*args, **kwargs):
+      result = func(*args, **kwargs)
+      return result(*args, **kwargs)
+    return inner
+  return decorator
+
+
+@callback('//')
+def example():
+    print('Пример функции, которая возвращает ответ сервера')
+    return 'OK'
+
+route = app.get('//')
+if route:
+    response = route()
+    print('Ответ:', response)
+else:
+    print('Такого пути нет')
