@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91a8a741-a72d-43d1-910f-0e95b1c7b1d3" name="Changes" comment="module 16. 16.4 done">
-      <change afterPath="$PROJECT_DIR$/lessons/Modules/module16/Задача 3. Логирование в формате.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module16/Задача 4. Весь мир декоратор....py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module16/Задача 5. Синглтон.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/Modules/module16/Задача 6. Класс-декоратор.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Draft.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lessons/Draft2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Draft3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Draft3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module16/Задача 1. Права доступа.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module16/Задача 1. Права доступа.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/Modules/module16/Задача 2. Функция обратного вызова.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module16/Задача 2. Функция обратного вызова.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/Modules/module16/Задача 3. Логирование в формате.py" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/Modules/module16/Задача 3. Логирование в формате.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,12 +52,12 @@
     &quot;assignee&quot;: &quot;MVINFRVME&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/MVINFRVME/Education&quot;,
-    &quot;accountId&quot;: &quot;9d5ccdce-8094-411e-b6f0-bc81037f3618&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/MVINFRVME/Education",
+    "accountId": "d02f2a44-02da-4b40-afa8-40ff69a9936e"
   }
-}</component>
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -207,7 +206,7 @@
     "Python.Задача 3. Контакты.executor": "Run",
     "Python.Задача 3. Корень диска.executor": "Run",
     "Python.Задача 3. Лавка.executor": "Run",
-    "Python.Задача 3. Логирование в формате.executor": "Debug",
+    "Python.Задача 3. Логирование в формате.executor": "Run",
     "Python.Задача 3. Логирование.executor": "Run",
     "Python.Задача 3. Неправильный код.executor": "Run",
     "Python.Задача 3. Отряды.executor": "Run",
@@ -234,6 +233,7 @@
     "Python.Задача 5. Кэширование для ускорения вычислений.executor": "Debug",
     "Python.Задача 5. Надёжные вычесления.executor": "Run",
     "Python.Задача 5. Обработка логов.executor": "Run",
+    "Python.Задача 5. Синглтон.executor": "Debug",
     "Python.Задача 5. Совместное проживание.executor": "Run",
     "Python.Задача 5. Список списков — 2.executor": "Debug",
     "Python.Задача 5. Стек.executor": "Run",
@@ -242,6 +242,7 @@
     "Python.Задача 6. Абстрактный класс.executor": "Run",
     "Python.Задача 6. Быстрая сортировка.executor": "Debug",
     "Python.Задача 6. Война и мир.executor": "Run",
+    "Python.Задача 6. Класс-декоратор.executor": "Run",
     "Python.Задача 6. Контакты 3.executor": "Debug",
     "Python.Задача 6. Крестики - нолики.executor": "Run",
     "Python.Задача 7. Матрицы.executor": "Run",
@@ -267,7 +268,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "Console",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -321,8 +322,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.22855.92" />
-        <option value="bundled-python-sdk-b068d85d1acf-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.22855.92" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PY-242.21829.153" />
+        <option value="bundled-python-sdk-464836ebc622-b74155a9e76b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.21829.153" />
       </set>
     </attachedChunks>
   </component>
@@ -361,6 +362,7 @@
       <workItem from="1727361493239" duration="4527000" />
       <workItem from="1727606136059" duration="9862000" />
       <workItem from="1727803421410" duration="16073000" />
+      <workItem from="1728320515609" duration="2196000" />
     </task>
     <task id="LOCAL-00021" summary="Закончил Практическая работа module 6">
       <option name="closed" value="true" />
@@ -1055,13 +1057,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lessons/Draft2.py</url>
-          <line>20</line>
-          <option name="timeStamp" value="284" />
+          <line>23</line>
+          <option name="timeStamp" value="287" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lessons/Draft2.py</url>
-          <line>5</line>
-          <option name="timeStamp" value="285" />
+          <url>file://$PROJECT_DIR$/lessons/Modules/module16/Задача 5. Синглтон.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="288" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -1072,24 +1074,31 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="args" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Education$reply_buttons__1_.coverage" NAME="reply_buttons (1) Coverage Results" MODIFIED="1726559319671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons/tbot_check" />
-    <SUITE FILE_PATH="coverage/Education$_1__Creatime.coverage" NAME="Задача 1. Creatime Coverage Results" MODIFIED="1727361510030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons/16. Декораторы. Продвинутый уровень/16.4 Декораторы для классов" />
-    <SUITE FILE_PATH="coverage/Education$start.coverage" NAME="start Coverage Results" MODIFIED="1726558532152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons/tbot_check" />
-    <SUITE FILE_PATH="coverage/Education$inline_buttons.coverage" NAME="inline_buttons Coverage Results" MODIFIED="1726558733256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons/tbot_check" />
-    <SUITE FILE_PATH="coverage/Education$_3____.coverage" NAME="Задача 3. Логирование в формате Coverage Results" MODIFIED="1727809519219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons/Modules/module16" />
-    <SUITE FILE_PATH="coverage/Education$_2____.coverage" NAME="Задача 2. Функция обратного вызова Coverage Results" MODIFIED="1727782813855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons/Modules/module16" />
-    <SUITE FILE_PATH="coverage/Education$Draft.coverage" NAME="Draft Coverage Results" MODIFIED="1727941756198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons" />
-    <SUITE FILE_PATH="coverage/Education$4.coverage" NAME="Т4 Coverage Results" MODIFIED="1726832370638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Задачи с собеседований" />
+    <SUITE FILE_PATH="coverage/Education$_5__.coverage" NAME="Задача 5. Синглтон Coverage Results" MODIFIED="1728324567420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons/Modules/module16" />
+    <SUITE FILE_PATH="coverage/Education$Draft2.coverage" NAME="Draft2 Coverage Results" MODIFIED="1728103081059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons" />
+    <SUITE FILE_PATH="coverage/Education$Draft.coverage" NAME="Draft Coverage Results" MODIFIED="1728119378192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons" />
+    <SUITE FILE_PATH="coverage/Education$_2___.coverage" NAME="Задача 2. Замедление кода Coverage Results" MODIFIED="1727407711371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons/16. Декораторы. Продвинутый уровень/16.3 Декораторы с аргументами" />
+    <SUITE FILE_PATH="coverage/Education$_1___.coverage" NAME="Задача 1. Права доступа Coverage Results" MODIFIED="1727429546242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons/Modules/module16" />
     <SUITE FILE_PATH="coverage/Education$_.coverage" NAME="Быстрая сортировка Coverage Results" MODIFIED="1727121094901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Алгоритмы" />
-    <SUITE FILE_PATH="coverage/Education$_4___.coverage" NAME="Задача 4. Кэширование запросов Coverage Results" MODIFIED="1726554493863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons/Modules/module15" />
-    <SUITE FILE_PATH="coverage/Education$_2___.coverage" NAME="Задача 2. Декорацию знаешь Coverage Results" MODIFIED="1727361525080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons/16. Декораторы. Продвинутый уровень/16.4 Декораторы для классов" />
-    <SUITE FILE_PATH="coverage/Education$_1___.coverage" NAME="Задача 1. Повторение кода Coverage Results" MODIFIED="1727092065216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons/16. Декораторы. Продвинутый уровень/16.3 Декораторы с аргументами" />
-    <SUITE FILE_PATH="coverage/Education$buttons.coverage" NAME="buttons Coverage Results" MODIFIED="1726558549915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons/tbot_check" />
-    <SUITE FILE_PATH="coverage/Education$check.coverage" NAME="check Coverage Results" MODIFIED="1726560192886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons/tbot_check" />
+    <SUITE FILE_PATH="coverage/Education$4.coverage" NAME="Т4 Coverage Results" MODIFIED="1726832370638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Задачи с собеседований" />
+    <SUITE FILE_PATH="coverage/Education$_1__Creatime.coverage" NAME="Задача 1. Creatime Coverage Results" MODIFIED="1728046061555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons/16. Декораторы. Продвинутый уровень/16.4 Декораторы для классов" />
+    <SUITE FILE_PATH="coverage/Education$Draft3.coverage" NAME="Draft3 Coverage Results" MODIFIED="1728050053239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons" />
     <SUITE FILE_PATH="coverage/Education$.coverage" NAME="Пример Coverage Results" MODIFIED="1727420640763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons/16. Декораторы. Продвинутый уровень/16.5 Декоратор как класс" />
-    <SUITE FILE_PATH="coverage/Education$Draft3.coverage" NAME="Draft3 Coverage Results" MODIFIED="1727781525946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons" />
-    <SUITE FILE_PATH="coverage/Education$Draft2.coverage" NAME="Draft2 Coverage Results" MODIFIED="1727942205394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons" />
+    <SUITE FILE_PATH="coverage/Education$buttons.coverage" NAME="buttons Coverage Results" MODIFIED="1726558549915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons/tbot_check" />
+    <SUITE FILE_PATH="coverage/Education$_6___.coverage" NAME="Задача 6. Класс-декоратор Coverage Results" MODIFIED="1728320712085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons/Modules/module16" />
+    <SUITE FILE_PATH="coverage/Education$reply_buttons__1_.coverage" NAME="reply_buttons (1) Coverage Results" MODIFIED="1726559319671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons/tbot_check" />
+    <SUITE FILE_PATH="coverage/Education$start.coverage" NAME="start Coverage Results" MODIFIED="1726558532152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons/tbot_check" />
+    <SUITE FILE_PATH="coverage/Education$_4___.coverage" NAME="Задача 4. Кэширование запросов Coverage Results" MODIFIED="1726554493863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons/Modules/module15" />
+    <SUITE FILE_PATH="coverage/Education$check.coverage" NAME="check Coverage Results" MODIFIED="1726560192886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons/tbot_check" />
+    <SUITE FILE_PATH="coverage/Education$_3____.coverage" NAME="Задача 3. Логирование в формате Coverage Results" MODIFIED="1728320750402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons/Modules/module16" />
+    <SUITE FILE_PATH="coverage/Education$inline_buttons.coverage" NAME="inline_buttons Coverage Results" MODIFIED="1726558733256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons/tbot_check" />
+    <SUITE FILE_PATH="coverage/Education$_2____.coverage" NAME="Задача 2. Функция обратного вызова Coverage Results" MODIFIED="1727782813855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lessons/Modules/module16" />
   </component>
 </project>

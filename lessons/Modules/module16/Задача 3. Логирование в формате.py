@@ -62,28 +62,43 @@
 # , то используется None.
 
 from datetime import datetime
-from typing import Callable, Type
+from typing import Callable
 import time, functools
 
 
-def logging(cls: Type, func: Callable, date_format: str) -> Callable:
-    """Декоратор логирования. Рассчитывает время работы функции и точное время запуска."""
+def logging(cls, func: Callable, date_format: str) -> Callable:
+    """Декоратор логирования для метода класса. Рассчитывает время работы функции и точное время запуска."""
     @functools.wraps(func)
     def wrapped(*args, **kwargs):
         new_date_format = ''
-        for sym in date_format:
+        for sym in date_format:  # изменяем формат даты из "b d Y — H:M:S" в "%b %d %Y — %H:%M:%S"
             if sym.isalpha():
                 new_date_format += f'%{sym}'
             else:
                 new_date_format += sym
-        print(f'Запускается {cls.__name__}.{func.__name__}. '
-              f'Дата и время запуска: {datetime.now().strftime(new_date_format)}'
-        start_time = time.time()
 
+        print(f'Запускается {cls.__name__}.{func.__name__}. '
+              f'Дата и время запуска: {datetime.now().strftime(new_date_format)}')
+        start_time = time.time()
+        result = func(*args, **kwargs)
+        end_time = time.time()
+        print(f'Завершение {cls.__name__}.{func.__name__}, время работы = {round(end_time - start_time, 3)} s')
+        return  result
+    return wrapped
 
 
 def log_methods(format: str) -> Callable:
-    pass
+    """Декоратор для логирования класса."""
+    def decorate_methods(cls):
+        for method_name in dir(cls):
+            if not method_name.startswith('__'):
+                method = getattr(cls, method_name)
+                if callable(method):
+                    decorated_method = logging(cls, method, format)
+                    setattr(cls, method_name, decorated_method)
+        return cls
+    return decorate_methods
+
 
 @log_methods("b d Y — H:M:S")
 class A:
@@ -111,6 +126,7 @@ class B(A):
             result += sum([i_num ** 2 for i_num in range(10000)])
 
         return result
+
 
 my_obj = B()
 my_obj.test_sum_1()
