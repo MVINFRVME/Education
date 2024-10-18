@@ -25,7 +25,7 @@ def do_twice(func: Callable) -> Callable:
     return wrapped_func
 
 
-@do_twice
+@do_twice # greeting = do_twice(greeting)
 def greeting(name):
     print('Привет, {name}!'.format(name=name))
 
